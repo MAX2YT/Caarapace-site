@@ -450,7 +450,7 @@ const TextHoverEffect = ({ text, duration, className })=>{
             }),
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("select-none uppercase cursor-pointer text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem]", className),
         style: {
-            transform: "scaleX(0.75)"
+            transform: "scaleX(0.85)"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -989,10 +989,10 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "pointer-events-none relative hidden h-[26rem] -mt-24 -mb-24 items-center justify-center px-4 lg:flex",
+                className: "pointer-events-none relative hidden h-[19rem] -mt-22 -mb-22 items-center justify-center px-1 lg:flex",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$hover$2d$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TextHoverEffect"], {
                     text: "CAARAPACE",
-                    className: "max-w-[100rem] w-full"
+                    className: "w-full"
                 }, void 0, false, {
                     fileName: "[project]/components/footer.tsx",
                     lineNumber: 198,

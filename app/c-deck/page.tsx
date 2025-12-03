@@ -1,3 +1,4 @@
+import AnimatedHero from "@/components/animated-hero";
 import { Database, Workflow, Lock, Gauge } from 'lucide-react'
 
 export default function CDeckPage() {
@@ -25,33 +26,22 @@ export default function CDeckPage() {
     ]
 
     return (
-        <div className="min-h-screen pt-24 pb-16">
-            <div className="container mx-auto px-6">
-                {/* Hero Section */}
-                <div className="text-center max-w-4xl mx-auto mb-20">
-                    <div className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
-                        Product
-                    </div>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6">
-                        <span className="text-primary">C-Deck</span> CRM Platform
-                    </h1>
-                    <p className="text-xl text-muted-foreground mb-8">
-                        A powerful customer relationship management platform designed to streamline your business operations and accelerate growth.
-                    </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a
-                            href="#contact"
-                            className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
-                            Request Demo
-                        </a>
-                        <a
-                            href="#features"
-                            className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base font-semibold border border-primary/20 hover:bg-primary/10 hover:text-primary transition-colors">
-                            Learn More
-                        </a>
-                    </div>
-                </div>
+        <div className="min-h-screen">
+            {/* Animated Hero */}
+            <AnimatedHero
+                leftText="Customer"
+                rightText="Success"
+                centralImage="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=1000&fit=crop"
+                bottomImages={[
+                    { src: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop", alt: "Team collaboration", label: "Team Dashboard" },
+                    { src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop", alt: "Analytics", label: "Real-time Analytics" },
+                    { src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop", alt: "Business growth", label: "Growth Tracking" }
+                ]}
+                subtitle="A powerful CRM platform designed to streamline operations"
+                darkMode={false}
+            />
 
+            <div className="container mx-auto px-6 py-16">
                 {/* Features Grid */}
                 <div id="features" className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-20">
                     {features.map((feature, index) => {

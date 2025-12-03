@@ -1,3 +1,4 @@
+import AnimatedHero from "@/components/animated-hero";
 import { Briefcase, Heart, Rocket, GraduationCap } from 'lucide-react'
 
 export default function CareersPage() {
@@ -52,18 +53,22 @@ export default function CareersPage() {
     ]
 
     return (
-        <div className="min-h-screen pt-24 pb-16">
-            <div className="container mx-auto px-6">
-                {/* Hero Section */}
-                <div className="text-center max-w-4xl mx-auto mb-20">
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6">
-                        Join the <span className="text-primary">Caarapace</span> Team
-                    </h1>
-                    <p className="text-xl text-muted-foreground mb-8">
-                        Build the future of software with a team of passionate innovators dedicated to creating exceptional digital experiences.
-                    </p>
-                </div>
+        <div className="min-h-screen">
+            {/* Animated Hero */}
+            <AnimatedHero
+                leftText="Build"
+                rightText="Together"
+                centralImage="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=1000&fit=crop"
+                bottomImages={[
+                    { src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop", alt: "Team meeting", label: "Collaborative Culture" },
+                    { src: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=600&h=400&fit=crop", alt: "Office workspace", label: "Modern Workspace" },
+                    { src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop", alt: "Team collaboration", label: "Innovation Together" }
+                ]}
+                subtitle="Join a team of passionate innovators shaping the future"
+                darkMode={false}
+            />
 
+            <div className="container mx-auto px-6 py-16">
                 {/* Benefits Section */}
                 <div className="mb-20">
                     <h2 className="text-3xl font-bold text-center mb-12">Why Work With Us</h2>

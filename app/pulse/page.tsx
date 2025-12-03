@@ -1,3 +1,4 @@
+import AnimatedHero from "@/components/animated-hero";
 import { Activity, TrendingUp, Users, Bell } from 'lucide-react'
 
 export default function PulsePage() {
@@ -25,33 +26,22 @@ export default function PulsePage() {
     ]
 
     return (
-        <div className="min-h-screen pt-24 pb-16">
-            <div className="container mx-auto px-6">
-                {/* Hero Section */}
-                <div className="text-center max-w-4xl mx-auto mb-20">
-                    <div className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
-                        Product
-                    </div>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6">
-                        <span className="text-primary">Pulse</span> Analytics
-                    </h1>
-                    <p className="text-xl text-muted-foreground mb-8">
-                        Stay on top of your business performance with comprehensive analytics and insights that drive informed decision-making.
-                    </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a
-                            href="#contact"
-                            className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
-                            Start Free Trial
-                        </a>
-                        <a
-                            href="#features"
-                            className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base font-semibold border border-primary/20 hover:bg-primary/10 hover:text-primary transition-colors">
-                            View Demo
-                        </a>
-                    </div>
-                </div>
+        <div className="min-h-screen">
+            {/* Animated Hero */}
+            <AnimatedHero
+                leftText="Data"
+                rightText="Insights"
+                centralImage="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=1000&fit=crop"
+                bottomImages={[
+                    { src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop", alt: "Analytics dashboard", label: "Live Dashboard" },
+                    { src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop", alt: "Data visualization", label: "Advanced Analytics" },
+                    { src: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop", alt: "Business metrics", label: "Performance Metrics" }
+                ]}
+                subtitle="Stay on top of business performance with real-time analytics"
+                darkMode={false}
+            />
 
+            <div className="container mx-auto px-6 py-16">
                 {/* Features Grid */}
                 <div id="features" className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-20">
                     {features.map((feature, index) => {

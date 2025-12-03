@@ -1,18 +1,24 @@
+import AnimatedHero from "@/components/animated-hero";
 import MagicBento from "@/components/magic-bento";
 
 export default function ServicesPage() {
     return (
-        <div className="min-h-screen pt-24 pb-16 bg-white">
-            <div className="container mx-auto px-6">
-                <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                        Our <span className="text-[#BD0D46]">Services</span>
-                    </h1>
-                    <p className="text-lg text-slate-600">
-                        Build Fast | Launch Smart | Grow Big
-                    </p>
-                </div>
+        <div className="min-h-screen bg-white">
+            {/* Animated Hero */}
+            <AnimatedHero
+                leftText="Build"
+                rightText="Smart"
+                centralImage="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=1000&fit=crop"
+                bottomImages={[
+                    { src: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop", alt: "Digital Marketing", label: "Digital Marketing" },
+                    { src: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop", alt: "Mobile Apps", label: "Mobile Apps" },
+                    { src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop", alt: "Web Development", label: "Custom Websites" }
+                ]}
+                subtitle="Build Fast | Launch Smart | Grow Big"
+                darkMode={false}
+            />
 
+            <div className="container mx-auto px-6 py-16">
                 {/* MagicBento Section */}
                 <div className="mb-20">
                     <MagicBento
