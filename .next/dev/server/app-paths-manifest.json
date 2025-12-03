@@ -3,5 +3,6 @@
   "/c-deck/page": "app/c-deck/page.js",
   "/careers/page": "app/careers/page.js",
   "/page": "app/page.js",
+  "/pulse/page": "app/pulse/page.js",
   "/services/page": "app/services/page.js"
 }
