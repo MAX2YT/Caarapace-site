@@ -37,7 +37,7 @@ export default function AnimatedHero({
             scale: 1,
             transition: {
                 duration: 0.8,
-                ease: [0.22, 1, 0.36, 1], // Custom easing
+                ease: [0.22, 1, 0.36, 1] as any, // Custom easing
             },
         },
     };
@@ -50,7 +50,7 @@ export default function AnimatedHero({
             transition: {
                 delay: 0.3 + i * 0.15, // Staggered delay
                 duration: 0.6,
-                ease: 'easeOut',
+                ease: 'easeOut' as any,
             },
         }),
     };
@@ -62,7 +62,7 @@ export default function AnimatedHero({
             y: 0,
             transition: {
                 duration: 0.8,
-                ease: 'easeOut',
+                ease: 'easeOut' as any,
             },
         },
     };
