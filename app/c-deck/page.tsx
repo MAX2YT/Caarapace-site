@@ -1,0 +1,92 @@
+import { Database, Workflow, Lock, Gauge } from 'lucide-react'
+
+export default function CDeckPage() {
+    const features = [
+        {
+            icon: Database,
+            title: 'Centralized Data Management',
+            description: 'Manage all your business data in one secure, accessible platform.',
+        },
+        {
+            icon: Workflow,
+            title: 'Workflow Automation',
+            description: 'Streamline your processes with intelligent automation tools.',
+        },
+        {
+            icon: Lock,
+            title: 'Enterprise Security',
+            description: 'Bank-level encryption and security protocols to protect your data.',
+        },
+        {
+            icon: Gauge,
+            title: 'Real-time Analytics',
+            description: 'Get instant insights with powerful analytics and reporting tools.',
+        },
+    ]
+
+    return (
+        <div className="min-h-screen pt-24 pb-16">
+            <div className="container mx-auto px-6">
+                {/* Hero Section */}
+                <div className="text-center max-w-4xl mx-auto mb-20">
+                    <div className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
+                        Product
+                    </div>
+                    <h1 className="text-5xl md:text-7xl font-bold mb-6">
+                        <span className="text-primary">C-Deck</span> CRM Platform
+                    </h1>
+                    <p className="text-xl text-muted-foreground mb-8">
+                        A powerful customer relationship management platform designed to streamline your business operations and accelerate growth.
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a
+                            href="#contact"
+                            className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
+                            Request Demo
+                        </a>
+                        <a
+                            href="#features"
+                            className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base font-semibold border border-primary/20 hover:bg-primary/10 hover:text-primary transition-colors">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+
+                {/* Features Grid */}
+                <div id="features" className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-20">
+                    {features.map((feature, index) => {
+                        const Icon = feature.icon
+                        return (
+                            <div
+                                key={index}
+                                className="flex gap-6 p-8 rounded-2xl border border-primary/10 bg-gradient-to-br from-primary/5 to-transparent hover:border-primary/20 transition-all duration-300">
+                                <div className="flex-shrink-0">
+                                    <div className="p-3 rounded-xl bg-primary/10">
+                                        <Icon className="size-8 text-primary" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+                                    <p className="text-muted-foreground">{feature.description}</p>
+                                </div>
+                            </div>
+                        )
+                    })}
+                </div>
+
+                {/* CTA Section */}
+                <div className="text-center max-w-3xl mx-auto p-12 rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 to-transparent">
+                    <h2 className="text-3xl font-bold mb-4">Transform Your Customer Management</h2>
+                    <p className="text-muted-foreground mb-8">
+                        Join hundreds of businesses already using C-Deck to optimize their operations and boost productivity.
+                    </p>
+                    <a
+                        href="#contact"
+                        className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
+                        Get Started Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    )
+}
