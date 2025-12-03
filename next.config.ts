@@ -3,22 +3,10 @@ const nextConfig = {
     output: 'export',
     images: {
         remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'ik.imagekit.io',
-            },
-            {
-                protocol: 'https',
-                hostname: 'tailark.com',
-            },
-            {
-                protocol: 'https',
-                hostname: 'html.tailus.io',
-            },
-            {
-                protocol: 'https',
-                hostname: 'images.unsplash.com',
-            },
+            { protocol: 'https', hostname: 'ik.imagekit.io' },
+            { protocol: 'https', hostname: 'tailark.com' },
+            { protocol: 'https', hostname: 'html.tailus.io' },
+            { protocol: 'https', hostname: 'images.unsplash.com' },
         ],
     },
 };
