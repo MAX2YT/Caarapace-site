@@ -139,9 +139,6 @@ function HoverFooter({
                     >
                       {link.label}
                     </a>
-                    {link.pulse && (
-                      <span className="absolute top-1 right-[-10px] h-1.5 w-1.5 rounded-full bg-[#BD0D46] shadow-[0_0_0_4px_rgba(189,13,70,0.25)] animate-pulse" />
-                    )}
                   </li>
                 ))}
               </ul>
@@ -197,8 +194,8 @@ function HoverFooter({
       </div>
 
       {/* Text hover effect */}
-      <div className="pointer-events-none relative hidden h-[18rem] -mt-24 -mb-24 items-center justify-center px-10 lg:flex">
-        <TextHoverEffect text={companyName} className="max-w-4xl" />
+      <div className="pointer-events-none relative hidden h-[19rem] -mt-22 -mb-22 items-center justify-center px-1 lg:flex">
+        <TextHoverEffect text="CAARAPACE" className="w-full" />
       </div>
 
       <FooterBackgroundGradient />

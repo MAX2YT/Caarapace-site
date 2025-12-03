@@ -47,6 +47,7 @@ export const TextHoverEffect = ({
         "select-none uppercase cursor-pointer text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem]",
         className
       )}
+      style={{ transform: "scaleX(0.85)" }}
     >
       <defs>
         <linearGradient
@@ -97,8 +98,8 @@ export const TextHoverEffect = ({
         strokeWidth="0.3"
         className="fill-transparent font-[helvetica] font-bold"
         style={{
-          stroke: "rgba(189, 13, 70, 0.25)",
-          opacity: hovered ? 0.7 : 0,
+          stroke: "rgba(60, 4, 20, 1)",
+          opacity: hovered ? 1.0 : 1.0,
         }}
       >
         {text}
@@ -141,7 +142,7 @@ export const FooterBackgroundGradient = () => {
       className="absolute inset-0 z-0"
       style={{
         background:
-          "radial-gradient(120% 120% at 50% 0%, rgba(189,13,70,0.08) 0%, rgba(189,13,70,0.03) 35%, rgba(255,255,255,1) 80%)",
+          "radial-gradient(120% 120% at 50% 0%, rgba(189,13,70,0.08) 0%, rgba(189,13,70,0.03) 35%, rgba(255,255,255,0.6) 100%)",
       }}
     />
   );
