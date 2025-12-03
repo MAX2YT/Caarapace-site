@@ -1,50 +1,8 @@
-[00:00:38.621] Server  LOG      ✓ Ready in 26.1s
-[00:00:41.696] Server  LOG      ○ Compiling /services ...
-[00:00:48.620] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_next_dcd0adb0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:48.623] Server  ERROR    ⨯ Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.
-  Possible solutions:
-    - Remove `{ output: 'export' }` and run "next start" to run server mode including the Image Optimization API.
-    - Configure `{ images: { unoptimized: true } }` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
-[00:00:49.465] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_next_dcd0adb0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:49.467] Server  ERROR    ⨯ Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.
-  Possible solutions:
-    - Remove `{ output: 'export' }` and run "next start" to run server mode including the Image Optimization API.
-    - Configure `{ images: { unoptimized: true } }` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
-[00:00:49.612] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_next_dcd0adb0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:49.613] Server  ERROR    ⨯ Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.
-  Possible solutions:
-    - Remove `{ output: 'export' }` and run "next start" to run server mode including the Image Optimization API.
-    - Configure `{ images: { unoptimized: true } }` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
-[00:00:49.720] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_next_dcd0adb0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:49.723] Server  ERROR    ⨯ Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.
-  Possible solutions:
-    - Remove `{ output: 'export' }` and run "next start" to run server mode including the Image Optimization API.
-    - Configure `{ images: { unoptimized: true } }` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
-[00:00:52.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:52.651] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:52.941] Browser ERROR   uncaughtError: Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.
-  Possible solutions:
-    - Remove `{ output: 'export' }` and run "next start" to run server mode including the Image Optimization API.
-    - Configure `{ images: { unoptimized: true } }` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
-[00:00:53.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:53.434] Browser ERROR   uncaughtError: Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.
-  Possible solutions:
-    - Remove `{ output: 'export' }` and run "next start" to run server mode including the Image Optimization API.
-    - Configure `{ images: { unoptimized: true } }` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
-[00:00:53.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:53.945] Browser ERROR   uncaughtError: Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.
-  Possible solutions:
-    - Remove `{ output: 'export' }` and run "next start" to run server mode including the Image Optimization API.
-    - Configure `{ images: { unoptimized: true } }` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
-[00:00:54.098] Browser ERROR   uncaughtError: Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.
-  Possible solutions:
-    - Remove `{ output: 'export' }` and run "next start" to run server mode including the Image Optimization API.
-    - Configure `{ images: { unoptimized: true } }` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
+[00:00:04.469] Server  LOG      ✓ Ready in 2.2s
+[00:00:07.800] Server  LOG      ○ Compiling /c-deck ...
+[00:00:20.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.598] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.130] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:25.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:37.877] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
