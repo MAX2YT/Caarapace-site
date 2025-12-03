@@ -83,7 +83,7 @@ function FloatingPaths({ position }) {
 function BackgroundPaths({ title = "Background Paths" }) {
     const words = title.split(" ");
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-white dark:bg-neutral-950",
+        className: "relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0",
@@ -141,7 +141,7 @@ function BackgroundPaths({ title = "Background Paths" }) {
                                                 stiffness: 150,
                                                 damping: 25
                                             },
-                                            className: "inline-block text-transparent bg-clip-text  bg-gradient-to-r from-neutral-900 to-neutral-700/80  dark:from-white dark:to-white/80",
+                                            className: "inline-block text-transparent bg-clip-text  bg-gradient-to-r from-neutral-900 to-neutral-700/80",
                                             children: letter
                                         }, `${wordIndex}-${letterIndex}`, false, {
                                             fileName: "[project]/components/ui/background-paths.tsx",
@@ -159,17 +159,17 @@ function BackgroundPaths({ title = "Background Paths" }) {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "inline-block group relative bg-gradient-to-b from-black/10 to-white/10  dark:from-white/10 dark:to-black/10 p-px rounded-2xl backdrop-blur-lg  overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300",
+                            className: "inline-block group relative bg-gradient-to-b from-black/10 to-white/10  p-px rounded-2xl backdrop-blur-lg  overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                 variant: "ghost",
-                                className: "rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md  bg-white/95 hover:bg-white/100 dark:bg-black/95 dark:hover:bg-black/100  text-black dark:text-white transition-all duration-300  group-hover:-translate-y-0.5 border border-black/10 dark:border-white/10 hover:shadow-md dark:hover:shadow-neutral-800/50",
+                                className: "rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md  bg-white/95 hover:bg-white/100  text-black transition-all duration-300  group-hover:-translate-y-0.5 border border-black/10 hover:shadow-md",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "opacity-90 group-hover:opacity-100 transition-opacity",
                                         children: "Get Started"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/background-paths.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 113,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -177,18 +177,18 @@ function BackgroundPaths({ title = "Background Paths" }) {
                                         children: "→"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/background-paths.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 116,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ui/background-paths.tsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ui/background-paths.tsx",
-                            lineNumber: 101,
+                            lineNumber: 100,
                             columnNumber: 21
                         }, this)
                     ]

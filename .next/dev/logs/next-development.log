@@ -1,96 +1,555 @@
-[00:00:01.220] Server  LOG      ✓ Ready in 859ms
-[00:00:04.284] Server  LOG      ○ Compiling /services ...
-[00:00:06.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.266] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.212] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/services" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en" suppressHydrationWarning={true}>
-                          <head>
-                          <body
-                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased"
--                           cz-shortcut-listen="true"
-                          >
-                  ...
-
-[00:00:09.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.717] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.515] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.476] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:15.551] Server  LOG      ✓ Compiled in 125ms
-[00:14:11.237] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:59.517] Server  LOG      ✓ Compiled in 2s
-[00:20:48.329] Server  LOG      ✓ Compiled in 270ms
-[00:23:09.461] Server  LOG      ✓ Compiled in 262ms
-[00:23:13.356] Server  LOG      ✓ Compiled in 1949ms
-[00:23:16.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:17.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:18.228] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en" suppressHydrationWarning={true}>
-                          <head>
-                          <body
-                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
--                           cz-shortcut-listen="true"
-                          >
-                  ...
-
-[00:26:05.134] Server  LOG      ✓ Compiled in 237ms
-[00:27:33.624] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:15.714] Server  LOG      ✓ Ready in 10.2s
+[00:01:26.829] Server  LOG      ○ Compiling / ...
+[00:01:32.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:04.465] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:28.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:02.944] Server  LOG      ✓ Compiled in 113ms
+[00:41:29.988] Server  LOG      ✓ Compiled in 223ms
+[00:42:02.088] Server  LOG      ✓ Compiled in 51ms
+[00:42:02.989] Browser ERROR   ./components/magic-bento.tsx:196:31
+Parsing ecmascript source code failed
+  194 |                         duration: 1.5,
+  195 |
+> 196 |                         const element = cardRef.current;
+      |                               ^^^^^^^
+  197 |
+  198 |                         const handleMouseEnter = () => {
+  199 |                             isHoveredRef.current = true;
+
+Unexpected token `element`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:43:37.000] Server  LOG      ✓ Compiled in 67ms
+[00:43:37.991] Browser ERROR   ./components/magic-bento.tsx:368:15
+Parsing ecmascript source code failed
+  366 | }) => {
+  367 |         const spotlightRef = useRef<HTMLDivElement | null>(null);
+> 368 |         const isInside Section = useRef(false);
+      |               ^^^^^^^^
+  369 |
+  370 |         useEffect(() => {
+  371 |             if (disableAnimations || !gridRef?.current || !enabled) return;
+
+'const' declarations must be initialized
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:43:37.991] Browser ERROR   ./components/magic-bento.tsx:368:24
+Parsing ecmascript source code failed
+  366 | }) => {
+  367 |         const spotlightRef = useRef<HTMLDivElement | null>(null);
+> 368 |         const isInside Section = useRef(false);
+      |                        ^^^^^^^
+  369 |
+  370 |         useEffect(() => {
+  371 |             if (disableAnimations || !gridRef?.current || !enabled) return;
+
+Expected a semicolon
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:43:47.242] Server  LOG      ✓ Compiled in 58ms
+[00:44:25.904] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:16.370] Server  LOG      ✓ Compiled in 247ms
+[00:48:16.586] Browser ERROR   ./components/magic-bento.tsx:54:11
+Parsing ecmascript source code failed
+  52 |     },
+  53 |     {
+> 54 |         el.style.cssText = `
+     |           ^
+  55 |     position: absolute;
+  56 |     width: 4px;
+  57 |     height: 4px;
+
+Expected a semicolon
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:48:16.587] Browser ERROR   ./components/magic-bento.tsx:54:11
+Parsing ecmascript source code failed
+  52 |     },
+  53 |     {
+> 54 |         el.style.cssText = `
+     |           ^
+  55 |     position: absolute;
+  56 |     width: 4px;
+  57 |     height: 4px;
+
+Expected a semicolon
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:49:28.140] Server  LOG      ✓ Compiled in 73ms
+[00:49:28.246] Browser ERROR   ./components/magic-bento.tsx:29:20
+Parsing ecmascript source code failed
+  27 | }
+  28 |
+> 29 | disableAnimations ?: boolean;
+     |                    ^
+  30 | style ?: React.CSSProperties;
+  31 | particleCount ?: number;
+  32 | glowColor ?: string;
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:49:28.994] Browser ERROR   ./components/magic-bento.tsx:29:20
+Parsing ecmascript source code failed
+  27 | }
+  28 |
+> 29 | disableAnimations ?: boolean;
+     |                    ^
+  30 | style ?: React.CSSProperties;
+  31 | particleCount ?: number;
+  32 | glowColor ?: string;
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:49:46.200] Browser ERROR   ./components/magic-bento.tsx:29:20
+Parsing ecmascript source code failed
+  27 | }
+  28 |
+> 29 | disableAnimations ?: boolean;
+     |                    ^
+  30 | style ?: React.CSSProperties;
+  31 | particleCount ?: number;
+  32 | glowColor ?: string;
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:49:46.991] Browser ERROR   ./components/magic-bento.tsx:29:20
+Parsing ecmascript source code failed
+  27 | }
+  28 |
+> 29 | disableAnimations ?: boolean;
+     |                    ^
+  30 | style ?: React.CSSProperties;
+  31 | particleCount ?: number;
+  32 | glowColor ?: string;
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:51:22.046] Server  LOG      ✓ Compiled in 79ms
+[00:51:22.150] Browser ERROR   ./components/magic-bento.tsx:201:16
+Parsing ecmascript source code failed
+  199 |                 }, index * 100);
+  200 |
+> 201 |       timeouts Ref.current.push(timeoutId as unknown as number);
+      |                ^^^
+  202 |             });
+  203 |         }, [initializeParticles]);
+  204 |
+
+Expected ';', '}' or <eof>
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:51:22.151] Browser ERROR   ./components/magic-bento.tsx:201:16
+Parsing ecmascript source code failed
+  199 |                 }, index * 100);
+  200 |
+> 201 |       timeouts Ref.current.push(timeoutId as unknown as number);
+      |                ^^^
+  202 |             });
+  203 |         }, [initializeParticles]);
+  204 |
+
+Expected ';', '}' or <eof>
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:57:35.732] Server  LOG      ✓ Compiled in 87ms
+[00:58:13.104] Server  LOG      ✓ Compiled in 41ms
+[00:58:13.209] Browser ERROR   ./components/magic-bento.tsx:41:1
+Parsing ecmascript source code failed
+  39 |     top: ${y}px;
+  40 |   `;
+> 41 | return el;
+     | ^^^^^^^^^^
+  42 | };
+  43 |
+  44 | const calculateSpotlightValues = (radius: number) => ({
+
+Return statement is not allowed here
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[00:58:14.001] Browser ERROR   ./components/magic-bento.tsx:41:1
+Parsing ecmascript source code failed
+  39 |     top: ${y}px;
+  40 |   `;
+> 41 | return el;
+     | ^^^^^^^^^^
+  42 | };
+  43 |
+  44 | const calculateSpotlightValues = (radius: number) => ({
+
+Return statement is not allowed here
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[01:03:59.900] Server  LOG      ✓ Compiled in 79ms
+[01:04:00.004] Browser ERROR   ./components/magic-bento.tsx:29:5
+Parsing ecmascript source code failed
+  27 | }
+  28 |
+> 29 |     },
+     |     ^
+  30 | {
+  31 |     color: '#FFFFFF',
+  32 |         title: 'Custom Websites',
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[01:04:00.999] Browser ERROR   ./components/magic-bento.tsx:29:5
+Parsing ecmascript source code failed
+  27 | }
+  28 |
+> 29 |     },
+     |     ^
+  30 | {
+  31 |     color: '#FFFFFF',
+  32 |         title: 'Custom Websites',
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/magic-bento.tsx
+    ./app/page.tsx
+[01:09:26.687] Server  LOG      ✓ Compiled in 85ms
+[01:28:19.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:27.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:29:23.032] Server  LOG      ✓ Compiled in 384ms
+[01:30:07.262] Server  LOG      ✓ Compiled in 342ms
+[01:30:10.989] Browser WARN    Image with src "/mascot/crab-laptop.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:30:10.989] Browser WARN    Image with src "/mascot/crab-happy.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:02.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:02.709] Browser WARN    Image with src "/mascot/crab-laptop.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:02.710] Browser WARN    Image with src "/mascot/crab-happy.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:04.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:37:05.352] Browser WARN    Image with src "/mascot/crab-laptop.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:37:05.352] Browser WARN    Image with src "/mascot/crab-happy.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:38:05.119] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.123] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.131] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.135] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.138] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.140] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.147] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.148] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.153] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.155] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.163] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.165] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.168] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.172] Server  ERROR    ⨯ ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:38:05.178] Server  LOG      ✓ Compiled in 192ms
+[01:38:05.662] Browser ERROR   ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:06.179] Browser ERROR   ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:06.234] Browser ERROR   ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:22.458] Browser ERROR   ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:22.459] Browser ERROR   ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:23.000] Browser ERROR   ./app/services/page.tsx:2:1
+Module not found: Can't resolve '@/components/tile-hero'
+  1 | import MagicBento from "@/components/magic-bento";
+> 2 | import TileHero from "@/components/tile-hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ServicesPage() {
+  5 |     return (
+
+Import map: aliased to relative './components/tile-hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:39:40.396] Server  LOG      ✓ Compiled in 298ms
