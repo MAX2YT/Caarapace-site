@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
@@ -31,7 +32,7 @@ export function Navbar() {
             <nav
                 data-state={menuState && 'active'}
                 className="fixed z-20 w-full px-2 group">
-                <div className={cn('mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12', isScrolled && 'bg-background/80 max-w-4xl rounded-2xl border border-primary/10 backdrop-blur-lg lg:px-5 shadow-lg shadow-primary/5')}>
+                <div className={cn('mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12', isScrolled && 'bg-background/80 max-w-4xl rounded-2xl backdrop-blur-lg lg:px-5 shadow-lg shadow-primary/5')}>
                     <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
                         <div className="flex w-full justify-between lg:w-auto">
                             <Link
@@ -115,31 +116,15 @@ export function Navbar() {
 
 const Logo = ({ className }: { className?: string }) => {
     return (
-        <div className={cn('flex items-center gap-2', className)}>
-            <svg
-                viewBox="0 0 40 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-auto">
-                <path
-                    d="M20 4L4 12V28L20 36L36 28V12L20 4Z"
-                    fill="#BE0B45"
-                    stroke="#BE0B45"
-                    strokeWidth="2"
-                    strokeLinejoin="round"
-                />
-                <path
-                    d="M20 12L12 16V24L20 28L28 24V16L20 12Z"
-                    fill="white"
-                    stroke="white"
-                    strokeWidth="1.5"
-                    strokeLinejoin="round"
-                />
-            </svg>
-            <span className="text-xl font-bold tracking-tight">
-                <span className="text-primary">Caara</span>
-                <span className="text-foreground">pace</span>
-            </span>
+        <div className={cn('flex items-center', className)}>
+            <Image
+                src="/logo.png"
+                alt="Caarapace Logo"
+                width={180}
+                height={60}
+                className="h-8 w-auto"
+                priority
+            />
         </div>
     )
 }

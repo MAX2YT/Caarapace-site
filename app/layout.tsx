@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
+import HoverFooter from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -63,9 +64,10 @@ export default function RootLayout({
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
                 <link rel="manifest" href="/site.webmanifest" />
             </head>
-            <body className={`${inter.variable} font-sans antialiased`}>
+            <body className={`${inter.variable} font-sans antialiased bg-white`}>
                 <Navbar />
                 {children}
+                <HoverFooter />
             </body>
         </html>
     );
