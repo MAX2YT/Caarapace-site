@@ -1,5 +1,44 @@
 import AnimatedHero from "@/components/animated-hero";
 import { Briefcase, Heart, Rocket, GraduationCap } from 'lucide-react'
+import {
+    HoverSlider,
+    HoverSliderImage,
+    HoverSliderImageWrap,
+    TextStaggerHover
+} from "@/components/ui/animated-slideshow"
+
+const OPEN_ROLES = [
+    {
+        id: "role-1",
+        title: "Web Development",
+        imageUrl: "/web-development.png",
+    },
+    {
+        id: "role-2",
+        title: "Digital Marketing",
+        imageUrl: "/digital-marketing.png",
+    },
+    {
+        id: "role-3",
+        title: "Application Development",
+        imageUrl: "/application-development.png",
+    },
+    {
+        id: "role-4",
+        title: "Full Stack Development",
+        imageUrl: "/full-stack-development.png",
+    },
+    {
+        id: "role-5",
+        title: "Management Roles",
+        imageUrl: "/management-roles.png",
+    },
+    {
+        id: "role-6",
+        title: "Game Development",
+        imageUrl: "https://images.unsplash.com/photo-1556438064-2d7646166914?w=800&h=600&fit=crop",
+    },
+]
 
 export default function CareersPage() {
     const benefits = [
@@ -22,33 +61,6 @@ export default function CareersPage() {
             icon: GraduationCap,
             title: 'Learning & Development',
             description: 'Courses, conferences, mentorship—whatever helps you level up, we got it.',
-        },
-    ]
-
-    const openPositions = [
-        {
-            title: 'Senior Full Stack Developer',
-            department: 'Engineering',
-            location: 'Remote',
-            type: 'Full-time',
-        },
-        {
-            title: 'UI/UX Designer',
-            department: 'Design',
-            location: 'Hybrid',
-            type: 'Full-time',
-        },
-        {
-            title: 'Product Manager',
-            department: 'Product',
-            location: 'Remote',
-            type: 'Full-time',
-        },
-        {
-            title: 'DevOps Engineer',
-            department: 'Engineering',
-            location: 'Remote',
-            type: 'Full-time',
         },
     ]
 
@@ -90,34 +102,39 @@ export default function CareersPage() {
                     </div>
                 </div>
 
-                {/* Open Positions */}
-                <div className="max-w-4xl mx-auto mb-20">
-                    <h2 className="text-3xl font-bold text-center mb-12">Open Roles</h2>
-                    <div className="space-y-4">
-                        {openPositions.map((position, index) => (
-                            <div
-                                key={index}
-                                className="flex flex-col md:flex-row md:items-center justify-between p-6 rounded-2xl border border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
-                                <div className="mb-4 md:mb-0">
-                                    <h3 className="text-xl font-semibold mb-2">{position.title}</h3>
-                                    <div className="flex flex-wrap gap-3 text-sm text-muted-foreground">
-                                        <span className="px-3 py-1 rounded-full bg-primary/10 text-primary">
-                                            {position.department}
-                                        </span>
-                                        <span>{position.location}</span>
-                                        <span>•</span>
-                                        <span>{position.type}</span>
-                                    </div>
+                {/* Open Roles - Animated Slideshow */}
+                <HoverSlider className="min-h-[70vh] place-content-center py-16 px-6 md:px-12 bg-gradient-to-br from-primary/5 via-transparent to-primary/5 rounded-3xl mb-20">
+                    <h3 className="mb-8 text-xs font-medium uppercase tracking-widest text-primary">
+                        / open roles
+                    </h3>
+                    <div className="flex flex-wrap items-center justify-evenly gap-8 md:gap-16">
+                        <div className="flex flex-col space-y-3 md:space-y-5">
+                            {OPEN_ROLES.map((role, index) => (
+                                <TextStaggerHover
+                                    key={role.id}
+                                    index={index}
+                                    className="cursor-pointer text-3xl md:text-5xl font-bold uppercase tracking-tighter text-gray-900"
+                                    text={role.title}
+                                />
+                            ))}
+                        </div>
+                        <HoverSliderImageWrap className="rounded-2xl overflow-hidden shadow-2xl">
+                            {OPEN_ROLES.map((role, index) => (
+                                <div key={role.id}>
+                                    <HoverSliderImage
+                                        index={index}
+                                        imageUrl={role.imageUrl}
+                                        src={role.imageUrl}
+                                        alt={role.title}
+                                        className="size-full max-h-96 object-cover"
+                                        loading="eager"
+                                        decoding="async"
+                                    />
                                 </div>
-                                <a
-                                    href="#contact"
-                                    className="inline-flex items-center justify-center rounded-xl px-6 py-2 text-sm font-medium border border-primary/20 hover:bg-primary/10 hover:text-primary transition-colors whitespace-nowrap">
-                                    Apply Now
-                                </a>
-                            </div>
-                        ))}
+                            ))}
+                        </HoverSliderImageWrap>
                     </div>
-                </div>
+                </HoverSlider>
 
                 {/* CTA Section */}
                 <div className="text-center max-w-3xl mx-auto p-12 rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 to-transparent">

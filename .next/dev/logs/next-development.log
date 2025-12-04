@@ -220,3 +220,949 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:55:18.978] Server  LOG      ✓ Compiled in 228ms
 [02:00:36.026] Server  LOG      ✓ Compiled in 259ms
 [02:00:57.887] Server  LOG      ✓ Compiled in 293ms
+[00:25:34.585] Server  LOG      ✓ Compiled in 2.3s
+[00:26:03.088] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:03.395] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_f82b5e97-7a4b-4d6d-822d-0ec5a6fe3d86__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:39:31.287] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:31.630] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/pulse" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_ee5f3666-6aea-4aea-8792-c2a72346faea__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:45:08.943] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:09.630] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/pulse" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
++                           className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white antigrav..."
+                          >
+                  ...
+
+[00:50:27.499] Server  LOG      ✓ Compiled in 567ms
+[00:51:46.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:14.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:19.596] Server  LOG      ✓ Compiled in 634ms
+[01:36:34.732] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:35.039] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/services" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_f681f58a-3636-4aa2-a57f-baf6747be74a__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[01:36:46.727] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:37:12.367] Server  LOG      ✓ Compiled in 812ms
+[01:37:19.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:37:20.048] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/services" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_f73acf50-e55f-48b6-98e9-23e2162e654b__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[01:37:33.343] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:01.508] Server  LOG      ✓ Compiled in 975ms
+[01:38:02.307] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:38:29.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:29.912] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:38:36.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:36.703] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:39:08.219] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:39:55.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:55.839] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:40:00.981] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:01.235] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:40:07.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:07.427] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:40:13.856] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:14.161] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/services" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_60f98a05-8f57-4ae3-92b6-f53d69a06c56__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[01:40:14.161] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:40:37.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:37.576] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_7ab5aa4f-00c7-43eb-87a8-5bfd83561bc5__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            <Navbar>
+                            ...
+                              <SegmentViewNode type="page" pagePath="page.tsx">
+                                <SegmentTrieNode>
+                                <Home>
+                                  <div className="min-h-scre...">
+                                    <BackgroundPaths title="We Build S...">
+                                      <div className="relative m...">
+                                        <div>
+                                        <div
+                                          className="relative z-10 container mx-auto px-4 md:px-6 text-center"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <motion.div initial={{opacity:0}} animate={{opacity:1}} ...>
+                                            <div
+                                              className="max-w-4xl mx-auto"
+                                              style={{opacity:0}}
+                                              ref={function useMotionRef.useCallback}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <h1>
+                                              <div
+                                                className="inline-block group relative bg-gradient-to-b from-black/10 ..."
+-                                               bis_skin_checked="1"
+                                              >
+                                    <ModernIntroSection>
+                                      <section className="bg-gray-50...">
+                                        <div
+                                          className="hidden sm:block absolute top-20 right-20 w-3 h-3 sm:w-4 sm:h-4 bg..."
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="hidden sm:block absolute top-32 right-32 w-2 h-2 sm:w-3 sm:h-3 bg..."
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="hidden sm:block absolute top-40 right-16 w-1 h-6 sm:w-2 sm:h-8 bg..."
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="hidden sm:block absolute top-48 right-24 w-4 h-1 sm:w-6 sm:h-2 bg..."
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="container mx-auto px-4 sm:px-6 lg:px-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="text-center lg:text-left"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="relative mt-8 lg:mt-0"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative bg-gray-900 rounded-xl sm:rounded-2xl p-4 sm:p-6 s..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="text-white mb-3 sm:mb-4"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="text-xs sm:text-sm text-gray-400 mb-1 sm:mb-2"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Caarapace Live
+                                                  <div
+                                                    className="text-xs text-gray-500"
+-                                                   bis_skin_checked="1"
+                                                  >
++                                                   Development Dashboard
+                                                <div
+                                                  className="grid grid-cols-6 sm:grid-cols-8 gap-0.5 sm:gap-1 mb-3 sm:..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#EF0049]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#FF2968]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#EF0049]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#EF0049]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#EF0049]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#EF0049]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#FF2968]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#EF0049]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#EF0049]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#FF2968]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-gray-800"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#FF2968]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0D46]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-2 h-2 sm:w-3 sm:h-3 bg-[#FF2968]"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="flex justify-between items-center text-white text-xs sm:t..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="mb-1"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Framework: Next.js
+                                                    <div
+                                                      className="text-gray-400 text-xs"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Status: Building
+                                                  <div
+                                                    className="text-right"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="mb-1"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Quality: 99.8%
+                                                    <div
+                                                      className="text-gray-400 text-xs"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Deploy: Ready
+                                              <div
+                                                className="absolute -top-2 -left-2 sm:-top-4 sm:-left-4 w-6 h-6 sm:w-8..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="absolute -bottom-2 -right-2 sm:-bottom-4 sm:-right-4 w-4 h-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="hidden sm:block absolute top-1/2 -right-8 w-4 h-12 bg-[#BD0..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="hidden sm:block absolute top-8 right-8 w-2 h-2 bg-[#BD0D46]/60"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="hidden sm:block absolute bottom-12 left-8 w-3 h-3 bg-[#BD0D..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="hidden sm:block absolute top-16 left-12 w-2 h-6 bg-[#EF0049]"
+-                                               bis_skin_checked="1"
+                                              >
+                                          <div
+                                            className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-200"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="flex flex-wrap items-center justify-center gap-4 sm:gap-8 lg:..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center space-x-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-4 h-4 sm:w-6 sm:h-6 bg-gray-400 rounded"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center space-x-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-4 h-4 sm:w-6 sm:h-6 bg-gray-400 rounded"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center space-x-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-4 h-4 sm:w-6 sm:h-6 bg-gray-400 rounded"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center space-x-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-4 h-4 sm:w-6 sm:h-6 bg-gray-400 rounded"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                              <div
+                                                className="flex items-center space-x-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="w-4 h-4 sm:w-6 sm:h-6 bg-gray-400 rounded"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                    <FeaturesSection>
+                                      <section className="py-12 md:p...">
+                                        <div
+                                          className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative mx-auto grid max-w-4xl lg:max-w-6xl divide-x divide-y ..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="space-y-3 hover:bg-[#FFF5F8] transition-colors"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                            <div
+                                              className="space-y-3 hover:bg-[#FFF5F8] transition-colors"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                            <div
+                                              className="space-y-3 hover:bg-[#FFF5F8] transition-colors"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                            <div
+                                              className="space-y-3 hover:bg-[#FFF5F8] transition-colors"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                            <div
+                                              className="space-y-3 hover:bg-[#FFF5F8] transition-colors"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                            <div
+                                              className="space-y-3 hover:bg-[#FFF5F8] transition-colors"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                    <ContactForm>
+                                      <div
+                                        className="flex flex-col lg:flex-row py-12 md:py-16"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex-1 bg-[#BD0D46] flex items-center justify-center p-8 md:p-10"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="max-w-md"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h1>
+                                            <p>
+                                            <div
+                                              className="space-y-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <h2>
+                                              <div
+                                                className="flex items-start gap-3 text-white"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-start gap-3 text-white"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="flex items-start gap-3 text-white"
+-                                               bis_skin_checked="1"
+                                              >
+                                        <div
+                                          className="flex-1 bg-white flex items-center justify-center p-8 md:p-10"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="w-full max-w-md"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <form onSubmit={function handleSubmit} className="space-y-5">
+                                              <div
+                                                className="grid grid-cols-1 sm:grid-cols-2 gap-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                            <HoverFooter>
+                              <footer className="relative m...">
+                                <div
+                                  className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-14"
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="grid grid-cols-1 gap-10 pb-10 md:grid-cols-2 lg:grid-cols-4 md:gap-8 lg..."
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="flex flex-col space-y-4"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <div
+                                        className="flex items-center space-x-3"
+-                                       bis_skin_checked="1"
+                                      >
+                                      ...
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                  <hr>
+                                  <div
+                                    className="flex flex-col items-center justify-between gap-4 text-xs text-slate-500..."
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="flex space-x-5 text-slate-500"
+-                                     bis_skin_checked="1"
+                                    >
+                                    ...
+                                <div
+                                  className="pointer-events-none relative hidden h-[19rem] -mt-22 -mb-22 items-center ..."
+-                                 bis_skin_checked="1"
+                                >
+                                <FooterBackgroundGradient>
+                                  <div
+                                    className="absolute inset-0 z-0"
+                                    style={{background:"radial-gra..."}}
+-                                   bis_skin_checked="1"
+                                  >
+                  ...
+
+[01:40:41.015] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:43:11.013] Server  LOG      ✓ Compiled in 598ms
+[01:44:01.078] Server  LOG      ✓ Compiled in 157ms
+[01:44:28.828] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:29.780] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/services" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
++                           className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white antigrav..."
+                          >
+                  ...
+
+[01:44:29.780] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:11:41.950] Server  LOG      ✓ Compiled in 6.3s
+[02:12:50.427] Server  LOG      ✓ Compiled in 910ms
+[02:12:52.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:12:53.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:12:54.964] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_6eaa0376-f93f-4c93-abd9-b8710eea4637__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[02:13:20.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

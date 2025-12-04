@@ -1,30 +1,7 @@
 import AnimatedHero from "@/components/animated-hero";
-import { Activity, TrendingUp, Users, Bell } from 'lucide-react'
+import PulseAlternatingFeatures from "@/components/ui/pulse-alternating-features";
 
 export default function PulsePage() {
-    const features = [
-        {
-            icon: Activity,
-            title: 'Real-time Monitoring',
-            description: 'Track your business metrics and KPIs in real-time with intuitive dashboards.',
-        },
-        {
-            icon: TrendingUp,
-            title: 'Growth Analytics',
-            description: 'Identify trends and opportunities with advanced analytics and forecasting.',
-        },
-        {
-            icon: Users,
-            title: 'Team Collaboration',
-            description: 'Keep your team aligned with shared insights and collaborative tools.',
-        },
-        {
-            icon: Bell,
-            title: 'Smart Alerts',
-            description: 'Get notified about important changes and milestones automatically.',
-        },
-    ]
-
     return (
         <div className="min-h-screen">
             {/* Animated Hero */}
@@ -42,27 +19,8 @@ export default function PulsePage() {
             />
 
             <div className="container mx-auto px-6 py-16">
-                {/* Features Grid */}
-                <div id="features" className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-20">
-                    {features.map((feature, index) => {
-                        const Icon = feature.icon
-                        return (
-                            <div
-                                key={index}
-                                className="flex gap-6 p-8 rounded-2xl border border-primary/10 bg-gradient-to-br from-primary/5 to-transparent hover:border-primary/20 transition-all duration-300">
-                                <div className="flex-shrink-0">
-                                    <div className="p-3 rounded-xl bg-primary/10">
-                                        <Icon className="size-8 text-primary" />
-                                    </div>
-                                </div>
-                                <div>
-                                    <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                                    <p className="text-muted-foreground">{feature.description}</p>
-                                </div>
-                            </div>
-                        )
-                    })}
-                </div>
+                {/* Alternating Features Section */}
+                <PulseAlternatingFeatures />
 
                 {/* Stats Section */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-20">

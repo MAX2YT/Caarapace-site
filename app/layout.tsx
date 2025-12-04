@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import HoverFooter from "@/components/footer";
+import SmoothScrollProvider from "@/components/smooth-scroll-provider";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -65,10 +66,13 @@ export default function RootLayout({
                 <link rel="manifest" href="/site.webmanifest" />
             </head>
             <body className={`${inter.variable} font-sans antialiased bg-white`}>
-                <Navbar />
-                {children}
-                <HoverFooter />
+                <SmoothScrollProvider>
+                    <Navbar />
+                    {children}
+                    <HoverFooter />
+                </SmoothScrollProvider>
             </body>
         </html>
     );
 }
+

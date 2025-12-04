@@ -1,5 +1,6 @@
 import AnimatedHero from "@/components/animated-hero";
 import MagicBento from "@/components/magic-bento";
+import ServicesTimeline from "@/components/ui/services-timeline";
 
 export default function ServicesPage() {
     return (
@@ -35,6 +36,11 @@ export default function ServicesPage() {
                     />
                 </div>
 
+                {/* Development Process Timeline */}
+                <div className="mb-20">
+                    <ServicesTimeline />
+                </div>
+
                 <div className="mt-20 text-center">
                     <div className="inline-block p-8 rounded-2xl border border-[#BD0D46]/20 bg-gradient-to-r from-[#BD0D46]/5 to-transparent">
                         <h2 className="text-3xl font-bold mb-4">Ready to Build Something Cool?</h2>
@@ -53,3 +59,4 @@ export default function ServicesPage() {
         </div>
     )
 }
+
