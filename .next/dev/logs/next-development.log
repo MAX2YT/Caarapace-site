@@ -1166,3 +1166,237 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
 
 [02:13:20.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:16:38.618] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:17:02.699] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:20:31.159] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:27:21.670] Server  LOG      ✓ Compiled in 662ms
+[02:27:41.414] Server  LOG      ✓ Compiled in 398ms
+[02:28:37.559] Browser WARN    'lab(41.1876 64.5772 19.4128 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:28:39.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:28:40.715] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <Home>
+                  <div className="min-h-scre...">
+                    <BackgroundPaths>
+                    <section>
+                    <section>
+                    <PremiumTestimonials>
+                    <ContactForm>
+                      <div className="flex flex-...">
+                        <div>
+                        <div className="flex-1 bg-...">
+                          <div className="w-full max...">
+                            <form onSubmit={function handleSubmit} className="space-y-5">
+                              <div className="grid grid-...">
+                                <div>
+                                  <label>
+                                  <input
+                                    type="text"
+                                    id="firstName"
+                                    value=""
+                                    onChange={function onChange}
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:r..."
+                                    placeholder="First Name"
+                                    required={true}
+-                                   style={{caret-color:"transparent"}}
+                                  >
+                                <div>
+                                  <label>
+                                  <input
+                                    type="text"
+                                    id="lastName"
+                                    value=""
+                                    onChange={function onChange}
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:r..."
+                                    placeholder="Last Name"
+                                    required={true}
+-                                   style={{caret-color:"transparent"}}
+                                  >
+                              <div>
+                                <label>
+                                <input
+                                  type="email"
+                                  id="email"
+                                  value=""
+                                  onChange={function onChange}
+                                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:rin..."
+                                  placeholder="Email"
+                                  required={true}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <div>
+                                <label>
+                                <input
+                                  type="text"
+                                  id="subject"
+                                  value=""
+                                  onChange={function onChange}
+                                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:rin..."
+                                  placeholder="Subject"
+                                  required={true}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              <div>
+                                <label>
+                                <textarea
+                                  id="message"
+                                  value=""
+                                  onChange={function onChange}
+                                  rows={4}
+                                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:rin..."
+                                  placeholder="Type your message here."
+                                  required={true}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                              ...
+              ...
+            ...
+
+[02:29:16.360] Browser WARN    'lab(41.1876 64.5772 19.4128 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:30:35.171] Browser WARN    'lab(41.1876 64.5772 19.4128 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:30:41.015] Browser WARN    'lab(41.1876 64.5772 19.4128 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:30:55.184] Browser WARN    'lab(41.1876 64.5772 19.4128 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:31:29.129] Browser WARN    'lab(41.1876 64.5772 19.4128 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:33:57.320] Server  LOG      ✓ Compiled in 743ms
+[02:34:18.379] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:34:19.010] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:34:50.594] Server  LOG      ✓ Compiled in 824ms
+[02:35:11.481] Server  LOG      ✓ Compiled in 517ms
+[02:35:19.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:35:20.850] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
++                           className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white antigrav..."
+                          >
+                            ...
+                              <div className="w-full max...">
+                                <form onSubmit={function handleSubmit} className="space-y-5">
+                                  <div className="grid grid-...">
+                                    <div>
+                                      <label>
+                                      <input
+                                        type="text"
+                                        id="firstName"
+                                        value=""
+                                        onChange={function onChange}
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 foc..."
+                                        placeholder="First Name"
+                                        required={true}
+-                                       style={{caret-color:"transparent"}}
+                                      >
+                                    <div>
+                                      <label>
+                                      <input
+                                        type="text"
+                                        id="lastName"
+                                        value=""
+                                        onChange={function onChange}
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 foc..."
+                                        placeholder="Last Name"
+                                        required={true}
+-                                       style={{caret-color:"transparent"}}
+                                      >
+                                  <div>
+                                    <label>
+                                    <input
+                                      type="email"
+                                      id="email"
+                                      value=""
+                                      onChange={function onChange}
+                                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus..."
+                                      placeholder="Email"
+                                      required={true}
+-                                     style={{caret-color:"transparent"}}
+                                    >
+                                  <div>
+                                    <label>
+                                    <input
+                                      type="text"
+                                      id="subject"
+                                      value=""
+                                      onChange={function onChange}
+                                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus..."
+                                      placeholder="Subject"
+                                      required={true}
+-                                     style={{caret-color:"transparent"}}
+                                    >
+                                  <div>
+                                    <label>
+                                    <textarea
+                                      id="message"
+                                      value=""
+                                      onChange={function onChange}
+                                      rows={4}
+                                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus..."
+                                      placeholder="Type your message here."
+                                      required={true}
+-                                     style={{caret-color:"transparent"}}
+                                    >
+                                  ...
+                  ...
+
+[02:35:24.407] Browser WARN    'lab(98.2596 -0.247031 -0.706708)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:35:24.407] Browser WARN    'lab(96.1596 -0.082314 -1.13575)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:35:27.860] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:35:29.895] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:35:30.891] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:35:31.555] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:35:40.434] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[02:35:48.546] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:37:03.463] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:37:33.646] Server  LOG      ✓ Compiled in 232ms
+[02:44:21.880] Server  LOG      ✓ Compiled in 570ms
+[02:45:34.628] Server  LOG      ✓ Compiled in 171ms
+[02:45:44.896] Server  LOG      ✓ Compiled in 139ms
+[02:46:04.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:46:05.068] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.

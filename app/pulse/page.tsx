@@ -1,21 +1,15 @@
-import AnimatedHero from "@/components/animated-hero";
+import HeroScrollAnimation from "@/components/ui/hero-scroll-animation";
 import PulseAlternatingFeatures from "@/components/ui/pulse-alternating-features";
 
 export default function PulsePage() {
     return (
         <div className="min-h-screen">
-            {/* Animated Hero */}
-            <AnimatedHero
-                leftText="Pulse"
-                rightText="EMS"
-                centralImage="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=1000&fit=crop"
-                bottomImages={[
-                    { src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop", alt: "Analytics dashboard", label: "Live Dashboard" },
-                    { src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop", alt: "Data visualization", label: "Advanced Analytics" },
-                    { src: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop", alt: "Business metrics", label: "Performance Metrics" }
-                ]}
+            {/* Hero with Scroll Animation */}
+            <HeroScrollAnimation
+                title="Pulse EMS"
                 subtitle="Stay on top of business performance with real-time analytics"
-                darkMode={false}
+                image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop"
+                imageAlt="Analytics dashboard"
             />
 
             <div className="container mx-auto px-6 py-16">

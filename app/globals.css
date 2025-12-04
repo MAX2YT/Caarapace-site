@@ -53,4 +53,18 @@
     background: hsl(var(--background));
     color: hsl(var(--foreground));
   }
+
+  /* Justify text content across the website */
+  p, .text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  /* Exclude certain elements from justification */
+  h1, h2, h3, h4, h5, h6, 
+  button, a, label, 
+  .text-center, .text-left, .text-right,
+  nav, footer {
+    text-align: inherit;
+  }
 }

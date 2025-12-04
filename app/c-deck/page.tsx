@@ -1,21 +1,15 @@
-import AnimatedHero from "@/components/animated-hero";
+import HeroScrollAnimation from "@/components/ui/hero-scroll-animation";
 import AlternatingFeatures from "@/components/ui/alternating-features";
 
 export default function CDeckPage() {
     return (
         <div className="min-h-screen">
-            {/* Animated Hero */}
-            <AnimatedHero
-                leftText="CDeck"
-                rightText="ERP"
-                centralImage="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=1000&fit=crop"
-                bottomImages={[
-                    { src: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop", alt: "Team collaboration", label: "Team Dashboard" },
-                    { src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop", alt: "Analytics", label: "Real-time Analytics" },
-                    { src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop", alt: "Business growth", label: "Growth Tracking" }
-                ]}
+            {/* Hero with Scroll Animation */}
+            <HeroScrollAnimation
+                title="CDeck ERP"
                 subtitle="A powerful CRM platform designed to streamline operations"
-                darkMode={false}
+                image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop"
+                imageAlt="Business analytics dashboard"
             />
 
             <div className="container mx-auto px-6 py-16">

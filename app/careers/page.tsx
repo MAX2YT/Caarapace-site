@@ -1,4 +1,4 @@
-import AnimatedHero from "@/components/animated-hero";
+import HeroScrollAnimation from "@/components/ui/hero-scroll-animation";
 import { Briefcase, Heart, Rocket, GraduationCap } from 'lucide-react'
 import {
     HoverSlider,
@@ -66,18 +66,12 @@ export default function CareersPage() {
 
     return (
         <div className="min-h-screen">
-            {/* Animated Hero */}
-            <AnimatedHero
-                leftText="Join"
-                rightText="The Team"
-                centralImage="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=1000&fit=crop"
-                bottomImages={[
-                    { src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop", alt: "Team meeting", label: "Collaborative Culture" },
-                    { src: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=600&h=400&fit=crop", alt: "Office workspace", label: "Modern Workspace" },
-                    { src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop", alt: "Team collaboration", label: "Innovation Together" }
-                ]}
+            {/* Hero with Scroll Animation */}
+            <HeroScrollAnimation
+                title="Join The Team"
                 subtitle="Join our crew of innovators building the future"
-                darkMode={false}
+                image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop"
+                imageAlt="Team collaboration"
             />
 
             <div className="container mx-auto px-6 py-16">

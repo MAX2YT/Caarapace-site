@@ -2,6 +2,7 @@ import { BackgroundPaths } from "@/components/ui/background-paths";
 import ModernIntroSection from "@/components/ui/a-modern-intro-section";
 import { FeaturesSection } from "@/components/ui/features-section";
 import { ContactForm } from "@/components/ui/contact-form";
+import { PremiumTestimonials } from "@/components/ui/premium-testimonials";
 
 export default function Home() {
     return (
@@ -12,7 +13,10 @@ export default function Home() {
 
             <FeaturesSection />
 
+            <PremiumTestimonials />
+
             <ContactForm />
         </div>
     );
 }
+
