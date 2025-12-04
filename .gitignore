@@ -1,3 +1,6 @@
 node_modules
 .next/dev/lock
 .next/dev
+.next/dev/logs/next-development.log
+.next/dev/logs/next-development.log
+.next/dev/server/app/services/page_client-reference-manifest.js
