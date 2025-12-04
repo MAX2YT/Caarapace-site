@@ -1,30 +1,7 @@
 import AnimatedHero from "@/components/animated-hero";
-import { Database, Workflow, Lock, Gauge } from 'lucide-react'
+import AlternatingFeatures from "@/components/ui/alternating-features";
 
 export default function CDeckPage() {
-    const features = [
-        {
-            icon: Database,
-            title: 'Centralized Data Management',
-            description: 'Manage all your business data in one secure, accessible platform.',
-        },
-        {
-            icon: Workflow,
-            title: 'Workflow Automation',
-            description: 'Streamline your processes with intelligent automation tools.',
-        },
-        {
-            icon: Lock,
-            title: 'Enterprise Security',
-            description: 'Bank-level encryption and security protocols to protect your data.',
-        },
-        {
-            icon: Gauge,
-            title: 'Real-time Analytics',
-            description: 'Get instant insights with powerful analytics and reporting tools.',
-        },
-    ]
-
     return (
         <div className="min-h-screen">
             {/* Animated Hero */}
@@ -42,30 +19,11 @@ export default function CDeckPage() {
             />
 
             <div className="container mx-auto px-6 py-16">
-                {/* Features Grid */}
-                <div id="features" className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-20">
-                    {features.map((feature, index) => {
-                        const Icon = feature.icon
-                        return (
-                            <div
-                                key={index}
-                                className="flex gap-6 p-8 rounded-2xl border border-primary/10 bg-gradient-to-br from-primary/5 to-transparent hover:border-primary/20 transition-all duration-300">
-                                <div className="flex-shrink-0">
-                                    <div className="p-3 rounded-xl bg-primary/10">
-                                        <Icon className="size-8 text-primary" />
-                                    </div>
-                                </div>
-                                <div>
-                                    <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                                    <p className="text-muted-foreground">{feature.description}</p>
-                                </div>
-                            </div>
-                        )
-                    })}
-                </div>
+                {/* Alternating Features Section */}
+                <AlternatingFeatures />
 
                 {/* CTA Section */}
-                <div className="text-center max-w-3xl mx-auto p-12 rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 to-transparent">
+                <div className="text-center max-w-3xl mx-auto p-12 rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 to-transparent mt-12">
                     <h2 className="text-3xl font-bold mb-4">Transform Your Customer Management</h2>
                     <p className="text-muted-foreground mb-8">
                         Join hundreds of businesses already using C-Deck to optimize their operations and boost productivity.

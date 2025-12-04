@@ -177,3 +177,46 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
+[01:24:24.726] Server  LOG      ✓ Compiled in 800ms
+[01:24:53.442] Server  LOG      ✓ Compiled in 246ms
+[01:25:15.410] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_42049c77._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:15.411] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\[root-of-the-server]__e80b8c08._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:15.412] Server  ERROR    ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:15.413] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_42049c77._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:15.414] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\[root-of-the-server]__e80b8c08._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:15.415] Server  ERROR    ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:15.415] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_42049c77._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:15.416] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\[root-of-the-server]__e80b8c08._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:15.417] Server  ERROR    ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:15.420] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_42049c77._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:15.421] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\[root-of-the-server]__e80b8c08._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:15.422] Server  ERROR    ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:15.624] Browser ERROR   uncaughtError: Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:42.684] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_42049c77._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:42.685] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\[root-of-the-server]__e80b8c08._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:42.686] Server  ERROR    ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:42.687] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_42049c77._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:42.687] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\[root-of-the-server]__e80b8c08._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:42.688] Server  ERROR    ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:42.691] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_42049c77._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:42.692] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\[root-of-the-server]__e80b8c08._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:42.693] Server  ERROR    ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:42.694] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\node_modules_42049c77._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:42.694] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\[root-of-the-server]__e80b8c08._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:25:42.695] Server  ERROR    ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:25:42.971] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:43.157] Browser ERROR   uncaughtError: Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[01:26:23.268] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:26:23.520] Server  ERROR   C:\Users\2kmax\OneDrive\Desktop\Caarapace-site\.next\dev\server\chunks\ssr\components_f1426df3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:26:23.521] Server  ERROR    ⨯ ReferenceError: ArrowRight is not defined
+[01:26:23.753] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:24.582] Browser ERROR   uncaughtError: ReferenceError: ArrowRight is not defined
+[01:26:34.998] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:26:35.248] Server  LOG      ✓ Compiled in 99ms
+[01:26:35.452] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:38.933] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:49:19.547] Server  LOG      ✓ Compiled in 1533ms
+[01:55:18.978] Server  LOG      ✓ Compiled in 228ms
+[02:00:36.026] Server  LOG      ✓ Compiled in 259ms
+[02:00:57.887] Server  LOG      ✓ Compiled in 293ms
