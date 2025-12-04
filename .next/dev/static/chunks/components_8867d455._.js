@@ -326,10 +326,10 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
             scale,
             rotate
         },
-        className: "relative h-screen bg-gradient-to-t to-[#1a1919] from-[#06060e] text-white",
+        className: "relative h-screen bg-gradient-to-t to-[#f5f5f5] from-white text-gray-900",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"
+                className: "absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#BD0F4615_1px,transparent_1px),linear-gradient(to_bottom,#BD0F4615_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
                 lineNumber: 89,
@@ -339,7 +339,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                 className: "container mx-auto relative z-10 h-full flex flex-col justify-center px-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl md:text-5xl leading-[100%] py-6 font-semibold tracking-tight",
+                        className: "text-3xl md:text-5xl leading-[100%] py-6 font-semibold tracking-tight text-gray-900",
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
@@ -347,7 +347,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative w-full h-[60vh] rounded-2xl overflow-hidden",
+                        className: "relative w-full h-[60vh] rounded-2xl overflow-hidden shadow-2xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: image,
@@ -359,7 +359,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl"
+                                className: "absolute inset-0 bg-gradient-to-t from-[#BD0F46]/20 to-transparent rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
                                 lineNumber: 100,
@@ -470,37 +470,43 @@ const cardData = [
         color: '#FFFFFF',
         title: 'Digital Marketing',
         description: 'We don\'t just run ads—we spark clicks, follows, and real results. SEO, social, content—we do it all with style.',
-        label: 'Marketing'
+        label: 'Marketing',
+        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Mobile Apps',
         description: 'Slick, scrollable, tap-worthy apps for iOS and Android. From concept to code, let\'s launch something iconic.',
-        label: 'App Development'
+        label: 'App Development',
+        image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Custom CRMs',
         description: 'We build custom CRM systems that fit your workflow—no fluff, no fuss. Smooth, smart, and built just for you.',
-        label: 'CRM Solutions'
+        label: 'CRM Solutions',
+        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Custom Websites',
         description: 'No boring templates here—we craft custom websites that actually match your brand\'s vibe. Fast, slick, and magical on any device.',
-        label: 'Web Development'
+        label: 'Web Development',
+        image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Security',
         description: 'Enterprise-grade protection for your digital assets. Secure infrastructure, data encryption, and compliance solutions.',
-        label: 'Security'
+        label: 'Security',
+        image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Consulting & Strategy',
         description: 'Build Fast. Launch Smart. Grow Big. Expert guidance to fuel your business growth with cutting-edge solutions.',
-        label: 'Strategy'
+        label: 'Strategy',
+        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop'
     }
 ];
 const createParticleElement = (x, y, color = DEFAULT_GLOW_COLOR)=>{
@@ -769,7 +775,7 @@ const ParticleCard = ({ children, className = '', disableAnimations = false, sty
         children: children
     }, void 0, false, {
         fileName: "[project]/components/magic-bento.tsx",
-        lineNumber: 344,
+        lineNumber: 351,
         columnNumber: 13
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -907,7 +913,7 @@ const BentoCardGrid = ({ children, gridRef })=>/*#__PURE__*/ (0, __TURBOPACK__im
         children: children
     }, void 0, false, {
         fileName: "[project]/components/magic-bento.tsx",
-        lineNumber: 496,
+        lineNumber: 503,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 _c2 = BentoCardGrid;
@@ -1064,7 +1070,7 @@ const MagicBento = ({ textAutoHide = true, enableStars = true, enableSpotlight =
         `
             }, void 0, false, {
                 fileName: "[project]/components/magic-bento.tsx",
-                lineNumber: 539,
+                lineNumber: 546,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             enableSpotlight && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(GlobalSpotlight, {
@@ -1075,7 +1081,7 @@ const MagicBento = ({ textAutoHide = true, enableStars = true, enableSpotlight =
                 glowColor: glowColor
             }, void 0, false, {
                 fileName: "[project]/components/magic-bento.tsx",
-                lineNumber: 668,
+                lineNumber: 675,
                 columnNumber: 17
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(BentoCardGrid, {
@@ -1103,8 +1109,33 @@ const MagicBento = ({ textAutoHide = true, enableStars = true, enableSpotlight =
                             clickEffect: clickEffect,
                             enableMagnetism: enableMagnetism,
                             children: [
+                                card.image && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute inset-0 z-0",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: card.image,
+                                            alt: card.title,
+                                            className: "w-full h-full object-cover opacity-80 hover:opacity-90 transition-opacity duration-300"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/magic-bento.tsx",
+                                            lineNumber: 715,
+                                            columnNumber: 41
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute inset-0 bg-gradient-to-t from-white/90 via-white/40 to-transparent"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/magic-bento.tsx",
+                                            lineNumber: 720,
+                                            columnNumber: 41
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/magic-bento.tsx",
+                                    lineNumber: 714,
+                                    columnNumber: 37
+                                }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "card__header flex justify-between gap-3 relative",
+                                    className: "card__header flex justify-between gap-3 relative z-10",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "card__label text-sm font-medium",
                                         style: {
@@ -1113,16 +1144,16 @@ const MagicBento = ({ textAutoHide = true, enableStars = true, enableSpotlight =
                                         children: card.label
                                     }, void 0, false, {
                                         fileName: "[project]/components/magic-bento.tsx",
-                                        lineNumber: 706,
+                                        lineNumber: 724,
                                         columnNumber: 37
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/components/magic-bento.tsx",
-                                    lineNumber: 705,
+                                    lineNumber: 723,
                                     columnNumber: 33
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "card__content flex flex-col relative",
+                                    className: "card__content flex flex-col relative z-10",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: `card__title font-semibold text-lg m-0 mb-2 ${textAutoHide ? 'text-clamp-1' : ''}`,
@@ -1132,7 +1163,7 @@ const MagicBento = ({ textAutoHide = true, enableStars = true, enableSpotlight =
                                             children: card.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/magic-bento.tsx",
-                                            lineNumber: 709,
+                                            lineNumber: 727,
                                             columnNumber: 37
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1144,30 +1175,30 @@ const MagicBento = ({ textAutoHide = true, enableStars = true, enableSpotlight =
                                             children: card.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/magic-bento.tsx",
-                                            lineNumber: 712,
+                                            lineNumber: 730,
                                             columnNumber: 37
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/magic-bento.tsx",
-                                    lineNumber: 708,
+                                    lineNumber: 726,
                                     columnNumber: 33
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, index, true, {
                             fileName: "[project]/components/magic-bento.tsx",
-                            lineNumber: 694,
+                            lineNumber: 701,
                             columnNumber: 29
                         }, ("TURBOPACK compile-time value", void 0));
                     })
                 }, void 0, false, {
                     fileName: "[project]/components/magic-bento.tsx",
-                    lineNumber: 678,
+                    lineNumber: 685,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/components/magic-bento.tsx",
-                lineNumber: 677,
+                lineNumber: 684,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]

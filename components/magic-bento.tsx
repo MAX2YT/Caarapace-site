@@ -8,6 +8,7 @@ export interface BentoCardProps {
     title?: string;
     description?: string;
     label?: string;
+    image?: string;
     textAutoHide?: boolean;
     disableAnimations?: boolean;
 }
@@ -36,37 +37,43 @@ const cardData: BentoCardProps[] = [
         color: '#FFFFFF',
         title: 'Digital Marketing',
         description: 'We don\'t just run ads—we spark clicks, follows, and real results. SEO, social, content—we do it all with style.',
-        label: 'Marketing'
+        label: 'Marketing',
+        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Mobile Apps',
         description: 'Slick, scrollable, tap-worthy apps for iOS and Android. From concept to code, let\'s launch something iconic.',
-        label: 'App Development'
+        label: 'App Development',
+        image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Custom CRMs',
         description: 'We build custom CRM systems that fit your workflow—no fluff, no fuss. Smooth, smart, and built just for you.',
-        label: 'CRM Solutions'
+        label: 'CRM Solutions',
+        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Custom Websites',
         description: 'No boring templates here—we craft custom websites that actually match your brand\'s vibe. Fast, slick, and magical on any device.',
-        label: 'Web Development'
+        label: 'Web Development',
+        image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Security',
         description: 'Enterprise-grade protection for your digital assets. Secure infrastructure, data encryption, and compliance solutions.',
-        label: 'Security'
+        label: 'Security',
+        image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=300&fit=crop'
     },
     {
         color: '#FFFFFF',
         title: 'Consulting & Strategy',
         description: 'Build Fast. Launch Smart. Grow Big. Expert guidance to fuel your business growth with cutting-edge solutions.',
-        label: 'Strategy'
+        label: 'Strategy',
+        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop'
     }
 ];
 
@@ -702,10 +709,21 @@ const MagicBento: React.FC<BentoProps> = ({
                                 clickEffect={clickEffect}
                                 enableMagnetism={enableMagnetism}
                             >
-                                <div className="card__header flex justify-between gap-3 relative">
+                                {/* Card Image */}
+                                {card.image && (
+                                    <div className="absolute inset-0 z-0">
+                                        <img
+                                            src={card.image}
+                                            alt={card.title}
+                                            className="w-full h-full object-cover opacity-80 hover:opacity-90 transition-opacity duration-300"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-white/90 via-white/40 to-transparent" />
+                                    </div>
+                                )}
+                                <div className="card__header flex justify-between gap-3 relative z-10">
                                     <span className="card__label text-sm font-medium" style={{ color: '#BE0B45' }}>{card.label}</span>
                                 </div>
-                                <div className="card__content flex flex-col relative">
+                                <div className="card__content flex flex-col relative z-10">
                                     <h3 className={`card__title font-semibold text-lg m-0 mb-2 ${textAutoHide ? 'text-clamp-1' : ''}`} style={{ color: '#1a1a1a' }}>
                                         {card.title}
                                     </h3>
