@@ -1,38 +1,18 @@
 import { BackgroundPaths } from "@/components/ui/background-paths";
+import ModernIntroSection from "@/components/ui/a-modern-intro-section";
+import { FeaturesSection } from "@/components/ui/features-section";
+import { ContactForm } from "@/components/ui/contact-form";
 
 export default function Home() {
     return (
         <div className="min-h-screen bg-white">
             <BackgroundPaths title="Building the Future with Exceptional Software" />
 
-            <section
-                id="contact"
-                className="border-t border-[#BD0D46]/10 bg-[#FFF5F8] py-16 md:py-20"
-            >
-                <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 px-6 text-center">
-                    <h2 className="text-2xl md:text-3xl font-bold text-slate-900">
-                        Let&rsquo;s build something great together
-                    </h2>
-                    <p className="max-w-2xl text-sm md:text-base text-slate-600">
-                        Share your ideas, challenges, or roadmap and our team at Caarapace Inc.
-                        will get back to you with a tailored plan for your product or platform.
-                    </p>
-                    <div className="flex flex-col items-center gap-3 md:flex-row md:justify-center">
-                        <a
-                            href="mailto:hello@caarapace.com"
-                            className="rounded-full bg-[#BD0D46] px-6 py-3 text-sm font-medium text-white shadow-[0_10px_30px_rgba(189,13,70,0.35)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_14px_40px_rgba(189,13,70,0.45)]"
-                        >
-                            Email us at hello@caarapace.com
-                        </a>
-                        <a
-                            href="#services"
-                            className="text-sm font-medium text-[#BD0D46] hover:underline"
-                        >
-                            Explore our services →
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <ModernIntroSection />
+
+            <FeaturesSection />
+
+            <ContactForm />
         </div>
     );
 }

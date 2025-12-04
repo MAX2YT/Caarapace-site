@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/_WoPRte-tLTtvTOiomEDL/_ssgManifest.js",
+    "static/_WoPRte-tLTtvTOiomEDL/_buildManifest.js"
+  ],
+  "rootMainFiles": []
+}
