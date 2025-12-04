@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
+import { ContactFormDialog } from '@/components/ui/contact-form-dialog'
 
 const menuItems = [
     { name: 'Home', href: '/' },
@@ -80,31 +81,27 @@ export function Navbar() {
                                 </ul>
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-                                <Button
-                                    asChild
-                                    variant="outline"
-                                    size="sm"
-                                    className={cn(isScrolled && 'lg:hidden', 'border-primary/20 hover:bg-primary/10 hover:text-primary')}>
-                                    <Link href="#contact">
-                                        <span>Contact Us</span>
-                                    </Link>
-                                </Button>
-                                <Button
-                                    asChild
-                                    size="sm"
-                                    className={cn(isScrolled && 'lg:hidden', 'bg-primary hover:bg-primary/90')}>
-                                    <Link href="#contact">
-                                        <span>Get Started</span>
-                                    </Link>
-                                </Button>
-                                <Button
-                                    asChild
-                                    size="sm"
-                                    className={cn(isScrolled ? 'lg:inline-flex' : 'hidden', 'bg-primary hover:bg-primary/90')}>
-                                    <Link href="#contact">
-                                        <span>Get Started</span>
-                                    </Link>
-                                </Button>
+                                {/* Contact Us button (non-scrolled state) */}
+                                <ContactFormDialog
+                                    trigger={
+                                        <Button
+                                            size="sm"
+                                            className={cn(isScrolled && 'lg:hidden', 'bg-primary hover:bg-primary/90')}>
+                                            <span>Contact Us</span>
+                                        </Button>
+                                    }
+                                />
+
+                                {/* Contact Us button (scrolled state) */}
+                                <ContactFormDialog
+                                    trigger={
+                                        <Button
+                                            size="sm"
+                                            className={cn(isScrolled ? 'lg:inline-flex' : 'hidden', 'bg-primary hover:bg-primary/90')}>
+                                            <span>Contact Us</span>
+                                        </Button>
+                                    }
+                                />
                             </div>
                         </div>
                     </div>

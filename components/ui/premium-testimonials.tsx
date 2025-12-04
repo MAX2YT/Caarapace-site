@@ -3,49 +3,51 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 import { Quote, Star, ArrowLeft, ArrowRight, Sparkles } from 'lucide-react';
+import CountUp from '@/components/ui/count-up';
+import RollingCounter from '@/components/ui/rolling-counter';
 
 const testimonials = [
     {
-        name: "Sarah Chen",
+        name: "Arun Krishnan",
         role: "CEO @ TechFlow Solutions",
         company: "TechFlow",
-        avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+        initials: "AK",
         rating: 5,
         text: "Caarapace literally transformed our whole vibe. 300% more efficient, saved us $2M, and the automation runs 24/7. No cap, it's insane!",
         results: ["300% efficiency boost", "$2M saved", "Always on 24/7"]
     },
     {
-        name: "Marcus Johnson",
+        name: "Priya Sundaram",
         role: "CTO @ DataDrive Inc",
         company: "DataDrive",
-        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+        initials: "PS",
         rating: 5,
         text: "Their dev team hits different fr fr. Customer satisfaction went up 40% and we respond in seconds now instead of hours. The ROI is bussin!",
         results: ["40% happier users", "Instant responses", "Smooth integration"]
     },
     {
-        name: "Elena Rodriguez",
+        name: "Kavitha Rajan",
         role: "VP Operations @ ScaleUp Co",
         company: "ScaleUp",
-        avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+        initials: "KR",
         rating: 5,
         text: "From automation to social media, they handle everything. Our squad can finally focus on the real strategy stuff instead of boring tasks. It's giving main character energy!",
         results: ["Full automation", "Strategy focus", "Team productivity"]
     },
     {
-        name: "David Kim",
+        name: "Senthil Kumar",
         role: "Founder @ GrowthLab",
         company: "GrowthLab",
-        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+        initials: "SK",
         rating: 5,
         text: "These custom systems are lowkey goated. Revenue went up 150% and overhead dropped big time. They understood the assignment fr!",
         results: ["150% revenue growth", "Lower overhead", "Scalable systems"]
     },
     {
-        name: "Lisa Thompson",
+        name: "Lakshmi Venkat",
         role: "Director @ InnovateCorp",
         company: "InnovateCorp",
-        avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+        initials: "LV",
         rating: 5,
         text: "Exceptional solutions that actually slap. Implementation was smooth af, results were immediate. Best investment we've ever made, period!",
         results: ["Immediate results", "Smooth vibes", "High ROI"]
@@ -306,14 +308,12 @@ export function PremiumTestimonials() {
                                                 whileHover={{ scale: 1.1 }}
                                                 transition={{ duration: 0.3 }}
                                             >
-                                                <div className="w-20 h-20 mx-auto md:mx-0 rounded-full overflow-hidden border-4 border-[#BD0F46]/20 relative">
-                                                    <img
-                                                        src={testimonials[currentIndex].avatar}
-                                                        alt={testimonials[currentIndex].name}
-                                                        className="w-full h-full object-cover"
-                                                    />
+                                                <div className="w-20 h-20 mx-auto md:mx-0 rounded-full overflow-hidden border-4 border-[#BD0F46]/20 relative bg-gradient-to-br from-[#BD0F46] to-[#BD0F46]/80 flex items-center justify-center">
+                                                    <span className="text-white text-2xl font-bold">
+                                                        {testimonials[currentIndex].initials}
+                                                    </span>
                                                     <motion.div
-                                                        className="absolute inset-0 bg-gradient-to-br from-[#BD0F46]/10 to-[#BD0F46]/10"
+                                                        className="absolute inset-0 bg-gradient-to-br from-white/10 to-white/10"
                                                         animate={{ opacity: [0, 0.3, 0] }}
                                                         transition={{ duration: 3, repeat: Infinity }}
                                                     />
@@ -433,30 +433,87 @@ export function PremiumTestimonials() {
                     className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto"
                     variants={staggerContainer}
                 >
-                    {[
-                        { number: "500+", label: "Happy Clients" },
-                        { number: "98%", label: "Satisfaction Rate" },
-                        { number: "$10M+", label: "Client Savings" },
-                        { number: "99.9%", label: "Uptime SLA" }
-                    ].map((stat, index) => (
-                        <motion.div
-                            key={index}
-                            className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
-                            variants={fadeInUp}
-                            whileHover={{ scale: 1.05, y: -5 }}
-                        >
-                            <motion.div
-                                className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent mb-1"
-                            >
-                                {stat.number}
-                            </motion.div>
-                            <div className="text-gray-600 text-sm font-medium">
-                                {stat.label}
-                            </div>
-                        </motion.div>
-                    ))}
+                    {/* Happy Clients - Rolling Counter */}
+                    <motion.div
+                        className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
+                        variants={fadeInUp}
+                        whileHover={{ scale: 1.05, y: -5 }}
+                    >
+                        <div className="text-2xl md:text-3xl font-bold mb-1 flex items-center justify-center">
+                            <RollingCounter
+                                value={500}
+                                fontSize={28}
+                                places={[100, 10, 1]}
+                                suffix="+"
+                            />
+                        </div>
+                        <div className="text-gray-600 text-sm font-medium">
+                            Happy Clients
+                        </div>
+                    </motion.div>
+
+                    {/* Satisfaction Rate - CountUp */}
+                    <motion.div
+                        className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
+                        variants={fadeInUp}
+                        whileHover={{ scale: 1.05, y: -5 }}
+                    >
+                        <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent mb-1">
+                            <CountUp
+                                to={100}
+                                from={0}
+                                duration={2.5}
+                                suffix="%"
+                                className="bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent"
+                            />
+                        </div>
+                        <div className="text-gray-600 text-sm font-medium">
+                            Satisfaction Rate
+                        </div>
+                    </motion.div>
+
+                    {/* Client Savings - Rolling Counter */}
+                    <motion.div
+                        className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
+                        variants={fadeInUp}
+                        whileHover={{ scale: 1.05, y: -5 }}
+                    >
+                        <div className="text-2xl md:text-3xl font-bold mb-1 flex items-center justify-center">
+                            <RollingCounter
+                                value={10}
+                                fontSize={28}
+                                places={[10, 1]}
+                                prefix="$"
+                                suffix="M+"
+                            />
+                        </div>
+                        <div className="text-gray-600 text-sm font-medium">
+                            Client Savings
+                        </div>
+                    </motion.div>
+
+                    {/* Uptime SLA - CountUp */}
+                    <motion.div
+                        className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
+                        variants={fadeInUp}
+                        whileHover={{ scale: 1.05, y: -5 }}
+                    >
+                        <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent mb-1">
+                            <CountUp
+                                to={100}
+                                from={0}
+                                duration={2.5}
+                                suffix="%"
+                                className="bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent"
+                            />
+                        </div>
+                        <div className="text-gray-600 text-sm font-medium">
+                            Uptime SLA
+                        </div>
+                    </motion.div>
                 </motion.div>
             </motion.div>
         </section>
     );
 }
+

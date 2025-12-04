@@ -1,5 +1,9 @@
+"use client";
+
 import HeroScrollAnimation from "@/components/ui/hero-scroll-animation";
 import PulseAlternatingFeatures from "@/components/ui/pulse-alternating-features";
+import CountUp from "@/components/ui/count-up";
+import RollingCounter from "@/components/ui/rolling-counter";
 
 export default function PulsePage() {
     return (
@@ -19,16 +23,50 @@ export default function PulsePage() {
 
                 {/* Stats Section */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-20">
+                    {/* Uptime Guaranteed - CountUp animation */}
                     <div className="text-center p-8 rounded-2xl border border-primary/10 bg-gradient-to-b from-primary/5 to-transparent">
-                        <div className="text-4xl font-bold text-primary mb-2">99.9%</div>
+                        <div className="text-4xl font-bold text-primary mb-2">
+                            <CountUp
+                                to={100}
+                                from={0}
+                                duration={1.5}
+                                suffix="%"
+                                className="text-primary"
+                            />
+                        </div>
                         <div className="text-muted-foreground">Uptime Guaranteed</div>
                     </div>
+
+                    {/* Active Users - Rolling Counter */}
                     <div className="text-center p-8 rounded-2xl border border-primary/10 bg-gradient-to-b from-primary/5 to-transparent">
-                        <div className="text-4xl font-bold text-primary mb-2">500+</div>
+                        <div className="text-4xl font-bold text-primary mb-2 flex items-center justify-center">
+                            <RollingCounter
+                                value={500}
+                                fontSize={36}
+                                places={[100, 10, 1]}
+                                suffix="+"
+                            />
+                        </div>
                         <div className="text-muted-foreground">Active Users</div>
                     </div>
+
+                    {/* Support Available - Static with animated appearance */}
                     <div className="text-center p-8 rounded-2xl border border-primary/10 bg-gradient-to-b from-primary/5 to-transparent">
-                        <div className="text-4xl font-bold text-primary mb-2">24/7</div>
+                        <div className="text-4xl font-bold text-primary mb-2 flex items-center justify-center gap-0">
+                            <RollingCounter
+                                value={24}
+                                fontSize={36}
+                                places={[10, 1]}
+                                suffix=""
+                            />
+                            <span className="text-primary font-bold" style={{ fontSize: 36 }}>/</span>
+                            <RollingCounter
+                                value={7}
+                                fontSize={36}
+                                places={[1]}
+                                suffix=""
+                            />
+                        </div>
                         <div className="text-muted-foreground">Support Available</div>
                     </div>
                 </div>

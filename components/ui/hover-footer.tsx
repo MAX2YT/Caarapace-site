@@ -38,7 +38,7 @@ export const TextHoverEffect = ({
       ref={svgRef}
       width="100%"
       height="100%"
-      viewBox="0 0 300 100"
+      viewBox="0 0 450 100"
       xmlns="http://www.w3.org/2000/svg"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -47,7 +47,7 @@ export const TextHoverEffect = ({
         "select-none uppercase cursor-pointer text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem]",
         className
       )}
-      style={{ transform: "scaleX(0.85)" }}
+      preserveAspectRatio="xMidYMid meet"
     >
       <defs>
         <linearGradient

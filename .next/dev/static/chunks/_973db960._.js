@@ -740,7 +740,7 @@ const defaultContactItems = [
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
             size: 18,
-            className: "text-[#BD0D46]"
+            className: "text-[#BD0F46]"
         }, void 0, false, {
             fileName: "[project]/components/footer.tsx",
             lineNumber: 75,
@@ -752,7 +752,7 @@ const defaultContactItems = [
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
             size: 18,
-            className: "text-[#BD0D46]"
+            className: "text-[#BD0F46]"
         }, void 0, false, {
             fileName: "[project]/components/footer.tsx",
             lineNumber: 80,
@@ -764,7 +764,7 @@ const defaultContactItems = [
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
             size: 18,
-            className: "text-[#BD0D46]"
+            className: "text-[#BD0F46]"
         }, void 0, false, {
             fileName: "[project]/components/footer.tsx",
             lineNumber: 85,
@@ -835,6 +835,26 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
         className: "relative m-4 mt-12 overflow-hidden rounded-3xl bg-white/80 shadow-[0_18px_45px_rgba(0,0,0,0.06)]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$hover$2d$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TextHoverEffect"], {
+                    text: "CAARAPACE",
+                    className: "w-[120%] opacity-60"
+                }, void 0, false, {
+                    fileName: "[project]/components/footer.tsx",
+                    lineNumber: 111,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/footer.tsx",
+                lineNumber: 110,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$hover$2d$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FooterBackgroundGradient"], {}, void 0, false, {
+                fileName: "[project]/components/footer.tsx",
+                lineNumber: 114,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative z-10 mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-14",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -853,12 +873,12 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                                             className: "h-10 w-auto"
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 122,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 121,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -866,13 +886,13 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                                         children: description
                                     }, void 0, false, {
                                         fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 130,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/footer.tsx",
-                                lineNumber: 112,
+                                lineNumber: 120,
                                 columnNumber: 11
                             }, this),
                             footerSections.map((section)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -882,7 +902,7 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                                             children: section.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 138,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -891,27 +911,27 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                                                     className: "relative",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: link.href,
-                                                        className: "text-sm text-slate-600 transition-colors hover:text-[#BD0D46]",
+                                                        className: "text-sm text-slate-600 transition-colors hover:text-[#BD0F46]",
                                                         children: link.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/footer.tsx",
-                                                        lineNumber: 136,
+                                                        lineNumber: 144,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, link.label, false, {
                                                     fileName: "[project]/components/footer.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 143,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
-                                            lineNumber: 133,
+                                            lineNumber: 141,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, section.title, true, {
                                     fileName: "[project]/components/footer.tsx",
-                                    lineNumber: 129,
+                                    lineNumber: 137,
                                     columnNumber: 13
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -921,7 +941,7 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                                         children: "Contact Us"
                                     }, void 0, false, {
                                         fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 158,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -932,48 +952,48 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                                                     item.icon && item.icon,
                                                     item.href ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: item.href,
-                                                        className: "text-slate-600 transition-colors hover:text-[#BD0D46]",
+                                                        className: "text-slate-600 transition-colors hover:text-[#BD0F46]",
                                                         children: item.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/footer.tsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 166,
                                                         columnNumber: 21
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-slate-600",
                                                         children: item.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/footer.tsx",
-                                                        lineNumber: 165,
+                                                        lineNumber: 173,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, i, true, {
                                                 fileName: "[project]/components/footer.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 163,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 161,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/footer.tsx",
-                                lineNumber: 149,
+                                lineNumber: 157,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/footer.tsx",
-                        lineNumber: 110,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
-                        className: "my-6 border-t border-slate-200"
+                        className: "my-6 border-t border-slate-200/60"
                     }, void 0, false, {
                         fileName: "[project]/components/footer.tsx",
-                        lineNumber: 173,
+                        lineNumber: 181,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -984,16 +1004,16 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                                 children: socialLinks.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: item.href,
                                         "aria-label": item.label,
-                                        className: "transition-colors hover:text-[#BD0D46]",
+                                        className: "transition-colors hover:text-[#BD0F46]",
                                         children: item.icon && item.icon
                                     }, item.label, false, {
                                         fileName: "[project]/components/footer.tsx",
-                                        lineNumber: 179,
+                                        lineNumber: 187,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/footer.tsx",
-                                lineNumber: 177,
+                                lineNumber: 185,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1007,39 +1027,19 @@ function HoverFooter({ footerSections = defaultFooterSections, contactItems = de
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/footer.tsx",
-                                lineNumber: 190,
+                                lineNumber: 198,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/footer.tsx",
-                        lineNumber: 176,
+                        lineNumber: 184,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/footer.tsx",
-                lineNumber: 109,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "pointer-events-none relative hidden h-[19rem] -mt-22 -mb-22 items-center justify-center px-1 lg:flex",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$hover$2d$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TextHoverEffect"], {
-                    text: "CAARAPACE",
-                    className: "w-full"
-                }, void 0, false, {
-                    fileName: "[project]/components/footer.tsx",
-                    lineNumber: 198,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/components/footer.tsx",
-                lineNumber: 197,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$hover$2d$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FooterBackgroundGradient"], {}, void 0, false, {
-                fileName: "[project]/components/footer.tsx",
-                lineNumber: 201,
+                lineNumber: 117,
                 columnNumber: 7
             }, this)
         ]

@@ -72,17 +72,17 @@ const defaultFooterSections: FooterSection[] = [
 
 const defaultContactItems: ContactItem[] = [
   {
-    icon: <Mail size={18} className="text-[#BD0D46]" />,
+    icon: <Mail size={18} className="text-[#BD0F46]" />,
     text: "hello@caarapace.com",
     href: "mailto:hello@caarapace.com",
   },
   {
-    icon: <Phone size={18} className="text-[#BD0D46]" />,
+    icon: <Phone size={18} className="text-[#BD0F46]" />,
     text: "+1 (555) 123-4567",
     href: "tel:+15551234567",
   },
   {
-    icon: <MapPin size={18} className="text-[#BD0D46]" />,
+    icon: <MapPin size={18} className="text-[#BD0F46]" />,
     text: "Remote-first, global team",
   },
 ];
@@ -106,6 +106,14 @@ function HoverFooter({
 }: HoverFooterProps) {
   return (
     <footer className="relative m-4 mt-12 overflow-hidden rounded-3xl bg-white/80 shadow-[0_18px_45px_rgba(0,0,0,0.06)]">
+      {/* Background CAARAPACE text - positioned behind everything */}
+      <div className="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none px-4">
+        <TextHoverEffect text="CAARAPACE" className="w-full opacity-60" />
+      </div>
+
+      <FooterBackgroundGradient />
+
+      {/* Footer content overlay */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-14">
         <div className="grid grid-cols-1 gap-10 pb-10 md:grid-cols-2 lg:grid-cols-4 md:gap-8 lg:gap-16">
           {/* Brand section */}
@@ -135,7 +143,7 @@ function HoverFooter({
                   <li key={link.label} className="relative">
                     <a
                       href={link.href}
-                      className="text-sm text-slate-600 transition-colors hover:text-[#BD0D46]"
+                      className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
                     >
                       {link.label}
                     </a>
@@ -157,7 +165,7 @@ function HoverFooter({
                   {item.href ? (
                     <a
                       href={item.href}
-                      className="text-slate-600 transition-colors hover:text-[#BD0D46]"
+                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
                     >
                       {item.text}
                     </a>
@@ -170,7 +178,7 @@ function HoverFooter({
           </div>
         </div>
 
-        <hr className="my-6 border-t border-slate-200" />
+        <hr className="my-6 border-t border-slate-200/60" />
 
         {/* Footer bottom */}
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-slate-500 md:flex-row md:text-sm">
@@ -180,7 +188,7 @@ function HoverFooter({
                 key={item.label}
                 href={item.href}
                 aria-label={item.label}
-                className="transition-colors hover:text-[#BD0D46]"
+                className="transition-colors hover:text-[#BD0F46]"
               >
                 {item.icon && item.icon}
               </a>
@@ -192,13 +200,6 @@ function HoverFooter({
           </p>
         </div>
       </div>
-
-      {/* Text hover effect */}
-      <div className="pointer-events-none relative hidden h-[19rem] -mt-22 -mb-22 items-center justify-center px-1 lg:flex">
-        <TextHoverEffect text="CAARAPACE" className="w-full" />
-      </div>
-
-      <FooterBackgroundGradient />
     </footer>
   );
 }

@@ -16,7 +16,7 @@ export function FeaturesSection() {
                 <div className="relative mx-auto grid max-w-4xl lg:max-w-6xl divide-x divide-y divide-[#BD0D46]/30 border border-[#BD0D46]/30 *:p-12 sm:grid-cols-2 lg:grid-cols-3">
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
-                            <Zap className="size-5 text-[#BD0D46]" />
+                            <Zap className="size-9 text-[#BD0F46]" />
                             <h3 className="text-sm font-semibold text-gray-900">Stupid Fast</h3>
                         </div>
                         <p className="text-sm text-gray-600">
@@ -26,7 +26,7 @@ export function FeaturesSection() {
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
-                            <Cpu className="size-5 text-[#BD0D46]" />
+                            <Cpu className="size-9 text-[#BD0F46]" />
                             <h3 className="text-sm font-semibold text-gray-900">Scales With You</h3>
                         </div>
                         <p className="text-sm text-gray-600">
@@ -36,7 +36,7 @@ export function FeaturesSection() {
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
-                            <Lock className="size-5 text-[#BD0D46]" />
+                            <Lock className="size-9 text-[#BD0F46]" />
                             <h3 className="text-sm font-semibold text-gray-900">Locked Down Tight</h3>
                         </div>
                         <p className="text-sm text-gray-600">
@@ -46,7 +46,7 @@ export function FeaturesSection() {
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
-                            <Code2 className="size-5 text-[#BD0D46]" />
+                            <Code2 className="size-9 text-[#BD0F46]" />
                             <h3 className="text-sm font-semibold text-gray-900">Built For You</h3>
                         </div>
                         <p className="text-sm text-gray-600">
@@ -56,7 +56,7 @@ export function FeaturesSection() {
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
-                            <FileCode className="size-5 text-[#BD0D46]" />
+                            <FileCode className="size-9 text-[#BD0F46]" />
                             <h3 className="text-sm font-semibold text-gray-900">Zero Headaches</h3>
                         </div>
                         <p className="text-sm text-gray-600">
@@ -66,7 +66,7 @@ export function FeaturesSection() {
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
-                            <Sparkles className="size-5 text-[#BD0D46]" />
+                            <Sparkles className="size-9 text-[#BD0F46]" />
                             <h3 className="text-sm font-semibold text-gray-900">Latest Tech</h3>
                         </div>
                         <p className="text-sm text-gray-600">
