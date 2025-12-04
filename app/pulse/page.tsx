@@ -7,7 +7,8 @@ export default function PulsePage() {
             {/* Hero with Scroll Animation */}
             <HeroScrollAnimation
                 title="Pulse EMS"
-                subtitle="Stay on top of business performance with real-time analytics"
+                tagline="Real-time analytics that keep you"
+                highlightedText="ahead of the game."
                 image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop"
                 imageAlt="Analytics dashboard"
             />

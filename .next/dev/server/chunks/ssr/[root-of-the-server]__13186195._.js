@@ -137,8 +137,9 @@ function ServicesPage() {
         className: "min-h-screen bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$hero$2d$scroll$2d$animation$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                title: "Our Services",
-                subtitle: "Ship Fast | Build Smart | Scale Big",
+                title: "Services",
+                tagline: "We build software that actually works.",
+                highlightedText: "Ship Fast. Scale Smart.",
                 image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop",
                 imageAlt: "Team collaboration"
             }, void 0, false, {
@@ -164,24 +165,24 @@ function ServicesPage() {
                             glowColor: "190, 11, 69"
                         }, void 0, false, {
                             fileName: "[project]/app/services/page.tsx",
-                            lineNumber: 19,
+                            lineNumber: 20,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/services/page.tsx",
-                        lineNumber: 18,
+                        lineNumber: 19,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "mb-20",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$services$2d$timeline$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/app/services/page.tsx",
-                            lineNumber: 35,
+                            lineNumber: 36,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/services/page.tsx",
-                        lineNumber: 34,
+                        lineNumber: 35,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -194,7 +195,7 @@ function ServicesPage() {
                                     children: "Ready to Build Something Cool?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/services/page.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 41,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -202,7 +203,7 @@ function ServicesPage() {
                                     children: "Let's chat about turning your idea into reality. No sales pitch, just real talk about what we can create together."
                                 }, void 0, false, {
                                     fileName: "[project]/app/services/page.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 42,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -211,24 +212,24 @@ function ServicesPage() {
                                     children: "Hit Us Up"
                                 }, void 0, false, {
                                     fileName: "[project]/app/services/page.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 45,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/services/page.tsx",
-                            lineNumber: 39,
+                            lineNumber: 40,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/services/page.tsx",
-                        lineNumber: 38,
+                        lineNumber: 39,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/services/page.tsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 13
             }, this)
         ]

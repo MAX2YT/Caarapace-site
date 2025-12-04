@@ -68,8 +68,9 @@ export default function CareersPage() {
         <div className="min-h-screen">
             {/* Hero with Scroll Animation */}
             <HeroScrollAnimation
-                title="Join The Team"
-                subtitle="Join our crew of innovators building the future"
+                title="Careers"
+                tagline="Join a team that's building"
+                highlightedText="the future of software."
                 image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop"
                 imageAlt="Team collaboration"
             />

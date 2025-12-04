@@ -1400,3 +1400,16 @@ It can also happen if the client has a browser extension installed which messes 
 [02:45:44.896] Server  LOG      ✓ Compiled in 139ms
 [02:46:04.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [02:46:05.068] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:56:36.519] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[03:05:20.736] Server  LOG      ✓ Compiled in 366ms
+[03:05:53.840] Server  LOG      ✓ Compiled in 584ms
+[03:06:42.816] Server  LOG      ✓ Compiled in 94ms
+[03:06:55.192] Server  LOG      ✓ Compiled in 113ms
+[03:07:02.926] Server  LOG      ✓ Compiled in 133ms
+[03:07:04.766] Server  LOG      ✓ Compiled in 141ms
+[03:07:31.572] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:07:31.997] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:07:48.564] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:07:49.003] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:07:54.440] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:07:54.717] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
