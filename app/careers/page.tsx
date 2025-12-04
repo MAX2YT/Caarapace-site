@@ -6,22 +6,22 @@ export default function CareersPage() {
         {
             icon: Briefcase,
             title: 'Competitive Compensation',
-            description: 'Industry-leading salaries and comprehensive benefits packages.',
+            description: 'Seriously good pay plus benefits that actually matter.',
         },
         {
             icon: Heart,
             title: 'Work-Life Balance',
-            description: 'Flexible hours and remote work options to support your lifestyle.',
+            description: 'Work when and where you want. Life comes first, always.',
         },
         {
             icon: Rocket,
             title: 'Career Growth',
-            description: 'Continuous learning opportunities and clear advancement paths.',
+            description: 'Level up your skills and climb the ladder. We invest in your growth.',
         },
         {
             icon: GraduationCap,
             title: 'Learning & Development',
-            description: 'Access to courses, conferences, and mentorship programs.',
+            description: 'Courses, conferences, mentorship—whatever helps you level up, we got it.',
         },
     ]
 
@@ -56,22 +56,22 @@ export default function CareersPage() {
         <div className="min-h-screen">
             {/* Animated Hero */}
             <AnimatedHero
-                leftText="Build"
-                rightText="Together"
+                leftText="Join"
+                rightText="The Team"
                 centralImage="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=1000&fit=crop"
                 bottomImages={[
                     { src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop", alt: "Team meeting", label: "Collaborative Culture" },
                     { src: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=600&h=400&fit=crop", alt: "Office workspace", label: "Modern Workspace" },
                     { src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop", alt: "Team collaboration", label: "Innovation Together" }
                 ]}
-                subtitle="Join a team of passionate innovators shaping the future"
+                subtitle="Join our crew of innovators building the future"
                 darkMode={false}
             />
 
             <div className="container mx-auto px-6 py-16">
                 {/* Benefits Section */}
                 <div className="mb-20">
-                    <h2 className="text-3xl font-bold text-center mb-12">Why Work With Us</h2>
+                    <h2 className="text-3xl font-bold text-center mb-12">Why You'll Love Working Here</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
                         {benefits.map((benefit, index) => {
                             const Icon = benefit.icon
@@ -92,7 +92,7 @@ export default function CareersPage() {
 
                 {/* Open Positions */}
                 <div className="max-w-4xl mx-auto mb-20">
-                    <h2 className="text-3xl font-bold text-center mb-12">Open Positions</h2>
+                    <h2 className="text-3xl font-bold text-center mb-12">Open Roles</h2>
                     <div className="space-y-4">
                         {openPositions.map((position, index) => (
                             <div
@@ -121,14 +121,14 @@ export default function CareersPage() {
 
                 {/* CTA Section */}
                 <div className="text-center max-w-3xl mx-auto p-12 rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 to-transparent">
-                    <h2 className="text-3xl font-bold mb-4">Don't See a Perfect Fit?</h2>
+                    <h2 className="text-3xl font-bold mb-4">Don't See Your Dream Role?</h2>
                     <p className="text-muted-foreground mb-8">
-                        We're always looking for talented individuals. Send us your resume and we'll keep you in mind for future opportunities.
+                        No worries. Send us your resume anyway and we'll keep you on our radar for when the perfect spot opens up.
                     </p>
                     <a
                         href="#contact"
                         className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
-                        Send Your Resume
+                        Send Resume
                     </a>
                 </div>
             </div>

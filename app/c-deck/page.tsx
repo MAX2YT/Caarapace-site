@@ -29,8 +29,8 @@ export default function CDeckPage() {
         <div className="min-h-screen">
             {/* Animated Hero */}
             <AnimatedHero
-                leftText="Customer"
-                rightText="Success"
+                leftText="CDeck"
+                rightText="ERP"
                 centralImage="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=1000&fit=crop"
                 bottomImages={[
                     { src: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop", alt: "Team collaboration", label: "Team Dashboard" },

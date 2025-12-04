@@ -99,8 +99,8 @@ function ServicesPage() {
         className: "min-h-screen bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$animated$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                leftText: "Build",
-                rightText: "Smart",
+                leftText: "Our",
+                rightText: "Services",
                 centralImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=1000&fit=crop",
                 bottomImages: [
                     {
@@ -119,7 +119,7 @@ function ServicesPage() {
                         label: "Custom Websites"
                     }
                 ],
-                subtitle: "Build Fast | Launch Smart | Grow Big",
+                subtitle: "Ship Fast | Build Smart | Scale Big",
                 darkMode: false
             }, void 0, false, {
                 fileName: "[project]/app/services/page.tsx",
@@ -159,7 +159,7 @@ function ServicesPage() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-3xl font-bold mb-4",
-                                    children: "Ready to get started?"
+                                    children: "Ready to Build Something Cool?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/services/page.tsx",
                                     lineNumber: 40,
@@ -167,7 +167,7 @@ function ServicesPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-slate-600 mb-6 max-w-xl",
-                                    children: "Let's discuss how we can help transform your business with our software solutions."
+                                    children: "Let's chat about turning your idea into reality. No sales pitch, just real talk about what we can create together."
                                 }, void 0, false, {
                                     fileName: "[project]/app/services/page.tsx",
                                     lineNumber: 41,
@@ -176,7 +176,7 @@ function ServicesPage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "mailto:hello@caarapace.com",
                                     className: "inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-[#BD0D46] text-white hover:bg-[#BD0D46]/90 transition-colors shadow-[0_10px_30px_rgba(189,13,70,0.35)] hover:shadow-[0_14px_40px_rgba(189,13,70,0.45)]",
-                                    children: "Contact Us Today"
+                                    children: "Hit Us Up"
                                 }, void 0, false, {
                                     fileName: "[project]/app/services/page.tsx",
                                     lineNumber: 44,

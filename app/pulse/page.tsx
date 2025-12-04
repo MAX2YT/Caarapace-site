@@ -29,8 +29,8 @@ export default function PulsePage() {
         <div className="min-h-screen">
             {/* Animated Hero */}
             <AnimatedHero
-                leftText="Data"
-                rightText="Insights"
+                leftText="Pulse"
+                rightText="EMS"
                 centralImage="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=1000&fit=crop"
                 bottomImages={[
                     { src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop", alt: "Analytics dashboard", label: "Live Dashboard" },

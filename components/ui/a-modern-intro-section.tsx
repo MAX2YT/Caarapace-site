@@ -11,16 +11,13 @@ export default function ModernIntroSection() {
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                     <div className="text-center lg:text-left">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4 sm:mb-6">
-                            Modern Software Solutions
+                            Software That Works
                             <br className="hidden sm:block" />
-                            <span className="block sm:inline"> For A Digital-First World</span>
+                            <span className="block sm:inline">For The Digital Generation</span>
                         </h1>
 
                         <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed text-justify">
-                            At Caarapace, we embrace the future of software development, delivering exceptional,
-                            scalable solutions tailored to your business needs. Our expert team leverages cutting-edge
-                            technologies to build intuitive applications that drive innovation and transform how you
-                            work. From concept to deployment, we're your trusted partner in digital excellence.
+                            We're Caarapace, and we build software that doesn't suck. Scalable, clean, and tailored to what you actually need—not some cookie-cutter template. Our crew uses the latest tech to create apps that feel smooth and work seamlessly. From the first idea to launch day, we've got your back.
                         </p>
                     </div>
 
@@ -38,12 +35,12 @@ export default function ModernIntroSection() {
                                     <div
                                         key={i}
                                         className={`w-2 h-2 sm:w-3 sm:h-3 ${Math.random() > 0.7
-                                                ? Math.random() > 0.5
-                                                    ? "bg-[#BD0D46]"
-                                                    : Math.random() > 0.5
-                                                        ? "bg-[#FF2968]"
-                                                        : "bg-[#EF0049]"
-                                                : "bg-gray-800"
+                                            ? Math.random() > 0.5
+                                                ? "bg-[#BD0D46]"
+                                                : Math.random() > 0.5
+                                                    ? "bg-[#FF2968]"
+                                                    : "bg-[#EF0049]"
+                                            : "bg-gray-800"
                                             }`}
                                     />
                                 ))}

@@ -6,10 +6,10 @@ export function FeaturesSection() {
             <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
                 <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
                     <h2 className="text-balance text-4xl font-medium lg:text-5xl text-gray-900">
-                        Why Choose Caarapace for Your Next Project
+                        Why We're Different
                     </h2>
                     <p className="text-gray-600 text-base lg:text-lg">
-                        We combine technical excellence with business insight to deliver software solutions that drive real results. Our approach ensures your project is built right, from the ground up.
+                        We mix tech skills with real business sense to build stuff that actually works. No BS, just solid software built the right way from day one.
                     </p>
                 </div>
 
@@ -17,60 +17,60 @@ export function FeaturesSection() {
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
                             <Zap className="size-5 text-[#BD0D46]" />
-                            <h3 className="text-sm font-semibold text-gray-900">Lightning Fast Development</h3>
+                            <h3 className="text-sm font-semibold text-gray-900">Stupid Fast</h3>
                         </div>
                         <p className="text-sm text-gray-600">
-                            Rapid iterations and agile methodology ensure your product reaches market quickly without compromising quality.
+                            We move quick. Agile sprints mean your product gets to market fast without cutting corners on quality.
                         </p>
                     </div>
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
                             <Cpu className="size-5 text-[#BD0D46]" />
-                            <h3 className="text-sm font-semibold text-gray-900">Infinitely Scalable</h3>
+                            <h3 className="text-sm font-semibold text-gray-900">Scales With You</h3>
                         </div>
                         <p className="text-sm text-gray-600">
-                            Built with growth in mind, our solutions scale seamlessly from startup to enterprise without architectural rewrites.
+                            Start small, grow big. Our code scales from startup mode to enterprise level without needing a complete rebuild.
                         </p>
                     </div>
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
                             <Lock className="size-5 text-[#BD0D46]" />
-                            <h3 className="text-sm font-semibold text-gray-900">Enterprise Security</h3>
+                            <h3 className="text-sm font-semibold text-gray-900">Locked Down Tight</h3>
                         </div>
                         <p className="text-sm text-gray-600">
-                            Bank-level security practices and regular audits protect your data and your users' trust from day one.
+                            Bank-level security isn't optional. We protect your data and your users' trust from the jump.
                         </p>
                     </div>
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
                             <Code2 className="size-5 text-[#BD0D46]" />
-                            <h3 className="text-sm font-semibold text-gray-900">Fully Customizable</h3>
+                            <h3 className="text-sm font-semibold text-gray-900">Built For You</h3>
                         </div>
                         <p className="text-sm text-gray-600">
-                            Every business is unique. We tailor our solutions to fit your exact requirements and workflows perfectly.
+                            Your business isn't like everyone else's, so why should your software be? We build custom solutions that fit your exact needs.
                         </p>
                     </div>
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
                             <FileCode className="size-5 text-[#BD0D46]" />
-                            <h3 className="text-sm font-semibold text-gray-900">Easy to Maintain</h3>
+                            <h3 className="text-sm font-semibold text-gray-900">Zero Headaches</h3>
                         </div>
                         <p className="text-sm text-gray-600">
-                            Clean, documented code and best practices mean your team can easily maintain and extend the software.
+                            Clean code, proper docs, best practices. Your team can actually understand, maintain, and build on what we make.
                         </p>
                     </div>
 
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
                             <Sparkles className="size-5 text-[#BD0D46]" />
-                            <h3 className="text-sm font-semibold text-gray-900">Modern Tech Stack</h3>
+                            <h3 className="text-sm font-semibold text-gray-900">Latest Tech</h3>
                         </div>
                         <p className="text-sm text-gray-600">
-                            We use cutting-edge technologies and frameworks that ensure your software stays relevant for years.
+                            We use the newest frameworks and tools so your software stays fresh and relevant, not outdated in two years.
                         </p>
                     </div>
                 </div>

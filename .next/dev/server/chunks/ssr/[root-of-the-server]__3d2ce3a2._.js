@@ -66,22 +66,22 @@ function CareersPage() {
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__["Briefcase"],
             title: 'Competitive Compensation',
-            description: 'Industry-leading salaries and comprehensive benefits packages.'
+            description: 'Seriously good pay plus benefits that actually matter.'
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"],
             title: 'Work-Life Balance',
-            description: 'Flexible hours and remote work options to support your lifestyle.'
+            description: 'Work when and where you want. Life comes first, always.'
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rocket$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Rocket$3e$__["Rocket"],
             title: 'Career Growth',
-            description: 'Continuous learning opportunities and clear advancement paths.'
+            description: 'Level up your skills and climb the ladder. We invest in your growth.'
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"],
             title: 'Learning & Development',
-            description: 'Access to courses, conferences, and mentorship programs.'
+            description: 'Courses, conferences, mentorship—whatever helps you level up, we got it.'
         }
     ];
     const openPositions = [
@@ -114,8 +114,8 @@ function CareersPage() {
         className: "min-h-screen",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$animated$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                leftText: "Build",
-                rightText: "Together",
+                leftText: "Join",
+                rightText: "The Team",
                 centralImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=1000&fit=crop",
                 bottomImages: [
                     {
@@ -134,7 +134,7 @@ function CareersPage() {
                         label: "Innovation Together"
                     }
                 ],
-                subtitle: "Join a team of passionate innovators shaping the future",
+                subtitle: "Join our crew of innovators building the future",
                 darkMode: false
             }, void 0, false, {
                 fileName: "[project]/app/careers/page.tsx",
@@ -149,7 +149,7 @@ function CareersPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl font-bold text-center mb-12",
-                                children: "Why Work With Us"
+                                children: "Why You'll Love Working Here"
                             }, void 0, false, {
                                 fileName: "[project]/app/careers/page.tsx",
                                 lineNumber: 74,
@@ -215,7 +215,7 @@ function CareersPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl font-bold text-center mb-12",
-                                children: "Open Positions"
+                                children: "Open Roles"
                             }, void 0, false, {
                                 fileName: "[project]/app/careers/page.tsx",
                                 lineNumber: 95,
@@ -312,7 +312,7 @@ function CareersPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl font-bold mb-4",
-                                children: "Don't See a Perfect Fit?"
+                                children: "Don't See Your Dream Role?"
                             }, void 0, false, {
                                 fileName: "[project]/app/careers/page.tsx",
                                 lineNumber: 124,
@@ -320,7 +320,7 @@ function CareersPage() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-muted-foreground mb-8",
-                                children: "We're always looking for talented individuals. Send us your resume and we'll keep you in mind for future opportunities."
+                                children: "No worries. Send us your resume anyway and we'll keep you on our radar for when the perfect spot opens up."
                             }, void 0, false, {
                                 fileName: "[project]/app/careers/page.tsx",
                                 lineNumber: 125,
@@ -329,7 +329,7 @@ function CareersPage() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#contact",
                                 className: "inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors",
-                                children: "Send Your Resume"
+                                children: "Send Resume"
                             }, void 0, false, {
                                 fileName: "[project]/app/careers/page.tsx",
                                 lineNumber: 128,

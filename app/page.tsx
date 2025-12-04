@@ -6,7 +6,7 @@ import { ContactForm } from "@/components/ui/contact-form";
 export default function Home() {
     return (
         <div className="min-h-screen bg-white">
-            <BackgroundPaths title="Building the Future with Exceptional Software" />
+            <BackgroundPaths title="We Build Software That Actually Slaps" />
 
             <ModernIntroSection />
 

@@ -17,37 +17,37 @@ export function ContactForm() {
 
     return (
         <div className="flex flex-col lg:flex-row py-12 md:py-16">
-            {/* Left Side - Light Section with Red Gradient */}
-            <div className="flex-1 bg-gradient-to-br from-[#FFE1E9] via-[#FFC7D8] to-[#BD0D46] flex items-center justify-center p-8 md:p-10">
+            {/* Left Side - Solid Red Section */}
+            <div className="flex-1 bg-[#BD0D46] flex items-center justify-center p-8 md:p-10">
                 <div className="max-w-md">
-                    <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-                        Contact Us
+                    <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+                        Let's Talk
                     </h1>
-                    <p className="text-base mb-8 text-gray-700 leading-relaxed">
-                        We are available for questions, feedback, or collaboration opportunities. Let us know how we can help!
+                    <p className="text-base mb-8 text-white/90 leading-relaxed">
+                        Got questions? Ideas? Just wanna chat about your next project? We're here for it. Hit us up and let's make something happen.
                     </p>
 
                     {/* Contact Details */}
                     <div className="space-y-3">
-                        <h2 className="text-xl font-bold mb-4 text-gray-900">Contact Details</h2>
+                        <h2 className="text-xl font-bold mb-4 text-white">Contact Details</h2>
 
-                        <div className="flex items-start gap-3 text-gray-800">
+                        <div className="flex items-start gap-3 text-white">
                             <span className="font-semibold">Phone:</span>
-                            <a href="tel:+11234567890" className="hover:text-[#BD0D46] transition-colors">
+                            <a href="tel:+11234567890" className="hover:text-white/80 transition-colors">
                                 (123) 4567890
                             </a>
                         </div>
 
-                        <div className="flex items-start gap-3 text-gray-800">
+                        <div className="flex items-start gap-3 text-white">
                             <span className="font-semibold">Email:</span>
-                            <a href="mailto:hello@caarapace.com" className="hover:text-[#BD0D46] transition-colors">
+                            <a href="mailto:hello@caarapace.com" className="hover:text-white/80 transition-colors">
                                 hello@caarapace.com
                             </a>
                         </div>
 
-                        <div className="flex items-start gap-3 text-gray-800">
+                        <div className="flex items-start gap-3 text-white">
                             <span className="font-semibold">Web:</span>
-                            <a href="https://caarapace.com" className="hover:text-[#BD0D46] transition-colors">
+                            <a href="https://caarapace.com" className="hover:text-white/80 transition-colors">
                                 caarapace.com
                             </a>
                         </div>

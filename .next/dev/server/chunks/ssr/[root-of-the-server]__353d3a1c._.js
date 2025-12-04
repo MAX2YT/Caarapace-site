@@ -98,7 +98,7 @@ function ModernIntroSection() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4 sm:mb-6",
                                         children: [
-                                            "Modern Software Solutions",
+                                            "Software That Works",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
                                                 className: "hidden sm:block"
                                             }, void 0, false, {
@@ -108,7 +108,7 @@ function ModernIntroSection() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "block sm:inline",
-                                                children: " For A Digital-First World"
+                                                children: "For The Digital Generation"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
                                                 lineNumber: 16,
@@ -122,7 +122,7 @@ function ModernIntroSection() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-base sm:text-lg text-gray-700 mb-6 sm:mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed text-justify",
-                                        children: "At Caarapace, we embrace the future of software development, delivering exceptional, scalable solutions tailored to your business needs. Our expert team leverages cutting-edge technologies to build intuitive applications that drive innovation and transform how you work. From concept to deployment, we're your trusted partner in digital excellence."
+                                        children: "We're Caarapace, and we build software that doesn't suck. Scalable, clean, and tailored to what you actually need—not some cookie-cutter template. Our crew uses the latest tech to create apps that feel smooth and work seamlessly. From the first idea to launch day, we've got your back."
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
                                         lineNumber: 19,
@@ -148,7 +148,7 @@ function ModernIntroSection() {
                                                         children: "Caarapace Live"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                        lineNumber: 31,
+                                                        lineNumber: 28,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -156,13 +156,13 @@ function ModernIntroSection() {
                                                         children: "Development Dashboard"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                        lineNumber: 32,
+                                                        lineNumber: 29,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                lineNumber: 30,
+                                                lineNumber: 27,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -173,12 +173,12 @@ function ModernIntroSection() {
                                                         className: `w-2 h-2 sm:w-3 sm:h-3 ${Math.random() > 0.7 ? Math.random() > 0.5 ? "bg-[#BD0D46]" : Math.random() > 0.5 ? "bg-[#FF2968]" : "bg-[#EF0049]" : "bg-gray-800"}`
                                                     }, i, false, {
                                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                        lineNumber: 38,
+                                                        lineNumber: 35,
                                                         columnNumber: 37
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                lineNumber: 36,
+                                                lineNumber: 33,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -191,7 +191,7 @@ function ModernIntroSection() {
                                                                 children: "Framework: Next.js"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                                lineNumber: 54,
+                                                                lineNumber: 51,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -199,13 +199,13 @@ function ModernIntroSection() {
                                                                 children: "Status: Building"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                                lineNumber: 55,
+                                                                lineNumber: 52,
                                                                 columnNumber: 37
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 50,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -216,7 +216,7 @@ function ModernIntroSection() {
                                                                 children: "Quality: 99.8%"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                                lineNumber: 58,
+                                                                lineNumber: 55,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -224,73 +224,73 @@ function ModernIntroSection() {
                                                                 children: "Deploy: Ready"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                                lineNumber: 59,
+                                                                lineNumber: 56,
                                                                 columnNumber: 37
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 54,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 49,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                        lineNumber: 29,
+                                        lineNumber: 26,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -top-2 -left-2 sm:-top-4 sm:-left-4 w-6 h-6 sm:w-8 sm:h-8 bg-[#BD0D46]/70 rounded-lg transform rotate-45"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 62,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -bottom-2 -right-2 sm:-bottom-4 sm:-right-4 w-4 h-4 sm:w-6 sm:h-6 bg-[#BD0D46] rounded-full"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 63,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "hidden sm:block absolute top-1/2 -right-8 w-4 h-12 bg-[#BD0D46]/80"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 64,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "hidden sm:block absolute top-8 right-8 w-2 h-2 bg-[#BD0D46]/60"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 67,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "hidden sm:block absolute bottom-12 left-8 w-3 h-3 bg-[#BD0D46] rounded-full"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 68,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "hidden sm:block absolute top-16 left-12 w-2 h-6 bg-[#EF0049]"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 69,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                lineNumber: 27,
+                                lineNumber: 24,
                                 columnNumber: 21
                             }, this)
                         ]
@@ -316,7 +316,7 @@ function ModernIntroSection() {
                                             className: "w-4 h-4 sm:w-6 sm:h-6 bg-gray-400 rounded"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 78,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -324,23 +324,23 @@ function ModernIntroSection() {
                                             children: tech
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 79,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 77,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                            lineNumber: 78,
+                            lineNumber: 75,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                        lineNumber: 77,
+                        lineNumber: 74,
                         columnNumber: 17
                     }, this)
                 ]
@@ -384,7 +384,7 @@ function FeaturesSection() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-balance text-4xl font-medium lg:text-5xl text-gray-900",
-                            children: "Why Choose Caarapace for Your Next Project"
+                            children: "Why We're Different"
                         }, void 0, false, {
                             fileName: "[project]/components/ui/features-section.tsx",
                             lineNumber: 8,
@@ -392,7 +392,7 @@ function FeaturesSection() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-gray-600 text-base lg:text-lg",
-                            children: "We combine technical excellence with business insight to deliver software solutions that drive real results. Our approach ensures your project is built right, from the ground up."
+                            children: "We mix tech skills with real business sense to build stuff that actually works. No BS, just solid software built the right way from day one."
                         }, void 0, false, {
                             fileName: "[project]/components/ui/features-section.tsx",
                             lineNumber: 11,
@@ -422,7 +422,7 @@ function FeaturesSection() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-sm font-semibold text-gray-900",
-                                            children: "Lightning Fast Development"
+                                            children: "Stupid Fast"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/features-section.tsx",
                                             lineNumber: 20,
@@ -436,7 +436,7 @@ function FeaturesSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-gray-600",
-                                    children: "Rapid iterations and agile methodology ensure your product reaches market quickly without compromising quality."
+                                    children: "We move quick. Agile sprints mean your product gets to market fast without cutting corners on quality."
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/features-section.tsx",
                                     lineNumber: 22,
@@ -463,7 +463,7 @@ function FeaturesSection() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-sm font-semibold text-gray-900",
-                                            children: "Infinitely Scalable"
+                                            children: "Scales With You"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/features-section.tsx",
                                             lineNumber: 30,
@@ -477,7 +477,7 @@ function FeaturesSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-gray-600",
-                                    children: "Built with growth in mind, our solutions scale seamlessly from startup to enterprise without architectural rewrites."
+                                    children: "Start small, grow big. Our code scales from startup mode to enterprise level without needing a complete rebuild."
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/features-section.tsx",
                                     lineNumber: 32,
@@ -504,7 +504,7 @@ function FeaturesSection() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-sm font-semibold text-gray-900",
-                                            children: "Enterprise Security"
+                                            children: "Locked Down Tight"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/features-section.tsx",
                                             lineNumber: 40,
@@ -518,7 +518,7 @@ function FeaturesSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-gray-600",
-                                    children: "Bank-level security practices and regular audits protect your data and your users' trust from day one."
+                                    children: "Bank-level security isn't optional. We protect your data and your users' trust from the jump."
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/features-section.tsx",
                                     lineNumber: 42,
@@ -545,7 +545,7 @@ function FeaturesSection() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-sm font-semibold text-gray-900",
-                                            children: "Fully Customizable"
+                                            children: "Built For You"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/features-section.tsx",
                                             lineNumber: 50,
@@ -559,7 +559,7 @@ function FeaturesSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-gray-600",
-                                    children: "Every business is unique. We tailor our solutions to fit your exact requirements and workflows perfectly."
+                                    children: "Your business isn't like everyone else's, so why should your software be? We build custom solutions that fit your exact needs."
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/features-section.tsx",
                                     lineNumber: 52,
@@ -586,7 +586,7 @@ function FeaturesSection() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-sm font-semibold text-gray-900",
-                                            children: "Easy to Maintain"
+                                            children: "Zero Headaches"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/features-section.tsx",
                                             lineNumber: 60,
@@ -600,7 +600,7 @@ function FeaturesSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-gray-600",
-                                    children: "Clean, documented code and best practices mean your team can easily maintain and extend the software."
+                                    children: "Clean code, proper docs, best practices. Your team can actually understand, maintain, and build on what we make."
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/features-section.tsx",
                                     lineNumber: 62,
@@ -627,7 +627,7 @@ function FeaturesSection() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-sm font-semibold text-gray-900",
-                                            children: "Modern Tech Stack"
+                                            children: "Latest Tech"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/features-section.tsx",
                                             lineNumber: 70,
@@ -641,7 +641,7 @@ function FeaturesSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-gray-600",
-                                    children: "We use cutting-edge technologies and frameworks that ensure your software stays relevant for years."
+                                    children: "We use the newest frameworks and tools so your software stays fresh and relevant, not outdated in two years."
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/features-section.tsx",
                                     lineNumber: 72,
@@ -730,7 +730,7 @@ function Home() {
         className: "min-h-screen bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$background$2d$paths$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BackgroundPaths"], {
-                title: "Building the Future with Exceptional Software"
+                title: "We Build Software That Actually Slaps"
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 9,

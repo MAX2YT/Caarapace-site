@@ -253,21 +253,21 @@ function ContactForm() {
         className: "flex flex-col lg:flex-row py-12 md:py-16",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex-1 bg-gradient-to-br from-[#FFE1E9] via-[#FFC7D8] to-[#BD0D46] flex items-center justify-center p-8 md:p-10",
+                className: "flex-1 bg-[#BD0D46] flex items-center justify-center p-8 md:p-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-md",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-3xl md:text-4xl font-bold mb-4 text-gray-900",
-                            children: "Contact Us"
+                            className: "text-3xl md:text-4xl font-bold mb-4 text-white",
+                            children: "Let's Talk"
                         }, void 0, false, {
                             fileName: "[project]/components/ui/contact-form.tsx",
                             lineNumber: 23,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-base mb-8 text-gray-700 leading-relaxed",
-                            children: "We are available for questions, feedback, or collaboration opportunities. Let us know how we can help!"
+                            className: "text-base mb-8 text-white/90 leading-relaxed",
+                            children: "Got questions? Ideas? Just wanna chat about your next project? We're here for it. Hit us up and let's make something happen."
                         }, void 0, false, {
                             fileName: "[project]/components/ui/contact-form.tsx",
                             lineNumber: 26,
@@ -277,7 +277,7 @@ function ContactForm() {
                             className: "space-y-3",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-xl font-bold mb-4 text-gray-900",
+                                    className: "text-xl font-bold mb-4 text-white",
                                     children: "Contact Details"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/contact-form.tsx",
@@ -285,7 +285,7 @@ function ContactForm() {
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-start gap-3 text-gray-800",
+                                    className: "flex items-start gap-3 text-white",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-semibold",
@@ -297,7 +297,7 @@ function ContactForm() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "tel:+11234567890",
-                                            className: "hover:text-[#BD0D46] transition-colors",
+                                            className: "hover:text-white/80 transition-colors",
                                             children: "(123) 4567890"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/contact-form.tsx",
@@ -311,7 +311,7 @@ function ContactForm() {
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-start gap-3 text-gray-800",
+                                    className: "flex items-start gap-3 text-white",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-semibold",
@@ -323,7 +323,7 @@ function ContactForm() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "mailto:hello@caarapace.com",
-                                            className: "hover:text-[#BD0D46] transition-colors",
+                                            className: "hover:text-white/80 transition-colors",
                                             children: "hello@caarapace.com"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/contact-form.tsx",
@@ -337,7 +337,7 @@ function ContactForm() {
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-start gap-3 text-gray-800",
+                                    className: "flex items-start gap-3 text-white",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-semibold",
@@ -349,7 +349,7 @@ function ContactForm() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "https://caarapace.com",
-                                            className: "hover:text-[#BD0D46] transition-colors",
+                                            className: "hover:text-white/80 transition-colors",
                                             children: "caarapace.com"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/contact-form.tsx",
