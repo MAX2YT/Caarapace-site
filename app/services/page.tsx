@@ -7,8 +7,9 @@ export default function ServicesPage() {
         <div className="min-h-screen bg-white">
             {/* Hero with Scroll Animation */}
             <HeroScrollAnimation
-                title="Our Services"
-                subtitle="Ship Fast | Build Smart | Scale Big"
+                title="Services"
+                tagline="We build software that actually works."
+                highlightedText="Ship Fast. Scale Smart."
                 image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop"
                 imageAlt="Team collaboration"
             />

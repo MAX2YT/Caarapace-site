@@ -7,7 +7,8 @@ export default function CDeckPage() {
             {/* Hero with Scroll Animation */}
             <HeroScrollAnimation
                 title="CDeck ERP"
-                subtitle="A powerful CRM platform designed to streamline operations"
+                tagline="Streamline your operations with a CRM that"
+                highlightedText="just works."
                 image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop"
                 imageAlt="Business analytics dashboard"
             />
