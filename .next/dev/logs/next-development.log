@@ -1257,3 +1257,419 @@ It can also happen if the client has a browser extension installed which messes 
 [02:03:34.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [02:03:35.141] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
 [02:08:13.427] Server  LOG      ✓ Compiled in 210ms
+[02:09:35.800] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.810] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.815] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.823] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.834] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.848] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.853] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.857] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.866] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.870] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.873] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.877] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.882] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.889] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.891] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.899] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.903] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.906] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.909] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:35.915] Server  ERROR    ⨯ ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:09:36.751] Browser ERROR   ./components/ui/contact-form.tsx:4:1
+Module not found: Can't resolve '@emailjs/browser'
+  2 |
+  3 | import React, { useState } from 'react';
+> 4 | import emailjs from '@emailjs/browser';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | // Initialize EmailJS once when component mounts
+  7 | emailjs.init("44BIq6t6iWepbdl3_");
+
+Import trace:
+  Server Component:
+    ./components/ui/contact-form.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
