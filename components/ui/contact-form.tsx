@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import ModernRetroButton from '@/components/ui/modern-retro-button';
 
 // Initialize EmailJS once when component mounts
 emailjs.init("44BIq6t6iWepbdl3_");
@@ -39,7 +40,7 @@ export function ContactForm() {
             if (response.status === 200) {
                 setStatusMessage('✓ Message sent successfully! We\'ll get back to you soon.');
                 setStatusType('success');
-                
+
                 // Clear form
                 setFirstName('');
                 setLastName('');
@@ -64,7 +65,7 @@ export function ContactForm() {
 
     return (
         <div id="contact" className="flex flex-col lg:flex-row py-12 md:py-16">
-             {/* Left Side - Solid Red Section */}
+            {/* Left Side - Solid Red Section */}
             <div className="flex-1 bg-[#BD0D46] flex items-center justify-center p-8 md:p-10">
                 <div className="max-w-md">
                     <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
@@ -81,14 +82,14 @@ export function ContactForm() {
                         <div className="flex items-start gap-3 text-white">
                             <span className="font-semibold">Phone:</span>
                             <a href="tel:+11234567890" className="hover:text-white/80 transition-colors">
-                                (123) 456-7890
+                                +91 86103 05690
                             </a>
                         </div>
 
                         <div className="flex items-start gap-3 text-white">
                             <span className="font-semibold">Email:</span>
                             <a href="mailto:hello@caarapace.com" className="hover:text-white/80 transition-colors">
-                                hello@caarapace.com
+                                info@caarapace.com
                             </a>
                         </div>
 
@@ -188,21 +189,21 @@ export function ContactForm() {
                         </div>
 
                         {/* Submit Button */}
-                        <button
+                        <ModernRetroButton
                             type="submit"
+                            label="Send Message"
+                            loadingLabel="Sending..."
+                            isLoading={isLoading}
                             disabled={isLoading}
-                            className="w-full bg-[#BD0D46] hover:bg-[#9e0d3c] disabled:opacity-60 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
-                        >
-                            {isLoading ? 'Sending...' : 'Send Message'}
-                        </button>
+                            fullWidth={true}
+                        />
 
                         {/* Status Message */}
                         {statusMessage && (
-                            <div className={`p-3 rounded-lg text-center text-sm font-medium ${
-                                statusType === 'success' 
-                                    ? 'bg-green-100 text-green-800' 
-                                    : 'bg-red-100 text-red-800'
-                            }`}>
+                            <div className={`p-3 rounded-lg text-center text-sm font-medium ${statusType === 'success'
+                                ? 'bg-green-100 text-green-800'
+                                : 'bg-red-100 text-red-800'
+                                }`}>
                                 {statusMessage}
                             </div>
                         )}

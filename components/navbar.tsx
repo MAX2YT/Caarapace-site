@@ -4,9 +4,9 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
-import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { ContactFormDialog } from '@/components/ui/contact-form-dialog'
+import ModernRetroButton from '@/components/ui/modern-retro-button'
 
 const menuItems = [
     { name: 'Home', href: '/' },
@@ -19,6 +19,7 @@ const menuItems = [
 export function Navbar() {
     const [menuState, setMenuState] = React.useState(false)
     const [isScrolled, setIsScrolled] = React.useState(false)
+    const [dialogOpen, setDialogOpen] = React.useState(false)
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -81,25 +82,15 @@ export function Navbar() {
                                 </ul>
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-                                {/* Contact Us button (non-scrolled state) */}
+                                {/* Modern Retro Contact Us Button */}
                                 <ContactFormDialog
+                                    open={dialogOpen}
+                                    onOpenChange={setDialogOpen}
                                     trigger={
-                                        <Button
-                                            size="sm"
-                                            className={cn(isScrolled && 'lg:hidden', 'bg-primary hover:bg-primary/90')}>
-                                            <span>Contact Us</span>
-                                        </Button>
-                                    }
-                                />
-
-                                {/* Contact Us button (scrolled state) */}
-                                <ContactFormDialog
-                                    trigger={
-                                        <Button
-                                            size="sm"
-                                            className={cn(isScrolled ? 'lg:inline-flex' : 'hidden', 'bg-primary hover:bg-primary/90')}>
-                                            <span>Contact Us</span>
-                                        </Button>
+                                        <ModernRetroButton
+                                            label="Contact Us"
+                                            onClick={() => setDialogOpen(true)}
+                                        />
                                     }
                                 />
                             </div>

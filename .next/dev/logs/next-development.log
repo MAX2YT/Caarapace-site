@@ -1779,3 +1779,2286 @@ It can also happen if the client has a browser extension installed which messes 
 [01:34:00.775] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
 [01:34:01.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [01:34:01.971] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:30:30.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:30:31.335] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_f7b44c40-163a-419a-b664-85cae6c911c4__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[02:30:33.097] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:30:37.132] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:33:37.192] Server  LOG      ✓ Compiled in 393ms
+[02:58:39.298] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:58:39.298] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:02:09.266] Server  LOG      ✓ Compiled in 0ms
+[03:02:24.028] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:24.925] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_41d9e0c9-538e-463e-b271-027f95cba2a2__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            <SmoothScrollProvider>
+                              <ScrollToTop>
+                              <Navbar>
+                                <header>
+                                  <nav data-state={false} className="fixed z-20...">
+                                    <div
+                                      className="mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <div
+                                        className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:..."
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex w-full justify-between lg:w-auto"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <LinkComponent href="/" aria-label="Caarapace ..." className="flex items...">
+                                            <a aria-label="Caarapace ..." className="flex items..." ref={function} ...>
+                                              <Logo>
+                                                <div
+                                                  className="flex items-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                          ...
+                                        <div
+                                          className="absolute inset-0 m-auto hidden size-fit lg:block"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <ul className="flex gap-8...">
+                                            <li>
+                                            <li>
+                                              <LinkComponent href="/services" className="text-muted...">
+                                                <a
+                                                  className="text-muted-foreground hover:text-primary block duration-1..."
+                                                  ref={function}
+                                                  onClick={function onClick}
+                                                  onMouseEnter={function onMouseEnter}
+                                                  onTouchStart={function onTouchStart}
+                                                  href="/services"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <li>
+                                              <LinkComponent href="/c-deck" className="text-muted...">
+                                                <a
+                                                  className="text-muted-foreground hover:text-primary block duration-1..."
+                                                  ref={function}
+                                                  onClick={function onClick}
+                                                  onMouseEnter={function onMouseEnter}
+                                                  onTouchStart={function onTouchStart}
+                                                  href="/c-deck"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <li>
+                                              <LinkComponent href="/pulse" className="text-muted...">
+                                                <a
+                                                  className="text-muted-foreground hover:text-primary block duration-1..."
+                                                  ref={function}
+                                                  onClick={function onClick}
+                                                  onMouseEnter={function onMouseEnter}
+                                                  onTouchStart={function onTouchStart}
+                                                  href="/pulse"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <li>
+                                              <LinkComponent href="/careers" className="text-muted...">
+                                                <a
+                                                  className="text-muted-foreground hover:text-primary block duration-1..."
+                                                  ref={function}
+                                                  onClick={function onClick}
+                                                  onMouseEnter={function onMouseEnter}
+                                                  onTouchStart={function onTouchStart}
+                                                  href="/careers"
+-                                                 bis_skin_checked="1"
+                                                >
+                                        <div
+                                          className="bg-background group-data-[state=active]:block lg:group-data-[stat..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="lg:hidden"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <ul className="space-y-6 ...">
+                                              <li>
+                                              <li>
+                                                <LinkComponent href="/services" className="text-muted...">
+                                                  <a
+                                                    className="text-muted-foreground hover:text-primary block duration..."
+                                                    ref={function}
+                                                    onClick={function onClick}
+                                                    onMouseEnter={function onMouseEnter}
+                                                    onTouchStart={function onTouchStart}
+                                                    href="/services"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                              <li>
+                                                <LinkComponent href="/c-deck" className="text-muted...">
+                                                  <a
+                                                    className="text-muted-foreground hover:text-primary block duration..."
+                                                    ref={function}
+                                                    onClick={function onClick}
+                                                    onMouseEnter={function onMouseEnter}
+                                                    onTouchStart={function onTouchStart}
+                                                    href="/c-deck"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                              <li>
+                                                <LinkComponent href="/pulse" className="text-muted...">
+                                                  <a
+                                                    className="text-muted-foreground hover:text-primary block duration..."
+                                                    ref={function}
+                                                    onClick={function onClick}
+                                                    onMouseEnter={function onMouseEnter}
+                                                    onTouchStart={function onTouchStart}
+                                                    href="/pulse"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                              <li>
+                                                <LinkComponent href="/careers" className="text-muted...">
+                                                  <a
+                                                    className="text-muted-foreground hover:text-primary block duration..."
+                                                    ref={function}
+                                                    onClick={function onClick}
+                                                    onMouseEnter={function onMouseEnter}
+                                                    onTouchStart={function onTouchStart}
+                                                    href="/careers"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <div
+                                            className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-..."
+-                                           bis_skin_checked="1"
+                                          >
+                              ...
+                                <SegmentViewNode type="page" pagePath="careers/pa...">
+                                  <SegmentTrieNode>
+                                  <CareersPage>
+                                    <div
+                                      className="min-h-screen"
+-                                     bis_skin_checked="1"
+                                    >
+                                      ...
+                                        <HeroSection scrollYProgress={{...}} title="Careers" tagline={"Join a t..."} ...>
+                                          <motion.div style={{scale:{...}, ...}} className="sticky top...">
+                                            <div
+                                              className="sticky top-0 h-screen"
+                                              style={{transform:"none"}}
+                                              ref={function useMotionRef.useCallback}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <HeroHighlight containerClassName="h-screen">
+                                                <div
+                                                  className="group relative flex w-full items-center justify-center bg..."
+                                                  onMouseMove={function handleMouseMove}
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="pointer-events-none absolute inset-0"
+                                                    style={{backgroundImage:"url(\"data..."}}
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                      <div className="container ...">
+                                        <div>
+                                        <HoverSlider>
+                                        <div className="text-cente...">
+                                          <h2>
+                                          <p>
+                                          <a
+                                            href="#contact"
+                                            className="inline-flex items-center justify-center rounded-xl px-8 py-3 te..."
+-                                           bis_skin_checked="1"
+                                          >
++                                           Apply Now!
+                                ...
+                              ...
+                                <div className="relative z...">
+                                  <div className="grid grid-...">
+                                    <div>
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-3">
+                                        <li className="relative">
+                                          <a
+                                            href="#about"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           About Caarapace
+                                        <li className="relative">
+                                          <a
+                                            href="#services"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Our Services
+                                        <li className="relative">
+                                          <a
+                                            href="#careers"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Careers
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-3">
+                                        <li className="relative">
+                                          <a
+                                            href="#blog"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Blog
+                                        <li className="relative">
+                                          <a
+                                            href="#case-studies"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Case Studies
+                                        <li className="relative">
+                                          <a
+                                            href="#contact"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Contact Sales
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-4">
+                                        <li className="flex items...">
+                                          <Mail>
+                                          <a
+                                            href="mailto:hello@caarapace.com"
+                                            className="text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           hello@caarapace.com
+                                        <li className="flex items...">
+                                          <Phone>
+                                          <a
+                                            href="tel:+15551234567"
+                                            className="text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           +1 (555) 123-4567
+                                        ...
+                                  <hr>
+                                  <div className="flex flex-...">
+                                    <div className="flex space...">
+                                      <a>
+                                      <a>
+                                      <a>
+                                      <a
+                                        href="https://caarapace.com"
+                                        aria-label="Website"
+                                        className="transition-colors hover:text-[#BD0F46]"
+-                                       bis_skin_checked="1"
+                                      >
+                                      ...
+                                    ...
+                  ...
+
+[03:02:24.925] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:02:53.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:53.966] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_4768149f-cd95-475e-8a56-92e5c5bf422a__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:03:37.477] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:03:46.885] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:03:47.070] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_10caccde-2109-46b0-a52f-2878c67aadc3__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:03:54.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:03:54.445] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_33164806-882c-4617-a619-48f3794e295d__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:03:54.445] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:04:05.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:04:05.439] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_e1734bce-41b7-4fb5-92d8-14c993c2a1db__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:04:11.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:04:11.622] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_57392909-1b8b-444c-8a3a-7d083a636419__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:04:11.622] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:04:47.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:04:47.311] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_fb0ec5d6-cd62-4dca-8700-e17892634c71__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:08:22.988] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:08:23.474] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_44cfc3af-4cf3-40dc-a40d-edce07a4d715__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:08:23.474] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:10:35.334] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:10:35.532] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_88bbd903-1deb-4986-a425-930d5e9ebb2b__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:10:45.369] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:10:45.724] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_36165e49-739b-4cfe-8b3b-15c7edc709fb__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:10:45.724] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:10:50.024] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:10:50.211] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_de3d761b-3ca9-499e-94db-001c31315d63__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:11:53.102] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:11:53.467] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_18342df0-0ecd-412b-a833-936868307745__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:11:53.467] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:11:57.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:11:57.691] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_d910712a-37c1-497a-9fd2-711ba1c19db7__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:00.375] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:00.690] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_63aec25c-0eb1-4098-89a9-9aec3619d039__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:00.690] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:12:05.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:05.702] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_55310443-6524-4aca-936d-b1785a4fb886__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:09.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:09.539] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_dc4a543d-e829-4289-b846-c79d04144e54__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:09.539] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:12:12.677] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:12.851] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_324aef29-8cf9-4e6b-9ab2-d22f8fc17c02__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:26.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:27.267] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_d6605966-f5fb-40b7-89bf-fb2c5448e4e0__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:33.310] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:12:35.183] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:35.651] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_b72b164d-ce0e-49b1-8216-835cf34e76a3__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:35.651] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:12:39.725] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:39.898] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_e9059bb9-c58a-4e88-8d24-553613f6b124__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:40.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:41.295] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_62ddb426-b3eb-4393-a8eb-febbcc0b5d84__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:12:41.295] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:13:14.778] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:13:15.078] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_36078be0-4cc2-40ad-9bbe-b22ecfbf838e__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:13:15.078] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:14:46.932] Server  LOG      ✓ Compiled in 289ms
+[03:17:03.450] Server  LOG      ✓ Compiled in 515ms
+[03:17:03.556] Browser ERROR   ./app/careers/page.tsx:89:10
+Parsing ecmascript source code failed
+  87 | }) => {
+  88 |     return (
+> 89 |         {!isSubmitting && !isSuccess && (
+     |          ^
+  90 |             <motion.div
+  91 |                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+  92 |                 initial={{ x: '-100%' }}
+
+Unexpected token `!`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./app/careers/page.tsx [Client Component Browser]
+    ./app/careers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/careers/page.tsx [Client Component SSR]
+    ./app/careers/page.tsx [Server Component]
+[03:17:53.482] Server  ERROR    ⨯ ./app/careers/page.tsx:89:10
+Parsing ecmascript source code failed
+  87 | }) => {
+  88 |     return (
+> 89 |         {!isSubmitting && !isSuccess && (
+     |          ^
+  90 |             <motion.div
+  91 |                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+  92 |                 initial={{ x: '-100%' }}
+
+Unexpected token `!`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./app/careers/page.tsx [Client Component Browser]
+    ./app/careers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/careers/page.tsx [Client Component SSR]
+    ./app/careers/page.tsx [Server Component]
+
+
+[03:17:53.606] Browser ERROR   ./app/careers/page.tsx:89:10
+Parsing ecmascript source code failed
+  87 | }) => {
+  88 |     return (
+> 89 |         {!isSubmitting && !isSuccess && (
+     |          ^
+  90 |             <motion.div
+  91 |                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+  92 |                 initial={{ x: '-100%' }}
+
+Unexpected token `!`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./app/careers/page.tsx [Client Component Browser]
+    ./app/careers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/careers/page.tsx [Client Component SSR]
+    ./app/careers/page.tsx [Server Component]
+[03:17:55.322] Browser ERROR   ./app/careers/page.tsx:89:10
+Parsing ecmascript source code failed
+  87 | }) => {
+  88 |     return (
+> 89 |         {!isSubmitting && !isSuccess && (
+     |          ^
+  90 |             <motion.div
+  91 |                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+  92 |                 initial={{ x: '-100%' }}
+
+Unexpected token `!`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./app/careers/page.tsx [Client Component Browser]
+    ./app/careers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/careers/page.tsx [Client Component SSR]
+    ./app/careers/page.tsx [Server Component]
+[03:17:55.617] Browser ERROR   ./app/careers/page.tsx:89:10
+Parsing ecmascript source code failed
+  87 | }) => {
+  88 |     return (
+> 89 |         {!isSubmitting && !isSuccess && (
+     |          ^
+  90 |             <motion.div
+  91 |                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+  92 |                 initial={{ x: '-100%' }}
+
+Unexpected token `!`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./app/careers/page.tsx [Client Component Browser]
+    ./app/careers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/careers/page.tsx [Client Component SSR]
+    ./app/careers/page.tsx [Server Component]
+[03:17:58.746] Browser ERROR   uncaughtError: Error: ./app/careers/page.tsx:89:10
+Parsing ecmascript source code failed
+  87 | }) => {
+  88 |     return (
+> 89 |         {!isSubmitting && !isSuccess && (
+     |          ^
+  90 |             <motion.div
+  91 |                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+  92 |                 initial={{ x: '-100%' }}
+
+Unexpected token `!`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./app/careers/page.tsx [Client Component Browser]
+    ./app/careers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/careers/page.tsx [Client Component SSR]
+    ./app/careers/page.tsx [Server Component]
+
+
+[03:17:58.930] Browser ERROR   ./app/careers/page.tsx:89:10
+Parsing ecmascript source code failed
+  87 | }) => {
+  88 |     return (
+> 89 |         {!isSubmitting && !isSuccess && (
+     |          ^
+  90 |             <motion.div
+  91 |                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+  92 |                 initial={{ x: '-100%' }}
+
+Unexpected token `!`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./app/careers/page.tsx [Client Component Browser]
+    ./app/careers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/careers/page.tsx [Client Component SSR]
+    ./app/careers/page.tsx [Server Component]
+[03:17:58.930] Browser ERROR   ./app/careers/page.tsx:89:10
+Parsing ecmascript source code failed
+  87 | }) => {
+  88 |     return (
+> 89 |         {!isSubmitting && !isSuccess && (
+     |          ^
+  90 |             <motion.div
+  91 |                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+  92 |                 initial={{ x: '-100%' }}
+
+Unexpected token `!`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./app/careers/page.tsx [Client Component Browser]
+    ./app/careers/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/careers/page.tsx [Client Component SSR]
+    ./app/careers/page.tsx [Server Component]
+[03:19:23.965] Server  LOG      ✓ Compiled in 218ms
+[03:19:25.121] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:19:26.280] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_a708b80c-e008-4eb1-919e-7f0c8fc2645b__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:20:06.563] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:20:06.563] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:22:10.533] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[03:22:15.117] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[03:22:20.927] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[03:23:15.953] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[03:29:30.012] Server  LOG      ✓ Compiled in 432ms
+[03:29:30.407] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:29:31.287] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_006ad867-a227-4188-b9af-7847b7a3f87d__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[03:30:15.705] Server  LOG      ✓ Compiled in 113ms
+[03:30:16.267] Browser WARN    Dialog is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[03:30:46.222] Server  LOG      ✓ Compiled in 105ms
+[03:30:47.267] Browser ERROR   ./components/ui/modern-retro-button.tsx:46:37
+Parsing ecmascript source code failed
+  44 |             }, 1000);
+  45 |         } else {
+> 46 |             { fill: svgRectFlicker },
+     |                                     ^
+  47 |             {
+  48 |                 fill: svgRect,
+  49 |                     duration: 0.1,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/modern-retro-button.tsx [Client Component Browser]
+    ./components/navbar.tsx [Client Component Browser]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/modern-retro-button.tsx [Client Component SSR]
+    ./components/navbar.tsx [Client Component SSR]
+    ./components/navbar.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[03:34:13.492] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:34:17.872] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[03:34:25.052] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:34:34.540] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:34:34.540] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:34:46.507] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:34:46.507] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:37:34.037] Server  LOG      ✓ Compiled in 93ms
+[03:37:34.267] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [false, #ffffff, #ffffff] [false, #ffffff, #ffffff, false, false]
+[03:37:44.400] Server  LOG      ✓ Compiled in 117ms
+[03:37:56.093] Server  LOG      ✓ Compiled in 100ms
+[03:38:43.071] Server  LOG      ✓ Compiled in 106ms
+[03:39:11.136] Server  LOG      ✓ Compiled in 131ms
+[03:41:20.457] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[03:44:34.046] Server  LOG      ✓ Compiled in 98ms
+[03:54:42.196] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:54:42.196] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:56:43.994] Server  LOG      ✓ Compiled in 181ms
+[03:56:45.573] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:56:47.277] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_b01560b1-f8aa-4828-93a8-44effe86f861__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <div className="relative z...">
+                                <div className="grid grid-...">
+                                  <div>
+                                  <div>
+                                    <h4>
+                                    <ul className="space-y-3">
+                                      <li className="relative">
+                                        <a
+                                          href="#about"
+                                          className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                         bis_skin_checked="1"
+                                        >
++                                         About Caarapace
+                                      <li className="relative">
+                                        <a
+                                          href="#services"
+                                          className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                         bis_skin_checked="1"
+                                        >
++                                         Our Services
+                                      <li className="relative">
+                                        <a
+                                          href="#careers"
+                                          className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                         bis_skin_checked="1"
+                                        >
++                                         Careers
+                                  <div>
+                                    <h4>
+                                    <ul className="space-y-3">
+                                      <li className="relative">
+                                        <a
+                                          href="#blog"
+                                          className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                         bis_skin_checked="1"
+                                        >
++                                         Blog
+                                      <li className="relative">
+                                        <a
+                                          href="#case-studies"
+                                          className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                         bis_skin_checked="1"
+                                        >
++                                         Case Studies
+                                      <li className="relative">
+                                        <a
+                                          href="#contact"
+                                          className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                         bis_skin_checked="1"
+                                        >
++                                         Contact Sales
+                                  <div>
+                                    <h4>
+                                    <ul className="space-y-4">
+                                      <li className="flex items...">
+                                        <Mail>
+                                        <a
+                                          href="mailto:hello@caarapace.com"
+                                          className="text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                         bis_skin_checked="1"
+                                        >
++                                         hello@caarapace.com
+                                      <li className="flex items...">
+                                        <Phone>
+                                        <a
+                                          href="tel:+15551234567"
+                                          className="text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                         bis_skin_checked="1"
+                                        >
++                                         +1 (555) 123-4567
+                                      ...
+                                <hr>
+                                <div className="flex flex-...">
+                                  <div className="flex space...">
+                                    <a>
+                                    <a>
+                                    <a>
+                                    <a
+                                      href="https://caarapace.com"
+                                      aria-label="Website"
+                                      className="transition-colors hover:text-[#BD0F46]"
+-                                     bis_skin_checked="1"
+                                    >
+                                    ...
+                                  ...
+                  ...
+
+[03:59:06.443] Server  LOG      ✓ Compiled in 338ms
+[03:59:15.317] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[03:59:15.493] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:59:17.688] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:59:17.688] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[04:00:07.341] Server  LOG      ✓ Compiled in 90ms
+[04:00:25.760] Server  LOG      ✓ Compiled in 146ms
+[04:00:38.848] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[04:00:38.848] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[04:01:34.309] Server  LOG      ✓ Compiled in 77ms
+[04:01:38.541] Server  LOG      ✓ Compiled in 74ms
+[04:01:41.400] Server  LOG      ✓ Compiled in 107ms
+[04:02:46.672] Server  LOG      ✓ Compiled in 97ms
+[04:03:13.360] Server  LOG      ✓ Compiled in 522ms
+[04:03:25.186] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:03:25.723] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/services" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_bd04872c-391b-4b6b-a4a0-11df511a5d0a__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            <SmoothScrollProvider>
+                              <ScrollToTop>
+                              <Navbar>
+                              ...
+                                <SegmentViewNode type="page" pagePath="services/p...">
+                                  <SegmentTrieNode>
+                                  <ServicesPage>
+                                    <div
+                                      className="min-h-screen bg-white"
+-                                     bis_skin_checked="1"
+                                    >
+                                      ...
+                                        <HeroSection scrollYProgress={{...}} title="Services" tagline="We build s..." ...>
+                                          <motion.div style={{scale:{...}, ...}} className="sticky top...">
+                                            <div
+                                              className="sticky top-0 h-screen"
+                                              style={{transform:"none"}}
+                                              ref={function useMotionRef.useCallback}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <HeroHighlight containerClassName="h-screen">
+                                                <div
+                                                  className="group relative flex w-full items-center justify-center bg..."
+                                                  onMouseMove={function handleMouseMove}
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="pointer-events-none absolute inset-0"
+                                                    style={{backgroundImage:"url(\"data..."}}
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                      <div className="container ...">
+                                        <div>
+                                        <div>
+                                        <div className="mt-20 text...">
+                                          <div className="inline-blo...">
+                                            <h2>
+                                            <p>
+                                            <a
+                                              href="mailto:hello@caarapace.com"
+                                              className="inline-flex items-center justify-center rounded-xl px-8 py-3 ..."
+-                                             bis_skin_checked="1"
+                                            >
++                                             Hit Us Up
+                                ...
+                              ...
+                                <div className="relative z...">
+                                  <div className="grid grid-...">
+                                    <div>
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-3">
+                                        <li className="relative">
+                                          <a
+                                            href="/#intro"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           About Caarapace
+                                        <li className="relative">
+                                          <a
+                                            href="/services"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Our Services
+                                        <li className="relative">
+                                          <a
+                                            href="/careers"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Careers
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-3">
+                                        <li className="relative">
+                                          <a
+                                            href="/coming-soon"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Blog
+                                        <li className="relative">
+                                          <a
+                                            href="/coming-soon"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Case Studies
+                                        <li className="relative">
+                                          <a
+                                            href="#contact-dialog"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Contact Sales
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-4">
+                                        <li className="flex items...">
+                                          <Mail>
+                                          <a
+                                            href="mailto:info@caarapace.com"
+                                            className="text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           info@caarapace.com
+                                        <li className="flex items...">
+                                          <Phone>
+                                          <a
+                                            href="tel:+918610305690"
+                                            className="text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           +91 86103 05690
+                                        ...
+                                  <hr>
+                                  <div className="flex flex-...">
+                                    <div className="flex space...">
+                                      <a>
+                                      <a>
+                                      <a>
+                                      <a
+                                        href="https://caarapace.com"
+                                        aria-label="Website"
+                                        className="transition-colors hover:text-[#BD0F46]"
+-                                       bis_skin_checked="1"
+                                      >
+                                      ...
+                                    ...
+                  ...
+
+[04:03:25.723] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:03:35.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:03:36.685] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/careers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_5babea31-82da-4980-aacd-847dbdc897fe__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            <SmoothScrollProvider>
+                              <ScrollToTop>
+                              <Navbar>
+                                <header>
+                                  <nav data-state={false} className="fixed z-20...">
+                                    <div
+                                      className="mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <div
+                                        className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:..."
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="flex w-full justify-between lg:w-auto"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <LinkComponent href="/" aria-label="Caarapace ..." className="flex items...">
+                                            <a aria-label="Caarapace ..." className="flex items..." ref={function} ...>
+                                              <Logo>
+                                                <div
+                                                  className="flex items-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                          ...
+                                        <div
+                                          className="absolute inset-0 m-auto hidden size-fit lg:block"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <ul className="flex gap-8...">
+                                            <li>
+                                            <li>
+                                              <LinkComponent href="/services" className="text-muted...">
+                                                <a
+                                                  className="text-muted-foreground hover:text-primary block duration-1..."
+                                                  ref={function}
+                                                  onClick={function onClick}
+                                                  onMouseEnter={function onMouseEnter}
+                                                  onTouchStart={function onTouchStart}
+                                                  href="/services"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <li>
+                                              <LinkComponent href="/c-deck" className="text-muted...">
+                                                <a
+                                                  className="text-muted-foreground hover:text-primary block duration-1..."
+                                                  ref={function}
+                                                  onClick={function onClick}
+                                                  onMouseEnter={function onMouseEnter}
+                                                  onTouchStart={function onTouchStart}
+                                                  href="/c-deck"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <li>
+                                              <LinkComponent href="/pulse" className="text-muted...">
+                                                <a
+                                                  className="text-muted-foreground hover:text-primary block duration-1..."
+                                                  ref={function}
+                                                  onClick={function onClick}
+                                                  onMouseEnter={function onMouseEnter}
+                                                  onTouchStart={function onTouchStart}
+                                                  href="/pulse"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <li>
+                                              <LinkComponent href="/careers" className="text-muted...">
+                                                <a
+                                                  className="text-muted-foreground hover:text-primary block duration-1..."
+                                                  ref={function}
+                                                  onClick={function onClick}
+                                                  onMouseEnter={function onMouseEnter}
+                                                  onTouchStart={function onTouchStart}
+                                                  href="/careers"
+-                                                 bis_skin_checked="1"
+                                                >
+                                        <div
+                                          className="bg-background group-data-[state=active]:block lg:group-data-[stat..."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="lg:hidden"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <ul className="space-y-6 ...">
+                                              <li>
+                                              <li>
+                                                <LinkComponent href="/services" className="text-muted...">
+                                                  <a
+                                                    className="text-muted-foreground hover:text-primary block duration..."
+                                                    ref={function}
+                                                    onClick={function onClick}
+                                                    onMouseEnter={function onMouseEnter}
+                                                    onTouchStart={function onTouchStart}
+                                                    href="/services"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                              <li>
+                                                <LinkComponent href="/c-deck" className="text-muted...">
+                                                  <a
+                                                    className="text-muted-foreground hover:text-primary block duration..."
+                                                    ref={function}
+                                                    onClick={function onClick}
+                                                    onMouseEnter={function onMouseEnter}
+                                                    onTouchStart={function onTouchStart}
+                                                    href="/c-deck"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                              <li>
+                                                <LinkComponent href="/pulse" className="text-muted...">
+                                                  <a
+                                                    className="text-muted-foreground hover:text-primary block duration..."
+                                                    ref={function}
+                                                    onClick={function onClick}
+                                                    onMouseEnter={function onMouseEnter}
+                                                    onTouchStart={function onTouchStart}
+                                                    href="/pulse"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                              <li>
+                                                <LinkComponent href="/careers" className="text-muted...">
+                                                  <a
+                                                    className="text-muted-foreground hover:text-primary block duration..."
+                                                    ref={function}
+                                                    onClick={function onClick}
+                                                    onMouseEnter={function onMouseEnter}
+                                                    onTouchStart={function onTouchStart}
+                                                    href="/careers"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <div
+                                            className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-..."
+-                                           bis_skin_checked="1"
+                                          >
+                              ...
+                                <SegmentViewNode type="page" pagePath="careers/pa...">
+                                  <SegmentTrieNode>
+                                  <ClientPageRoot Component={function CareersPage} serverProvidedParams={{...}}>
+                                    <CareersPage params={Promise} searchParams={Promise}>
+                                      <div
+                                        className="min-h-screen"
+-                                       bis_skin_checked="1"
+                                      >
+                                        ...
+                                          <HeroSection scrollYProgress={{...}} title="Careers" tagline={"Join a t..."} ...>
+                                            <motion.div style={{scale:{...}, ...}} className="sticky top...">
+                                              <div
+                                                className="sticky top-0 h-screen"
+                                                style={{transform:"none"}}
+                                                ref={function useMotionRef.useCallback}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <HeroHighlight containerClassName="h-screen">
+                                                  <div
+                                                    className="group relative flex w-full items-center justify-center ..."
+                                                    onMouseMove={function handleMouseMove}
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="pointer-events-none absolute inset-0"
+                                                      style={{backgroundImage:"url(\"data..."}}
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    ...
+                                        ...
+                              ...
+                                <div className="relative z...">
+                                  <div className="grid grid-...">
+                                    <div>
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-3">
+                                        <li className="relative">
+                                          <a
+                                            href="/#intro"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           About Caarapace
+                                        <li className="relative">
+                                          <a
+                                            href="/services"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Our Services
+                                        <li className="relative">
+                                          <a
+                                            href="/careers"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Careers
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-3">
+                                        <li className="relative">
+                                          <a
+                                            href="/coming-soon"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Blog
+                                        <li className="relative">
+                                          <a
+                                            href="/coming-soon"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Case Studies
+                                        <li className="relative">
+                                          <a
+                                            href="#contact-dialog"
+                                            className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           Contact Sales
+                                    <div>
+                                      <h4>
+                                      <ul className="space-y-4">
+                                        <li className="flex items...">
+                                          <Mail>
+                                          <a
+                                            href="mailto:info@caarapace.com"
+                                            className="text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           info@caarapace.com
+                                        <li className="flex items...">
+                                          <Phone>
+                                          <a
+                                            href="tel:+918610305690"
+                                            className="text-slate-600 transition-colors hover:text-[#BD0F46]"
+-                                           bis_skin_checked="1"
+                                          >
++                                           +91 86103 05690
+                                        ...
+                                  <hr>
+                                  <div className="flex flex-...">
+                                    <div className="flex space...">
+                                      <a>
+                                      <a>
+                                      <a>
+                                      <a
+                                        href="https://caarapace.com"
+                                        aria-label="Website"
+                                        className="transition-colors hover:text-[#BD0F46]"
+-                                       bis_skin_checked="1"
+                                      >
+                                      ...
+                                    ...
+                  ...
+
+[04:03:36.685] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[04:03:47.868] Server  LOG      ✓ Compiled in 185ms
+[04:04:11.924] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[04:04:25.846] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[04:04:25.846] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[04:04:31.193] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[04:04:31.193] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[04:07:27.695] Server  LOG      ✓ Compiled in 215ms
+[04:07:27.809] Browser ERROR   ./components/footer.tsx:213:5
+Parsing ecmascript source code failed
+  211 |       </div>
+  212 |     </div>
+> 213 |     </footer >
+      |     ^
+  214 |   );
+  215 | }
+  216 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+[04:07:27.809] Browser ERROR   ./components/footer.tsx:213:6
+Parsing ecmascript source code failed
+  211 |       </div>
+  212 |     </div>
+> 213 |     </footer >
+      |      ^^^^^^^^^
+  214 |   );
+  215 | }
+  216 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+[04:07:47.886] Server  LOG      ✓ Compiled in 201ms
+[04:07:52.427] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[04:09:06.701] Server  LOG      ✓ Compiled in 103ms

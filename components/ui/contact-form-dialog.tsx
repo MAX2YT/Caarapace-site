@@ -18,9 +18,11 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 interface ContactFormDialogProps {
     trigger?: React.ReactNode;
     className?: string;
+    open?: boolean;
+    onOpenChange?: (open: boolean) => void;
 }
 
-export function ContactFormDialog({ trigger, className }: ContactFormDialogProps) {
+export function ContactFormDialog({ trigger, className, open, onOpenChange }: ContactFormDialogProps) {
     const [formData, setFormData] = React.useState({
         name: '',
         email: '',
@@ -83,7 +85,7 @@ export function ContactFormDialog({ trigger, className }: ContactFormDialogProps
     ];
 
     return (
-        <Dialog>
+        <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogTrigger asChild>
                 {trigger || (
                     <Button variant="outline" size="sm" className={className}>
@@ -118,16 +120,12 @@ export function ContactFormDialog({ trigger, className }: ContactFormDialogProps
                             <div className="flex items-center gap-2 text-sm text-gray-600">
                                 <Mail className="w-4 h-4 text-[#BD0F46]" />
                                 <a href="mailto:hello@caarapace.com" className="hover:text-[#BD0F46]">
-                                    hello@caarapace.com
+                                    info@caarapace.com
                                 </a>
                             </div>
                             <div className="flex items-center gap-2 text-sm text-gray-600">
                                 <Phone className="w-4 h-4 text-[#BD0F46]" />
-                                <span>+1 (555) 123-4567</span>
-                            </div>
-                            <div className="flex items-center gap-2 text-sm text-gray-600">
-                                <MapPin className="w-4 h-4 text-[#BD0F46]" />
-                                <span>Remote-first, Global Team</span>
+                                <span>+91 86103 05690</span>
                             </div>
                         </div>
 

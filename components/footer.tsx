@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import {
   Mail,
   Phone,
@@ -13,6 +14,7 @@ import {
   Globe,
 } from "lucide-react";
 import { FooterBackgroundGradient, TextHoverEffect } from "@/components/ui/hover-footer";
+import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
 
 type FooterLink = {
   label: string;
@@ -51,19 +53,19 @@ const defaultFooterSections: FooterSection[] = [
   {
     title: "Company",
     links: [
-      { label: "About Caarapace", href: "#about" },
-      { label: "Our Services", href: "#services" },
-      { label: "Careers", href: "#careers" },
+      { label: "About Caarapace", href: "/#intro" },
+      { label: "Our Services", href: "/services" },
+      { label: "Careers", href: "/careers" },
     ],
   },
   {
     title: "Resources",
     links: [
-      { label: "Blog", href: "#blog" },
-      { label: "Case Studies", href: "#case-studies" },
+      { label: "Blog", href: "/coming-soon" },
+      { label: "Case Studies", href: "/coming-soon" },
       {
         label: "Contact Sales",
-        href: "#contact",
+        href: "#contact-dialog",
         pulse: true,
       },
     ],
@@ -73,17 +75,17 @@ const defaultFooterSections: FooterSection[] = [
 const defaultContactItems: ContactItem[] = [
   {
     icon: <Mail size={18} className="text-[#BD0F46]" />,
-    text: "hello@caarapace.com",
-    href: "mailto:hello@caarapace.com",
+    text: "info@caarapace.com",
+    href: "mailto:info@caarapace.com",
   },
   {
     icon: <Phone size={18} className="text-[#BD0F46]" />,
-    text: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    text: "+91 86103 05690",
+    href: "tel:+918610305690",
   },
   {
     icon: <MapPin size={18} className="text-[#BD0F46]" />,
-    text: "Remote-first, global team",
+    text: "Chennai, Tamilnadu",
   },
 ];
 
@@ -110,6 +112,9 @@ function HoverFooter({
       <div className="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none px-4">
         <TextHoverEffect text="CAARAPACE" className="w-full opacity-60" />
       </div>
+
+      {/* Blur overlay for better readability */}
+      <div className="absolute inset-0 z-[5] backdrop-blur-[2px] bg-white/40 pointer-events-none" />
 
       <FooterBackgroundGradient />
 
@@ -141,12 +146,29 @@ function HoverFooter({
               <ul className="space-y-3">
                 {section.links.map((link) => (
                   <li key={link.label} className="relative">
-                    <a
-                      href={link.href}
-                      className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                    >
-                      {link.label}
-                    </a>
+                    {link.href === "#contact-dialog" ? (
+                      <ContactFormDialog
+                        trigger={
+                          <button className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]">
+                            {link.label}
+                          </button>
+                        }
+                      />
+                    ) : link.href.startsWith("/") ? (
+                      <Link
+                        href={link.href}
+                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+                      >
+                        {link.label}
+                      </Link>
+                    ) : (
+                      <a
+                        href={link.href}
+                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
+                      >
+                        {link.label}
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -181,21 +203,8 @@ function HoverFooter({
         <hr className="my-6 border-t border-slate-200/60" />
 
         {/* Footer bottom */}
-        <div className="flex flex-col items-center justify-between gap-4 text-xs text-slate-500 md:flex-row md:text-sm">
-          <div className="flex space-x-5 text-slate-500">
-            {socialLinks.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                aria-label={item.label}
-                className="transition-colors hover:text-[#BD0F46]"
-              >
-                {item.icon && item.icon}
-              </a>
-            ))}
-          </div>
-
-          <p className="text-center md:text-right">
+        <div className="flex justify-center w-full text-xs text-slate-500 md:text-sm">
+          <p>
             &copy; {year} {companyName}. All rights reserved.
           </p>
         </div>

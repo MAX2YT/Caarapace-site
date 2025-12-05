@@ -13,32 +13,34 @@ interface FeatureItem {
 
 const features: FeatureItem[] = [
     {
-        title: "All Your Data, One Place",
-        description: "No more digging through a million folders. We bring all your business data together in one spot that actually makes sense. Search, filter, find—done.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-        highlights: ["One home for everything", "Smart search that works", "Auto-organized", "Locked down tight"],
-
+        title: "Executive Dashboard",
+        description: "Get a bird's-eye view of your entire construction business. Track ongoing projects, monitor financials, view expense distribution, and stay on top of workforce attendance—all from one powerful dashboard.",
+        image: "/cdeck-feature-1.jpg",
+        highlights: ["Project Status Overview", "Financial Analytics", "Expense Distribution Charts", "Attendance Tracking"],
     },
     {
-        title: "Automate the Boring Stuff",
-        description: "Stop doing the same tasks over and over. Set up workflows once, let them run forever. Your team can focus on the stuff that actually matters.",
-        image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&h=600&fit=crop",
-        highlights: ["Build your own flows", "Tasks on autopilot", "Smart alerts", "See what's working"],
-
+        title: "Comprehensive Reporting",
+        description: "From sales and payments to progress tracking and inventory—access every report you need in one place. Generate detailed insights across departments without switching between multiple tools.",
+        image: "/cdeck-feature-2.jpg",
+        highlights: ["Sales & Payment Reports", "Progress & Task Tracking", "Purchase & Expense Analysis", "Materials & Inventory Reports"],
     },
     {
-        title: "Seriously Secure",
-        description: "Bank-level security, but you don't need to think about it. Multi-factor auth, encrypted everything, and we log all the things. Your data stays yours.",
-        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
-        highlights: ["256-bit encryption", "Two-factor auth", "Role-based access", "Full audit trail"],
-
+        title: "Project Management",
+        description: "Manage all your construction projects with ease. Track progress percentages, monitor project status, handle pending approvals, and access material requests—everything organized in one intuitive interface.",
+        image: "/cdeck-feature-3.jpg",
+        highlights: ["Real-time Progress Tracking", "Project Status Management", "Pending Approvals Dashboard", "Client & Project Overview"],
     },
     {
-        title: "Insights That Hit Different",
-        description: "Real-time dashboards that actually tell you something useful. No more waiting for reports or guessing what's happening. Just straight-up clarity on your numbers.",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-        highlights: ["Live dashboards", "Custom reports", "Spot the trends", "Export anything"],
-
+        title: "Asset & Material Management",
+        description: "Keep your warehouse and materials organized effortlessly. Track cement, sand, bricks, plumbing supplies, and more with detailed category, unit, and location information for complete inventory control.",
+        image: "/cdeck-feature-4.jpg",
+        highlights: ["Warehouse Inventory", "Material Categorization", "Stock Level Tracking", "Quick Add & Edit"],
+    },
+    {
+        title: "Finance & Party Management",
+        description: "Stay on top of your finances with real-time visibility into advances, payments due, receivables, and vendor settlements. Manage all your parties, suppliers, and clients from a single finance hub.",
+        image: "/cdeck-feature-5.jpg",
+        highlights: ["Advance & Payment Tracking", "Vendor Settlement Status", "Party Balance Management", "Real-time Financial Overview"],
     },
 ];
 
