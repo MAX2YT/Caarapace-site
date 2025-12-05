@@ -1,15 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Check, ArrowRight } from "lucide-react";
+import { Check } from "lucide-react";
 
 interface FeatureItem {
     title: string;
     description: string;
     image: string;
     highlights: string[];
-    ctaText?: string;
-    ctaLink?: string;
+
 }
 
 const features: FeatureItem[] = [
@@ -18,32 +17,28 @@ const features: FeatureItem[] = [
         description: "No more digging through a million folders. We bring all your business data together in one spot that actually makes sense. Search, filter, find—done.",
         image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
         highlights: ["One home for everything", "Smart search that works", "Auto-organized", "Locked down tight"],
-        ctaText: "Check It Out",
-        ctaLink: "#contact"
+
     },
     {
         title: "Automate the Boring Stuff",
         description: "Stop doing the same tasks over and over. Set up workflows once, let them run forever. Your team can focus on the stuff that actually matters.",
         image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&h=600&fit=crop",
         highlights: ["Build your own flows", "Tasks on autopilot", "Smart alerts", "See what's working"],
-        ctaText: "See How It Works",
-        ctaLink: "#contact"
+
     },
     {
         title: "Seriously Secure",
         description: "Bank-level security, but you don't need to think about it. Multi-factor auth, encrypted everything, and we log all the things. Your data stays yours.",
         image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
         highlights: ["256-bit encryption", "Two-factor auth", "Role-based access", "Full audit trail"],
-        ctaText: "Learn More",
-        ctaLink: "#contact"
+
     },
     {
         title: "Insights That Hit Different",
         description: "Real-time dashboards that actually tell you something useful. No more waiting for reports or guessing what's happening. Just straight-up clarity on your numbers.",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
         highlights: ["Live dashboards", "Custom reports", "Spot the trends", "Export anything"],
-        ctaText: "See The Data",
-        ctaLink: "#contact"
+
     },
 ];
 
@@ -99,22 +94,7 @@ const FeatureSection = ({ feature, index }: { feature: FeatureItem; index: numbe
                     {feature.description}
                 </motion.p>
 
-                {/* CTA Buttons */}
-                <motion.div
-                    initial={{ opacity: 0, x: isReversed ? -30 : 30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.4 }}
-                    className="flex flex-wrap gap-4"
-                >
-                    <a
-                        href={feature.ctaLink}
-                        className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-[#BD0D46] text-[#BD0D46] font-semibold hover:bg-[#BD0D46] hover:text-white transition-all duration-300 group"
-                    >
-                        {feature.ctaText}
-                        <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                    </a>
-                </motion.div>
+
 
                 {/* Highlights */}
                 <motion.div
