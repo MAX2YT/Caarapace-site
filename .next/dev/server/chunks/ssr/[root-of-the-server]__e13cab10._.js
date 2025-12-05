@@ -289,13 +289,13 @@ function CareersPage() {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-wrap items-center justify-evenly gap-8 md:gap-16",
+                                className: "grid grid-cols-1 lg:grid-cols-[1fr_auto] items-center gap-8 md:gap-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex flex-col space-y-3 md:space-y-5",
                                         children: OPEN_ROLES.map((role, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$animated$2d$slideshow$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TextStaggerHover"], {
                                                 index: index,
-                                                className: "cursor-pointer text-3xl md:text-5xl font-bold uppercase tracking-tighter text-gray-900",
+                                                className: "cursor-pointer text-2xl md:text-4xl lg:text-5xl font-bold uppercase tracking-tighter text-gray-900 whitespace-nowrap",
                                                 text: role.title
                                             }, role.id, false, {
                                                 fileName: "[project]/app/careers/page.tsx",
@@ -308,14 +308,14 @@ function CareersPage() {
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$animated$2d$slideshow$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["HoverSliderImageWrap"], {
-                                        className: "rounded-2xl overflow-hidden shadow-2xl",
+                                        className: "rounded-2xl overflow-hidden shadow-2xl w-full max-w-lg mx-auto lg:mx-0",
                                         children: OPEN_ROLES.map((role, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$animated$2d$slideshow$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["HoverSliderImage"], {
                                                     index: index,
                                                     imageUrl: role.imageUrl,
                                                     src: role.imageUrl,
                                                     alt: role.title,
-                                                    className: "size-full max-h-96 object-cover",
+                                                    className: "w-full h-auto max-h-96 object-cover",
                                                     loading: "eager",
                                                     decoding: "async"
                                                 }, void 0, false, {

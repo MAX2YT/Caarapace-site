@@ -4208,6 +4208,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:gap-12 {
+      gap: calc(var(--spacing) * 12);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:gap-16 {
       gap: calc(var(--spacing) * 16);
     }
@@ -4545,6 +4551,12 @@
   @media (min-width: 64rem) {
     .lg\:grid-cols-4 {
       grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:grid-cols-\[1fr_auto\] {
+      grid-template-columns: 1fr auto;
     }
   }
 
