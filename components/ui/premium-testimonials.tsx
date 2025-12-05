@@ -8,12 +8,12 @@ import RollingCounter from '@/components/ui/rolling-counter';
 
 const testimonials = [
     {
-        name: "Arun Krishnan",
+        name: "Arun Sankar",
         role: "CEO @ TechFlow Solutions",
         company: "TechFlow",
         initials: "AK",
         rating: 5,
-        text: "Caarapace literally transformed our whole vibe. 300% more efficient, saved us $2M, and the automation runs 24/7. No cap, it's insane!",
+        text: "Caarapace literally transformed our whole vibe. 300% more efficient, saved us 1lakhs+, and the automation runs 24/7. No cap, it's insane!",
         results: ["300% efficiency boost", "$2M saved", "Always on 24/7"]
     },
     {
@@ -207,19 +207,19 @@ export function PremiumTestimonials() {
                     variants={fadeInUp}
                 >
                     <motion.div
-                        className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#BD0F46]/5 border border-[#BD0F46]/20 backdrop-blur-sm mb-6"
+                        className="inline-flex items-center gap-4 px-6 py-3 rounded-full bg-[#BD0F46]/5 border border-[#BD0F46]/20 backdrop-blur-sm mb-8"
                         whileHover={{ scale: 1.05, borderColor: "rgba(189, 15, 70, 0.4)" }}
                     >
                         <motion.div
                             animate={{ rotate: 360 }}
                             transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
                         >
-                            <Sparkles className="h-4 w-4 text-[#BD0F46]" />
+                            <Sparkles className="h-6 w-6 text-[#BD0F46]" />
                         </motion.div>
-                        <span className="text-sm font-medium text-gray-700">
+                        <span className="text-lg font-semibold text-gray-700">
                             Client Success Stories
                         </span>
-                        <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                        <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                     </motion.div>
 
                     <motion.h2
@@ -433,18 +433,18 @@ export function PremiumTestimonials() {
                     className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto"
                     variants={staggerContainer}
                 >
-                    {/* Happy Clients - Rolling Counter */}
                     <motion.div
                         className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
                         variants={fadeInUp}
                         whileHover={{ scale: 1.05, y: -5 }}
                     >
-                        <div className="text-2xl md:text-3xl font-bold mb-1 flex items-center justify-center">
-                            <RollingCounter
-                                value={500}
-                                fontSize={28}
-                                places={[100, 10, 1]}
+                        <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent mb-1">
+                            <CountUp
+                                to={15}
+                                from={1}
+                                duration={2}
                                 suffix="+"
+                                className="bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent"
                             />
                         </div>
                         <div className="text-gray-600 text-sm font-medium">
@@ -480,11 +480,11 @@ export function PremiumTestimonials() {
                     >
                         <div className="text-2xl md:text-3xl font-bold mb-1 flex items-center justify-center">
                             <RollingCounter
-                                value={10}
+                                value={1}
                                 fontSize={28}
-                                places={[10, 1]}
-                                prefix="$"
-                                suffix="M+"
+                                places={[1, 10]}
+                                prefix="₹"
+                                suffix="L+"
                             />
                         </div>
                         <div className="text-gray-600 text-sm font-medium">

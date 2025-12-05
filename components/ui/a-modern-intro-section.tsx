@@ -1,6 +1,6 @@
 export default function ModernIntroSection() {
     return (
-        <section className="bg-gray-50 py-12 sm:py-16 lg:py-24 relative overflow-hidden">
+        <section className="bg-white py-12 sm:py-16 lg:py-24 relative overflow-hidden">
             {/* Decorative elements - hidden on mobile for cleaner look */}
             <div className="hidden sm:block absolute top-20 right-20 w-3 h-3 sm:w-4 sm:h-4 bg-[#BD0F46] rounded-full"></div>
             <div className="hidden sm:block absolute top-32 right-32 w-2 h-2 sm:w-3 sm:h-3 bg-[#BD0F46]/60 rounded-sm transform rotate-45"></div>
@@ -24,10 +24,12 @@ export default function ModernIntroSection() {
                     <div className="relative mt-8 lg:mt-0 flex items-center justify-center">
                         {/* Caarapace Mascot Logo */}
                         <div className="relative transform rotate-6 sm:rotate-12 hover:rotate-0 hover:scale-125 transition-transform duration-300">
-                            <img
-                                src="/caarapace-mascot-logo.png"
-                                alt="Caarapace - Your Software Development Partner"
-                                className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto drop-shadow-2xl"
+                            <video
+                                src="/crabintro.mp4"
+                                autoPlay
+                                muted
+                                loop
+                                className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto"
                             />
                         </div>
 

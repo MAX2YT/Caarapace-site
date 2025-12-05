@@ -326,10 +326,10 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
             scale,
             rotate
         },
-        className: "relative h-screen bg-gradient-to-t to-[#1a1919] from-[#06060e] text-white",
+        className: "relative h-screen bg-gradient-to-t to-[#f5f5f5] from-white text-gray-900",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"
+                className: "absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#BD0F4615_1px,transparent_1px),linear-gradient(to_bottom,#BD0F4615_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
                 lineNumber: 89,
@@ -339,7 +339,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                 className: "container mx-auto relative z-10 h-full flex flex-col justify-center px-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl md:text-5xl leading-[100%] py-6 font-semibold tracking-tight",
+                        className: "text-3xl md:text-5xl leading-[100%] py-6 font-semibold tracking-tight text-gray-900",
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
@@ -347,7 +347,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative w-full h-[60vh] rounded-2xl overflow-hidden",
+                        className: "relative w-full h-[60vh] rounded-2xl overflow-hidden shadow-2xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: image,
@@ -359,7 +359,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl"
+                                className: "absolute inset-0 bg-gradient-to-t from-[#BD0F46]/20 to-transparent rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
                                 lineNumber: 100,

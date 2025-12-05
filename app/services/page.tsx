@@ -10,7 +10,7 @@ export default function ServicesPage() {
                 title="Services"
                 tagline="We build software that actually works."
                 highlightedText="Ship Fast. Scale Smart."
-                image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop"
+                image="/servicehero.png"
                 imageAlt="Team collaboration"
             />
 

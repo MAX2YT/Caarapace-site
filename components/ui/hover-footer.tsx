@@ -96,9 +96,10 @@ export const TextHoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="fill-transparent font-[helvetica] font-bold"
+        className="font-[helvetica] font-bold"
         style={{
           stroke: "rgba(60, 4, 20, 1)",
+          fill: "rgba(189, 15, 70, 0.15)",
           opacity: hovered ? 1.0 : 1.0,
         }}
       >

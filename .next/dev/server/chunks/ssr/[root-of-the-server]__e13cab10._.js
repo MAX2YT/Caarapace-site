@@ -168,7 +168,7 @@ const OPEN_ROLES = [
     {
         id: "role-6",
         title: "Game Development",
-        imageUrl: "https://images.unsplash.com/photo-1556438064-2d7646166914?w=800&h=600&fit=crop"
+        imageUrl: "game.png"
     }
 ];
 function CareersPage() {
@@ -201,7 +201,7 @@ function CareersPage() {
                 title: "Careers",
                 tagline: "Join a team that's building",
                 highlightedText: "the future of software.",
-                image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop",
+                image: "careerhero.png",
                 imageAlt: "Team collaboration"
             }, void 0, false, {
                 fileName: "[project]/app/careers/page.tsx",

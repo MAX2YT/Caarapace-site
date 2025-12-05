@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import HoverFooter from "@/components/footer";
 import SmoothScrollProvider from "@/components/smooth-scroll-provider";
+import { ScrollToTop } from "@/components/scroll-to-top";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -67,6 +68,7 @@ export default function RootLayout({
             </head>
             <body className={`${inter.variable} font-sans antialiased bg-white`}>
                 <SmoothScrollProvider>
+                    <ScrollToTop />
                     <Navbar />
                     {children}
                     <HoverFooter />

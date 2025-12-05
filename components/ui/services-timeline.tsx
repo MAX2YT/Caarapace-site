@@ -7,7 +7,7 @@ import { Search, Palette, Code, TestTube, Rocket } from "lucide-react";
 const timelineData = [
     {
         title: "Step 1",
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
+        image: "/Serviceprocess/Planing.png",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -15,7 +15,7 @@ const timelineData = [
                         <Search className="w-5 h-5 text-[#BD0D46]" />
                     </div>
                     <h4 className="text-xl md:text-2xl font-bold text-gray-900">
-                        Discovery & Strategy
+                        Strategy Planning
                     </h4>
                 </div>
                 <p className="text-gray-600 text-sm md:text-base mb-4">
@@ -42,7 +42,7 @@ const timelineData = [
     },
     {
         title: "Step 2",
-        image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop",
+        image: "/Serviceprocess/design.png",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -77,7 +77,7 @@ const timelineData = [
     },
     {
         title: "Step 3",
-        image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
+        image: "/Serviceprocess/integration.png",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -112,7 +112,7 @@ const timelineData = [
     },
     {
         title: "Step 4",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+        image: "/Serviceprocess/testing.png",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -147,7 +147,7 @@ const timelineData = [
     },
     {
         title: "Step 5",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+        image: "/Serviceprocess/deploy.png",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
