@@ -14,35 +14,43 @@ interface FeatureItem {
 
 const features: FeatureItem[] = [
     {
-        title: "Track Everything, Miss Nothing",
-        description: "Real-time monitoring that actually keeps up with you. Live dashboards, instant updates, zero lag. Know what's happening the moment it happens—no cap.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-        highlights: ["Live data stream", "Custom dashboards", "Instant updates", "Zero downtime"],
-        ctaText: "See It Live",
+        title: "Employee Management System",
+        description: "Streamline your HR operations with our comprehensive employee management software. Manage employee data, track departments, monitor job roles, and maintain contact information all in one centralized HR dashboard. Perfect for businesses seeking efficient workforce management solutions.",
+        image: "/pulse-employee-management.png",
+        highlights: ["Employee Database Management", "HR Dashboard Analytics", "Department Tracking", "Role-Based Access Control"],
+        ctaText: "Explore HR Tools",
         ctaLink: "#contact"
     },
     {
-        title: "Numbers That Actually Slap",
-        description: "Analytics that hit different. Spot trends before they're trends, predict growth like a pro, and make decisions that aren't just vibes—they're backed by data.",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-        highlights: ["Trend spotting", "Growth forecasting", "Smart insights", "One-click reports"],
-        ctaText: "Check The Stats",
+        title: "Leave Management & Time Tracking",
+        description: "Simplify your leave request workflow with automated leave management system. Track annual leave, sick leave, and parental leave with real-time approval workflows. Our time-off tracking software helps HR managers process requests efficiently and maintain accurate attendance records.",
+        image: "/pulse-leave-management.png",
+        highlights: ["Automated Leave Requests", "Approval Workflow System", "Leave Balance Tracking", "Attendance Management"],
+        ctaText: "View Leave Features",
         ctaLink: "#contact"
     },
     {
-        title: "Squad Goals, Literally",
-        description: "Keep your whole team in sync without the chaos. Shared views, real-time collab, and everyone on the same page. No more 'I didn't see that message' energy.",
-        image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop",
-        highlights: ["Shared workspaces", "Real-time sync", "Team insights", "Role-based views"],
-        ctaText: "Bring The Team",
+        title: "HR Analytics & Reporting Dashboard",
+        description: "Make data-driven HR decisions with powerful workforce analytics. Monitor employee satisfaction, track KPIs, and visualize department performance with interactive charts and reports. Our HR analytics platform transforms raw data into actionable business intelligence.",
+        image: "/pulse-hr-analytics.png",
+        highlights: ["Employee Satisfaction Metrics", "KPI Tracking Dashboard", "Department Analytics", "Custom Report Generation"],
+        ctaText: "View Analytics Demo",
         ctaLink: "#contact"
     },
     {
-        title: "Stay Woke on Your Metrics",
-        description: "Smart alerts that actually matter. Get pinged when something's off, celebrate wins automatically, and never miss a beat. It's like having a sixth sense for your business.",
-        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
-        highlights: ["Smart notifications", "Custom triggers", "Milestone alerts", "Priority inbox"],
-        ctaText: "Set It Up",
+        title: "Smooth Hiring Process",
+        description: "Drive employee performance with our comprehensive performance review system. Track new hires, monitor performance reviews progress, and manage pending leave requests from a unified dashboard. Enable continuous feedback and goal tracking for your entire organization.",
+        image: "/pulse-performance-tracking.png",
+        highlights: ["Performance Review Tracking", "New Hire Onboarding", "Goal Management System", "Real-Time Progress Monitoring"],
+        ctaText: "Start Performance Tracking",
+        ctaLink: "#contact"
+    },
+    {
+        title: "Workforce Analytics & Employee Engagement",
+        description: "Gain deep insights into your workforce with advanced HR metrics. Track employee turnover rates, measure engagement scores, monitor departmental headcount, and analyze recruitment costs. Our workforce planning tools help you build a more engaged and productive team.",
+        image: "/pulse-workforce-analytics.png",
+        highlights: ["Turnover Rate Analysis", "Employee Engagement Scores", "Recruitment Cost Tracking", "Workforce Planning Tools"],
+        ctaText: "Unlock Workforce Insights",
         ctaLink: "#contact"
     },
 ];
@@ -65,15 +73,11 @@ const FeatureSection = ({ feature, index }: { feature: FeatureItem; index: numbe
                 transition={{ duration: 0.3 }}
             >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
-                    <div className="absolute inset-0 bg-gradient-to-br from-[#BD0D46]/20 to-transparent z-10 group-hover:opacity-0 transition-opacity duration-500" />
                     <motion.img
                         src={feature.image}
                         alt={feature.title}
                         className="w-full h-[300px] lg:h-[400px] object-cover transition-transform duration-700 group-hover:scale-110"
                     />
-                    {/* Decorative elements */}
-                    <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#BD0D46]/10 rounded-full blur-2xl" />
-                    <div className="absolute -top-4 -left-4 w-32 h-32 bg-[#BD0D46]/5 rounded-full blur-3xl" />
                 </div>
             </motion.div>
 
@@ -158,10 +162,10 @@ export default function PulseAlternatingFeatures() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-                        Why Pulse Hits Different
+                        Complete HR Management Features
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        Real-time analytics that actually make sense. Built for teams who'd rather make moves than dig through spreadsheets.
+                        Everything you need to manage your workforce efficiently. From employee onboarding to performance analytics, Pulse EMS delivers enterprise-grade HR solutions for modern businesses.
                     </p>
                 </motion.div>
 

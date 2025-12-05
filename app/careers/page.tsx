@@ -36,7 +36,7 @@ const OPEN_ROLES = [
     {
         id: "role-6",
         title: "Game Development",
-        imageUrl: "game.png",
+        imageUrl: "https://images.unsplash.com/photo-1556438064-2d7646166914?w=800&h=600&fit=crop",
     },
 ]
 
@@ -71,7 +71,7 @@ export default function CareersPage() {
                 title="Careers"
                 tagline="Join a team that's building"
                 highlightedText="the future of software."
-                image= "careerhero.png"
+                image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop"
                 imageAlt="Team collaboration"
             />
 
@@ -140,7 +140,7 @@ export default function CareersPage() {
                     <a
                         href="#contact"
                         className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
-                        Send Resume
+                        Apply Now!
                     </a>
                 </div>
             </div>

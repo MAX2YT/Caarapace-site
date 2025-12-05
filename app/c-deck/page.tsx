@@ -1,16 +1,25 @@
-import HeroScrollAnimation from "@/components/ui/hero-scroll-animation";
+"use client";
+
+import ProductHeroScrollAnimation from "@/components/ui/product-hero-scroll-animation";
 import AlternatingFeatures from "@/components/ui/alternating-features";
 
 export default function CDeckPage() {
     return (
         <div className="min-h-screen">
             {/* Hero with Scroll Animation */}
-            <HeroScrollAnimation
-                title="CDeck ERP"
-                tagline="Streamline your operations with a CRM that"
-                highlightedText="just works."
-                image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop"
-                imageAlt="Business analytics dashboard"
+            <ProductHeroScrollAnimation
+                heroTitle="C-Deck ERP"
+                heroTagline="Streamline your operations with a CRM that"
+                heroHighlightedText="just works."
+                sectionLabel="C-DECK ERP"
+                headline="Streamline your operations with"
+                highlightedText="complete control"
+                index="01"
+                description="C-Deck ERP is your all-in-one solution for business management. From project tracking to resource allocation, our platform gives you the tools to optimize workflows, enhance team collaboration, and drive business growth."
+                ctaText="Learn more"
+                ctaLink="#features"
+                image="/cdeck-hero-image.png"
+                imageAlt="C-Deck ERP Logo"
             />
 
             <div className="container mx-auto px-6 py-16">

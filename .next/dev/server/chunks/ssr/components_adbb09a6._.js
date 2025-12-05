@@ -225,43 +225,6 @@ const HeroSection = ({ scrollYProgress, title, tagline, highlightedText })=>{
                         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
                         lineNumber: 51,
                         columnNumber: 21
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                        initial: {
-                            opacity: 0
-                        },
-                        animate: {
-                            opacity: 1
-                        },
-                        transition: {
-                            delay: 1,
-                            duration: 0.5
-                        },
-                        className: "absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                            className: "w-6 h-6 text-[#BD0F46]",
-                            fill: "none",
-                            stroke: "currentColor",
-                            viewBox: "0 0 24 24",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                strokeLinecap: "round",
-                                strokeLinejoin: "round",
-                                strokeWidth: 2,
-                                d: "M19 14l-7 7m0 0l-7-7m7 7V3"
-                            }, void 0, false, {
-                                fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                                lineNumber: 71,
-                                columnNumber: 29
-                            }, ("TURBOPACK compile-time value", void 0))
-                        }, void 0, false, {
-                            fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                            lineNumber: 70,
-                            columnNumber: 25
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                        lineNumber: 64,
-                        columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
@@ -306,7 +269,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                 className: "absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#BD0F4615_1px,transparent_1px),linear-gradient(to_bottom,#BD0F4615_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 89,
+                lineNumber: 79,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -317,7 +280,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                        lineNumber: 91,
+                        lineNumber: 81,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -329,32 +292,32 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                                 className: "object-cover w-full h-full rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                                lineNumber: 95,
+                                lineNumber: 85,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-gradient-to-t from-[#BD0F46]/20 to-transparent rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                                lineNumber: 100,
+                                lineNumber: 90,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                        lineNumber: 94,
+                        lineNumber: 84,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 90,
+                lineNumber: 80,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-        lineNumber: 85,
+        lineNumber: 75,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -378,7 +341,7 @@ function HeroScrollAnimation({ title, tagline, highlightedText, image, imageAlt 
                 highlightedText: highlightedText
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 116,
+                lineNumber: 106,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ImageSection, {
@@ -388,13 +351,13 @@ function HeroScrollAnimation({ title, tagline, highlightedText, image, imageAlt 
                 title: title
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 122,
+                lineNumber: 112,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-        lineNumber: 115,
+        lineNumber: 105,
         columnNumber: 9
     }, this);
 }
