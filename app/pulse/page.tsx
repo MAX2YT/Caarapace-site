@@ -13,16 +13,14 @@ export default function PulsePage() {
                 heroTitle="Pulse EMS"
                 heroTagline="Real-time analytics that keep you"
                 heroHighlightedText="ahead of the game."
-                logo="/pulse-logo.png"
                 sectionLabel="PULSE EMS"
-                headline="Event Management simplified with"
+                headline="HR Management simplified with"
                 highlightedText="real-time analytics"
-                index="01"
+                index=""
                 description="Pulse EMS is built for modern event management teams. Track registrations, monitor attendance, and analyze event performance in real-time. Our platform empowers you to make data-driven decisions that maximize your event's impact."
-                ctaText="Learn more"
-                ctaLink="#features"
-                image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop"
-                imageAlt="Analytics dashboard showing event metrics"
+
+                image="/pulse-hero-image.png"
+                imageAlt="Pulse EMS Logo"
             />
 
             <div className="container mx-auto px-6 py-16">

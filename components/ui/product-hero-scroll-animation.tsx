@@ -17,8 +17,8 @@ interface ProductHeroScrollAnimationProps {
     highlightedText: string;
     index: string;
     description: string;
-    ctaText: string;
-    ctaLink: string;
+    ctaText?: string;
+    ctaLink?: string;
     image: string;
     imageAlt?: string;
 }
@@ -38,8 +38,8 @@ interface ProductIntroSectionAnimatedProps {
     highlightedText: string;
     index: string;
     description: string;
-    ctaText: string;
-    ctaLink: string;
+    ctaText?: string;
+    ctaLink?: string;
     image: string;
     imageAlt?: string;
 }
@@ -177,18 +177,20 @@ const ProductIntroSectionAnimated: React.FC<ProductIntroSectionAnimatedProps> = 
                             </div>
                         </motion.div>
 
-                        {/* CTA Link */}
-                        <motion.a
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: 0.5 }}
-                            href={ctaLink}
-                            className="inline-flex items-center gap-2 text-gray-900 font-medium hover:text-[#BD0F46] transition-colors group"
-                        >
-                            {ctaText}
-                            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                        </motion.a>
+                        {/* CTA Link - Only render if ctaText is provided */}
+                        {ctaText && (
+                            <motion.a
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                href={ctaLink}
+                                className="inline-flex items-center gap-2 text-gray-900 font-medium hover:text-[#BD0F46] transition-colors group"
+                            >
+                                {ctaText}
+                                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            </motion.a>
+                        )}
                     </div>
 
                     {/* Right Image Side */}
