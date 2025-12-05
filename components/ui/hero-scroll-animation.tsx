@@ -85,6 +85,9 @@ const ImageSection: React.FC<ImageSectionProps> = ({ scrollYProgress, image, ima
                     <img
                         src={image}
                         alt={imageAlt || title}
+                        loading="eager"
+                        decoding="async"
+                        fetchPriority="high"
                         className='object-cover w-full h-full rounded-2xl'
                     />
                     <div className='absolute inset-0 bg-gradient-to-t from-[#BD0F46]/20 to-transparent rounded-2xl' />

@@ -70,6 +70,8 @@ export function HeroSection() {
                             <img
                                 src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=3272&auto=format&fit=crop"
                                 alt="background"
+                                loading="lazy"
+                                decoding="async"
                                 className="absolute inset-x-0 top-56 -z-20 hidden lg:top-32 lg:block opacity-30"
                                 width="3276"
                                 height="4095"
@@ -168,6 +170,9 @@ export function HeroSection() {
                                         className="bg-background aspect-[16/10] relative rounded-2xl"
                                         src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2940&auto=format&fit=crop"
                                         alt="Caarapace software development dashboard"
+                                        loading="eager"
+                                        decoding="async"
+                                        fetchPriority="high"
                                         width="2700"
                                         height="1440"
                                     />

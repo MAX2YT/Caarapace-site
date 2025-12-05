@@ -289,6 +289,9 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: image,
                                 alt: imageAlt || title,
+                                loading: "eager",
+                                decoding: "async",
+                                fetchPriority: "high",
                                 className: "object-cover w-full h-full rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
@@ -299,7 +302,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                                 className: "absolute inset-0 bg-gradient-to-t from-[#BD0F46]/20 to-transparent rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                                lineNumber: 90,
+                                lineNumber: 93,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -341,7 +344,7 @@ function HeroScrollAnimation({ title, tagline, highlightedText, image, imageAlt 
                 highlightedText: highlightedText
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 106,
+                lineNumber: 109,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ImageSection, {
@@ -351,13 +354,13 @@ function HeroScrollAnimation({ title, tagline, highlightedText, image, imageAlt 
                 title: title
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 112,
+                lineNumber: 115,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-        lineNumber: 105,
+        lineNumber: 108,
         columnNumber: 9
     }, this);
 }
