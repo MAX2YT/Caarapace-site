@@ -109,6 +109,12 @@ export function BackgroundPaths({
                             text-black transition-all duration-300 
                             group-hover:-translate-y-0.5 border border-black/10
                             hover:shadow-md"
+                            onClick={() => {
+                                const el = document.getElementById('contact');
+                                if (el) {
+                                    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                }
+                            }}
                         >
                             <span className="opacity-90 group-hover:opacity-100 transition-opacity">
                                 Get Started

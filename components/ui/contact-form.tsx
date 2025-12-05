@@ -1,6 +1,10 @@
 'use client'
 
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
+
+// Initialize EmailJS once when component mounts
+emailjs.init("44BIq6t6iWepbdl3_");
 
 export function ContactForm() {
     const [firstName, setFirstName] = useState('');
@@ -8,16 +12,59 @@ export function ContactForm() {
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
+    const [statusMessage, setStatusMessage] = useState('');
+    const [statusType, setStatusType] = useState<'success' | 'error' | ''>('');
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        console.log('Form submitted:', { firstName, lastName, email, subject, message });
-        // Handle form submission logic here
+        setIsLoading(true);
+        setStatusMessage('');
+
+        const templateParams = {
+            firstName,
+            lastName,
+            email,
+            subject,
+            message,
+        };
+
+        try {
+            const response = await emailjs.send(
+                "service_4coysl5",
+                "template_qoyid5u",
+                templateParams
+            );
+
+            if (response.status === 200) {
+                setStatusMessage('✓ Message sent successfully! We\'ll get back to you soon.');
+                setStatusType('success');
+                
+                // Clear form
+                setFirstName('');
+                setLastName('');
+                setEmail('');
+                setSubject('');
+                setMessage('');
+
+                // Clear message after 5 seconds
+                setTimeout(() => {
+                    setStatusMessage('');
+                    setStatusType('');
+                }, 5000);
+            }
+        } catch (error) {
+            console.error('Failed to send email:', error);
+            setStatusMessage('✗ Error sending message. Please try again.');
+            setStatusType('error');
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     return (
-        <div className="flex flex-col lg:flex-row py-12 md:py-16">
-            {/* Left Side - Solid Red Section */}
+        <div id="contact" className="flex flex-col lg:flex-row py-12 md:py-16">
+             {/* Left Side - Solid Red Section */}
             <div className="flex-1 bg-[#BD0D46] flex items-center justify-center p-8 md:p-10">
                 <div className="max-w-md">
                     <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
@@ -34,7 +81,7 @@ export function ContactForm() {
                         <div className="flex items-start gap-3 text-white">
                             <span className="font-semibold">Phone:</span>
                             <a href="tel:+11234567890" className="hover:text-white/80 transition-colors">
-                                (123) 4567890
+                                (123) 456-7890
                             </a>
                         </div>
 
@@ -47,7 +94,7 @@ export function ContactForm() {
 
                         <div className="flex items-start gap-3 text-white">
                             <span className="font-semibold">Web:</span>
-                            <a href="https://caarapace.com" className="hover:text-white/80 transition-colors">
+                            <a href="https://caarapace.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors">
                                 caarapace.com
                             </a>
                         </div>
@@ -143,10 +190,22 @@ export function ContactForm() {
                         {/* Submit Button */}
                         <button
                             type="submit"
-                            className="w-full bg-[#BD0D46] hover:bg-[#9e0d3c] text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+                            disabled={isLoading}
+                            className="w-full bg-[#BD0D46] hover:bg-[#9e0d3c] disabled:opacity-60 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
                         >
-                            Send Message
+                            {isLoading ? 'Sending...' : 'Send Message'}
                         </button>
+
+                        {/* Status Message */}
+                        {statusMessage && (
+                            <div className={`p-3 rounded-lg text-center text-sm font-medium ${
+                                statusType === 'success' 
+                                    ? 'bg-green-100 text-green-800' 
+                                    : 'bg-red-100 text-red-800'
+                            }`}>
+                                {statusMessage}
+                            </div>
+                        )}
                     </form>
                 </div>
             </div>
