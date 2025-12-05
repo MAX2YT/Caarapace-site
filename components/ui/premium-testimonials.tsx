@@ -441,9 +441,9 @@ export function PremiumTestimonials() {
                     >
                         <div className="text-2xl md:text-3xl font-bold mb-1 flex items-center justify-center">
                             <RollingCounter
-                                value={500}
+                                value={15}
                                 fontSize={28}
-                                places={[100, 10, 1]}
+                                places={[10, 1]}
                                 suffix="+"
                             />
                         </div>
@@ -483,8 +483,8 @@ export function PremiumTestimonials() {
                                 value={10}
                                 fontSize={28}
                                 places={[10, 1]}
-                                prefix="$"
-                                suffix="M+"
+                                prefix="₹"
+                                suffix="L+"
                             />
                         </div>
                         <div className="text-gray-600 text-sm font-medium">

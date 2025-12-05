@@ -1524,3 +1524,136 @@ It can also happen if the client has a browser extension installed which messes 
 [00:26:13.355] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
 [00:30:59.835] Server  LOG      ✓ Compiled in 231ms
 [00:31:21.522] Server  LOG      ✓ Compiled in 140ms
+[00:34:01.695] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:34:01.695] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:35:18.535] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[00:36:00.980] Server  LOG      ✓ Compiled in 92ms
+[00:37:02.812] Server  LOG      ✓ Compiled in 87ms
+[00:37:04.028] Server  LOG      ✓ Compiled in 122ms
+[00:37:31.406] Server  LOG      ✓ Compiled in 96ms
+[00:37:31.513] Browser ERROR   ./components/ui/premium-testimonials.tsx:445:33
+Parsing ecmascript source code failed
+  443 |                             <RollingCounter
+  444 |                                 value={}
+> 445 |                                 fontSize={28}
+      |                                 ^^^^^^^^
+  446 |                                 places={[100, 10, 1]}
+  447 |                                 suffix="+"
+  448 |                             />
+
+Expected '</', got 'fontSize'
+
+Import trace:
+  Server Component:
+    ./components/ui/premium-testimonials.tsx
+    ./app/page.tsx
+[00:37:31.522] Browser ERROR   ./components/ui/premium-testimonials.tsx:445:33
+Parsing ecmascript source code failed
+  443 |                             <RollingCounter
+  444 |                                 value={}
+> 445 |                                 fontSize={28}
+      |                                 ^^^^^^^^
+  446 |                                 places={[100, 10, 1]}
+  447 |                                 suffix="+"
+  448 |                             />
+
+Expected '</', got 'fontSize'
+
+Import trace:
+  Server Component:
+    ./components/ui/premium-testimonials.tsx
+    ./app/page.tsx
+[00:37:31.529] Browser ERROR   ./components/ui/premium-testimonials.tsx:445:33
+Parsing ecmascript source code failed
+  443 |                             <RollingCounter
+  444 |                                 value={}
+> 445 |                                 fontSize={28}
+      |                                 ^^^^^^^^
+  446 |                                 places={[100, 10, 1]}
+  447 |                                 suffix="+"
+  448 |                             />
+
+Expected '</', got 'fontSize'
+
+Import trace:
+  Server Component:
+    ./components/ui/premium-testimonials.tsx
+    ./app/page.tsx
+[00:37:31.529] Browser ERROR   ./components/ui/premium-testimonials.tsx:445:33
+Parsing ecmascript source code failed
+  443 |                             <RollingCounter
+  444 |                                 value={}
+> 445 |                                 fontSize={28}
+      |                                 ^^^^^^^^
+  446 |                                 places={[100, 10, 1]}
+  447 |                                 suffix="+"
+  448 |                             />
+
+Expected '</', got 'fontSize'
+
+Import trace:
+  Server Component:
+    ./components/ui/premium-testimonials.tsx
+    ./app/page.tsx
+[00:37:32.417] Browser ERROR   ./components/ui/premium-testimonials.tsx:445:33
+Parsing ecmascript source code failed
+  443 |                             <RollingCounter
+  444 |                                 value={}
+> 445 |                                 fontSize={28}
+      |                                 ^^^^^^^^
+  446 |                                 places={[100, 10, 1]}
+  447 |                                 suffix="+"
+  448 |                             />
+
+Expected '</', got 'fontSize'
+
+Import trace:
+  Server Component:
+    ./components/ui/premium-testimonials.tsx
+    ./app/page.tsx
+[00:37:37.649] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:37.971] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_5901b7c6-module__ec5Qua__variable font-sans antialiased bg-white"
+-                           __processed_ed78e784-b30b-4a92-ba2a-c0e2d1c85fd4__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[00:37:52.760] Server  LOG      ✓ Compiled in 82ms
