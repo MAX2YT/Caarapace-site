@@ -1,16 +1,17 @@
 'use client';
 
 import HeroScrollAnimation from "@/components/ui/hero-scroll-animation";
-import { Briefcase, Heart, Rocket, GraduationCap, Upload, FileText, X, Check, Loader2 } from 'lucide-react'
+import { Briefcase, Heart, Rocket, GraduationCap, Upload, FileText, X } from 'lucide-react'
 import {
     HoverSlider,
     HoverSliderImage,
     HoverSliderImageWrap,
     TextStaggerHover
 } from "@/components/ui/animated-slideshow"
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ModernRetroButton from '@/components/ui/modern-retro-button';
+import emailjs from '@emailjs/browser';
 
 const OPEN_ROLES = [
     {
@@ -66,6 +67,7 @@ interface FormErrors {
     cgpa?: string;
     aboutYourself?: string;
     resume?: string;
+    submit?: string;
 }
 
 // Experience options
@@ -77,6 +79,17 @@ const experienceOptions = [
     { value: 'senior', label: 'Senior (5-8 years)' },
     { value: 'lead', label: 'Lead (8+ years)' },
 ];
+
+// ✅ Cloudinary + EmailJS config (from env)
+// ⚠️ For learning/demo only: values are hard-coded.
+// Later you can move them to a .env file.
+
+const CLOUDINARY_CLOUD_NAME = "dtl0gebhh";          // e.g. "dabc123"
+const CLOUDINARY_UPLOAD_PRESET = "Resumes";  // e.g. "unsigned_resumes"
+
+const EMAILJS_SERVICE_ID = "service_4coysl5";             // e.g. "service_abc123"
+const EMAILJS_TEMPLATE_ID = "template_98qxjes";           // e.g. "template_xyz456"
+const EMAILJS_PUBLIC_KEY = "44BIq6t6iWepbdl3_";             // from EmailJS dashboard
 
 export default function CareersPage() {
     const benefits = [
@@ -122,7 +135,16 @@ export default function CareersPage() {
     // Check if fresher is selected
     const isFresher = formData.experience === 'fresher';
 
-    // Validation function
+    // 🔑 Init EmailJS on client
+    useEffect(() => {
+        if (EMAILJS_PUBLIC_KEY) {
+            emailjs.init(EMAILJS_PUBLIC_KEY);
+        } else {
+            console.warn("EmailJS public key is missing. Set NEXT_PUBLIC_EMAILJS_PUBLIC_KEY in .env.local");
+        }
+    }, []);
+
+    // ✅ Validation function
     const validateForm = (): boolean => {
         const newErrors: FormErrors = {};
 
@@ -172,7 +194,7 @@ export default function CareersPage() {
         return Object.keys(newErrors).length === 0;
     };
 
-    // File validation
+    // ✅ File validation
     const validateFile = (file: File): string | null => {
         const allowedTypes = [
             'application/pdf',
@@ -192,7 +214,7 @@ export default function CareersPage() {
         return null;
     };
 
-    // Handle input changes
+    // ✅ Handle input changes
     const handleInputChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
     ) => {
@@ -203,7 +225,7 @@ export default function CareersPage() {
         }
     };
 
-    // Handle file selection
+    // ✅ Handle file selection
     const handleFileSelect = useCallback((file: File) => {
         const error = validateFile(file);
         if (error) {
@@ -212,9 +234,9 @@ export default function CareersPage() {
         }
         setFormData((prev) => ({ ...prev, resume: file }));
         setErrors((prev) => ({ ...prev, resume: undefined }));
-    }, []);
+    }, [setFormData, setErrors]);
 
-    // Handle file drop
+    // ✅ Handle file drop
     const handleDrop = useCallback(
         (e: React.DragEvent<HTMLDivElement>) => {
             e.preventDefault();
@@ -241,19 +263,76 @@ export default function CareersPage() {
         setFormData((prev) => ({ ...prev, resume: null }));
     };
 
-    // Handle form submission
+    // ✅ Upload to Cloudinary
+    const uploadToCloudinary = async (file: File): Promise<string> => {
+        if (!CLOUDINARY_CLOUD_NAME || !CLOUDINARY_UPLOAD_PRESET) {
+            throw new Error("Cloudinary config missing. Set NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME and NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET in .env.local");
+        }
+
+        const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/upload`;
+
+        const data = new FormData();
+        data.append("file", file);
+        data.append("upload_preset", CLOUDINARY_UPLOAD_PRESET);
+        // Optional: data.append("folder", "resumes");
+
+        const res = await fetch(url, {
+            method: "POST",
+            body: data,
+        });
+
+        if (!res.ok) {
+            throw new Error("Failed to upload resume to Cloudinary");
+        }
+
+        const json = await res.json();
+        return json.secure_url as string;
+    };
+
+    // ✅ Handle form submission (Cloudinary + EmailJS)
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+        setErrors((prev) => ({ ...prev, submit: undefined }));
+
         if (!validateForm()) {
             return;
         }
-        setIsSubmitting(true);
-        await new Promise((resolve) => setTimeout(resolve, 2000));
-        console.log('Form submitted:', formData);
-        setIsSubmitting(false);
-        setIsSuccess(true);
 
-        setTimeout(() => {
+        if (!formData.resume) {
+            setErrors((prev) => ({ ...prev, resume: "Please upload your resume" }));
+            return;
+        }
+
+        setIsSubmitting(true);
+
+        try {
+            // 1) Upload resume to Cloudinary
+            const resumeUrl = await uploadToCloudinary(formData.resume);
+
+            // 2) Send email via EmailJS with form data + resume link
+            if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+                throw new Error("EmailJS config missing. Set NEXT_PUBLIC_EMAILJS_SERVICE_ID, NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, NEXT_PUBLIC_EMAILJS_PUBLIC_KEY in .env.local");
+            }
+
+            await emailjs.send(
+                EMAILJS_SERVICE_ID,
+                EMAILJS_TEMPLATE_ID,
+                {
+                    // 🔁 These names must match your EmailJS template variables
+                    first_name: formData.firstName,
+                    last_name: formData.lastName,
+                    email: formData.email,
+                    qualification: formData.qualification,
+                    experience: formData.experience,
+                    cgpa: formData.cgpa || 'N/A',
+                    about_yourself: formData.aboutYourself,
+                    resume_link: resumeUrl,
+                }
+            );
+
+            setIsSuccess(true);
+
+            // Reset form after success
             setFormData({
                 firstName: '',
                 lastName: '',
@@ -264,8 +343,19 @@ export default function CareersPage() {
                 aboutYourself: '',
                 resume: null,
             });
-            setIsSuccess(false);
-        }, 3000);
+
+            setTimeout(() => {
+                setIsSuccess(false);
+            }, 3000);
+        } catch (error: any) {
+            console.error(error);
+            setErrors((prev) => ({
+                ...prev,
+                submit: error?.message || "Something went wrong while submitting the application.",
+            }));
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -353,6 +443,17 @@ export default function CareersPage() {
                                 Don&apos;t see your dream role? Send us your resume and we&apos;ll keep you on our radar.
                             </p>
                         </div>
+
+                        {/* Submit error (global) */}
+                        {errors.submit && (
+                            <motion.div
+                                initial={{ opacity: 0, y: -10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                className="mb-4 rounded-lg border border-red-300 bg-red-50 px-4 py-3 text-sm text-red-700"
+                            >
+                                {errors.submit}
+                            </motion.div>
+                        )}
 
                         {/* Form */}
                         <form onSubmit={handleSubmit} className="space-y-6">
