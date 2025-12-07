@@ -1,10 +1,16 @@
+"use client";
+
+import { useState } from "react";
 import HeroScrollAnimation from "@/components/ui/hero-scroll-animation";
 import MagicBento from "@/components/magic-bento";
 import ServicesTimeline from "@/components/ui/services-timeline";
+import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
 
 export default function ServicesPage() {
+    const [dialogOpen, setDialogOpen] = useState(false);
+
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white relative">
             {/* Hero with Scroll Animation */}
             <HeroScrollAnimation
                 title="Services"
@@ -42,12 +48,18 @@ export default function ServicesPage() {
                         <p className="text-slate-600 mb-6 max-w-xl">
                             Let's chat about turning your idea into reality. No sales pitch, just real talk about what we can create together.
                         </p>
-                        <a
-                            href="mailto:hello@caarapace.com"
-                            className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-[#BD0F46] text-white hover:bg-[#BD0F46]/90 transition-colors shadow-[0_10px_30px_rgba(189,15,70,0.35)] hover:shadow-[0_14px_40px_rgba(189,15,70,0.45)]"
-                        >
-                            Hit Us Up
-                        </a>
+                        <ContactFormDialog
+                            open={dialogOpen}
+                            onOpenChange={setDialogOpen}
+                            trigger={
+                                <button
+                                    onClick={() => setDialogOpen(true)}
+                                    className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-[#BD0F46] text-white hover:bg-[#BD0F46]/90 transition-colors shadow-[0_10px_30px_rgba(189,15,70,0.35)] hover:shadow-[0_14px_40px_rgba(189,15,70,0.45)] cursor-pointer"
+                                >
+                                    Hit Us Up
+                                </button>
+                            }
+                        />
                     </div>
                 </div>
             </div>

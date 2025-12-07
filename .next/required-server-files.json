@@ -85,9 +85,7 @@
       ],
       "unoptimized": true
     },
-    "devIndicators": {
-      "position": "bottom-left"
-    },
+    "devIndicators": false,
     "onDemandEntries": {
       "maxInactiveAge": 60000,
       "pagesBufferLength": 5
@@ -117,7 +115,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\React projects\\Caarapace-site\\Caarapace-site",
+    "outputFileTracingRoot": "D:\\eks-push9\\Caarapace-site",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -175,7 +173,7 @@
       "proxyPrefetch": "flexible",
       "optimisticClientCache": true,
       "manualClientBasePath": false,
-      "cpus": 15,
+      "cpus": 3,
       "memoryBasedWorkersCount": false,
       "imgOptConcurrency": null,
       "imgOptTimeoutInSeconds": 7,
@@ -307,11 +305,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "D:\\React projects\\Caarapace-site\\Caarapace-site"
+      "root": "D:\\eks-push9\\Caarapace-site"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "D:\\React projects\\Caarapace-site\\Caarapace-site",
+  "appDir": "D:\\eks-push9\\Caarapace-site",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

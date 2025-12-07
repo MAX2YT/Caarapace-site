@@ -52,6 +52,12 @@
       "namedRegex": "^/careers(?:/)?$"
     },
     {
+      "page": "/coming-soon",
+      "regex": "^/coming\\-soon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/coming\\-soon(?:/)?$"
+    },
+    {
       "page": "/pulse",
       "regex": "^/pulse(?:/)?$",
       "routeKeys": {},

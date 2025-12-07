@@ -1,5 +1,21 @@
-[00:00:05.295] Server  LOG      ✓ Ready in 4.3s
-[00:00:08.669] Server  LOG      ○ Compiling / ...
-[00:00:24.060] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:36.942] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:19.886] Server  LOG      ✓ Compiled in 2.2s
+[00:00:11.311] Server  LOG      ✓ Ready in 7.2s
+[00:00:14.782] Server  LOG      ○ Compiling /services ...
+[00:00:36.764] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:00.704] Server  LOG      ○ Compiling / ...
+[00:01:04.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:09.197] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[00:03:37.600] Server  LOG      ✓ Compiled in 169ms
+[00:04:11.913] Server  LOG      ✓ Compiled in 1430ms
+[00:04:46.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:52.448] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:04:52.448] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:15:28.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:33.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:53.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:41.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:15.840] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:37.646] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:55.574] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:17:55.574] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:18:20.783] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:18:20.783] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.

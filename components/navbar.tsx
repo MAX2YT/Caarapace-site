@@ -3,6 +3,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { ContactFormDialog } from '@/components/ui/contact-form-dialog'
@@ -20,6 +21,7 @@ export function Navbar() {
     const [menuState, setMenuState] = React.useState(false)
     const [isScrolled, setIsScrolled] = React.useState(false)
     const [dialogOpen, setDialogOpen] = React.useState(false)
+    const pathname = usePathname()
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -30,7 +32,7 @@ export function Navbar() {
     }, [])
 
     return (
-        <header>
+        <header suppressHydrationWarning>
             <nav
                 data-state={menuState && 'active'}
                 className="fixed z-20 w-full px-2 group">
@@ -55,30 +57,47 @@ export function Navbar() {
 
                         <div className="absolute inset-0 m-auto hidden size-fit lg:block">
                             <ul className="flex gap-8 text-sm">
-                                {menuItems.map((item, index) => (
-                                    <li key={index}>
-                                        <Link
-                                            href={item.href}
-                                            className="text-muted-foreground hover:text-primary block duration-150 font-medium">
-                                            <span>{item.name}</span>
-                                        </Link>
-                                    </li>
-                                ))}
+                                {menuItems.map((item, index) => {
+                                    const isActive = pathname === item.href
+                                    return (
+                                        <li key={index}>
+                                            <Link
+                                                href={item.href}
+                                                className={cn(
+                                                    "block duration-150 font-medium",
+                                                    isActive
+                                                        ? "text-primary"
+                                                        : "text-muted-foreground hover:text-primary"
+                                                )}>
+                                                <span>{item.name}</span>
+                                            </Link>
+                                        </li>
+                                    )
+                                })}
                             </ul>
                         </div>
 
                         <div className="bg-background group-data-[state=active]:block lg:group-data-[state=active]:flex mb-6 hidden w-full flex-wrap items-center justify-end space-y-8 rounded-3xl border p-6 shadow-2xl shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-6 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none dark:lg:bg-transparent">
                             <div className="lg:hidden">
                                 <ul className="space-y-6 text-base">
-                                    {menuItems.map((item, index) => (
-                                        <li key={index}>
-                                            <Link
-                                                href={item.href}
-                                                className="text-muted-foreground hover:text-primary block duration-150">
-                                                <span>{item.name}</span>
-                                            </Link>
-                                        </li>
-                                    ))}
+                                    {menuItems.map((item, index) => {
+                                        const isActive = pathname === item.href
+                                        return (
+                                            <li key={index}>
+                                                <Link
+                                                    href={item.href}
+                                                    onClick={() => setMenuState(false)}
+                                                    className={cn(
+                                                        "block duration-150",
+                                                        isActive
+                                                            ? "text-primary font-semibold"
+                                                            : "text-muted-foreground hover:text-primary"
+                                                    )}>
+                                                    <span>{item.name}</span>
+                                                </Link>
+                                            </li>
+                                        )
+                                    })}
                                 </ul>
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
@@ -111,7 +130,7 @@ const Logo = ({ className }: { className?: string }) => {
                 width={180}
                 height={60}
                 className="h-8 w-auto"
-                priority
+                loading="eager"
             />
         </div>
     )

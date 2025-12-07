@@ -231,8 +231,15 @@ const HeroSection = ({ scrollYProgress, title, tagline, highlightedText })=>{
                         children: [
                             tagline,
                             " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$hero$2d$highlight$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Highlight"], {
-                                children: highlightedText
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "block text-center mt-2 md:inline md:mt-0",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$hero$2d$highlight$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Highlight"], {
+                                    children: highlightedText
+                                }, void 0, false, {
+                                    fileName: "[project]/components/ui/hero-scroll-animation.tsx",
+                                    lineNumber: 63,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
                                 lineNumber: 62,
@@ -295,7 +302,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                 className: "absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#BD0F4615_1px,transparent_1px),linear-gradient(to_bottom,#BD0F4615_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 79,
+                lineNumber: 81,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -306,7 +313,7 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                        lineNumber: 81,
+                        lineNumber: 83,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -321,32 +328,32 @@ const ImageSection = ({ scrollYProgress, image, imageAlt, title })=>{
                                 className: "object-cover w-full h-full rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                                lineNumber: 85,
+                                lineNumber: 87,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-gradient-to-t from-[#BD0F46]/20 to-transparent rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                                lineNumber: 93,
+                                lineNumber: 95,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                        lineNumber: 84,
+                        lineNumber: 86,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 80,
+                lineNumber: 82,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-        lineNumber: 75,
+        lineNumber: 77,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -369,7 +376,10 @@ function HeroScrollAnimation({ title, tagline, highlightedText, image, imageAlt 
     });
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         ref: container,
-        className: "relative h-[200vh] bg-white",
+        style: {
+            position: 'relative'
+        },
+        className: "h-[200vh] bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(HeroSection, {
                 scrollYProgress: scrollYProgress,
@@ -378,7 +388,7 @@ function HeroScrollAnimation({ title, tagline, highlightedText, image, imageAlt 
                 highlightedText: highlightedText
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 109,
+                lineNumber: 111,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ImageSection, {
@@ -388,13 +398,13 @@ function HeroScrollAnimation({ title, tagline, highlightedText, image, imageAlt 
                 title: title
             }, void 0, false, {
                 fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-                lineNumber: 115,
+                lineNumber: 117,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/hero-scroll-animation.tsx",
-        lineNumber: 108,
+        lineNumber: 110,
         columnNumber: 9
     }, this);
 }
@@ -1261,6 +1271,9 @@ const Timeline = ({ data })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "w-full bg-white font-sans",
         ref: containerRef,
+        style: {
+            position: 'relative'
+        },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1306,12 +1319,12 @@ const Timeline = ({ data })=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ui/timeline.tsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 79,
                                                         columnNumber: 41
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ui/timeline.tsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 71,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1319,13 +1332,13 @@ const Timeline = ({ data })=>{
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ui/timeline.tsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 87,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ui/timeline.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 70,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1336,20 +1349,20 @@ const Timeline = ({ data })=>{
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ui/timeline.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 93,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 item.content
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ui/timeline.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 92,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/ui/timeline.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 60,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1365,18 +1378,18 @@ const Timeline = ({ data })=>{
                                     className: "absolute inset-x-0 top-0 w-[3px] bg-gradient-to-t from-[#BD0D46] via-[#BD0D46] to-[#BD0D46]/50 rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/timeline.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 108,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/timeline.tsx",
-                                lineNumber: 101,
+                                lineNumber: 102,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ui/timeline.tsx",
-                        lineNumber: 57,
+                        lineNumber: 58,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1413,19 +1426,19 @@ const Timeline = ({ data })=>{
                                         className: "w-full h-full object-cover"
                                     }, activeIndex, false, {
                                         fileName: "[project]/components/ui/timeline.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 123,
                                         columnNumber: 37
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/timeline.tsx",
-                                    lineNumber: 120,
+                                    lineNumber: 121,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/timeline.tsx",
-                                    lineNumber: 137,
+                                    lineNumber: 138,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1447,34 +1460,34 @@ const Timeline = ({ data })=>{
                                         children: data[activeIndex]?.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/timeline.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 147,
                                         columnNumber: 33
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, `indicator-${activeIndex}`, false, {
                                     fileName: "[project]/components/ui/timeline.tsx",
-                                    lineNumber: 139,
+                                    lineNumber: 140,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ui/timeline.tsx",
-                            lineNumber: 119,
+                            lineNumber: 120,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/ui/timeline.tsx",
-                        lineNumber: 118,
+                        lineNumber: 119,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/timeline.tsx",
-                lineNumber: 55,
+                lineNumber: 56,
                 columnNumber: 17
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/components/ui/timeline.tsx",
-            lineNumber: 54,
+            lineNumber: 55,
             columnNumber: 13
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {

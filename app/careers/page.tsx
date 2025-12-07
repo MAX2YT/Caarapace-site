@@ -359,7 +359,7 @@ export default function CareersPage() {
     };
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen relative">
             {/* Hero with Scroll Animation */}
             <HeroScrollAnimation
                 title="Careers"

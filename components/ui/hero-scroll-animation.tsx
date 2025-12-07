@@ -59,7 +59,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollYProgress, title, tagli
                         className="text-xl md:text-2xl lg:text-3xl text-gray-600 max-w-4xl mx-auto px-4 leading-relaxed"
                     >
                         {tagline}{" "}
-                        <Highlight>{highlightedText}</Highlight>
+                        <span className="block text-center mt-2 md:inline md:mt-0">
+                            <Highlight>{highlightedText}</Highlight>
+                        </span>
                     </motion.p>
                 </div>
             </HeroHighlight>
@@ -105,7 +107,7 @@ export default function HeroScrollAnimation({ title, tagline, highlightedText, i
     });
 
     return (
-        <main ref={container} className='relative h-[200vh] bg-white'>
+        <main ref={container} style={{ position: 'relative' }} className='h-[200vh] bg-white'>
             <HeroSection
                 scrollYProgress={scrollYProgress}
                 title={title}

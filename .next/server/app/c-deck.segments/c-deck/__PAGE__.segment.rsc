@@ -1,7 +1,9 @@
 1:"$Sreact.fragment"
-2:I[45100,["/_next/static/chunks/dd4f04cb337bd4c9.js","/_next/static/chunks/c788b8759ffaa8e5.js","/_next/static/chunks/b6af0aedb4b835a5.js","/_next/static/chunks/a0fdb514854ed2b0.js"],"default"]
-3:I[53612,["/_next/static/chunks/dd4f04cb337bd4c9.js","/_next/static/chunks/c788b8759ffaa8e5.js","/_next/static/chunks/b6af0aedb4b835a5.js","/_next/static/chunks/a0fdb514854ed2b0.js"],"default"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-0:{"buildId":"Q0TI7KFB0LYPQV6td-Fps","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen","children":[["$","$L2",null,{"title":"CDeck ERP","tagline":"Streamline your operations with a CRM that","highlightedText":"just works.","image":"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop","imageAlt":"Business analytics dashboard"}],["$","div",null,{"className":"container mx-auto px-6 py-16","children":[["$","$L3",null,{}],["$","div",null,{"className":"text-center max-w-3xl mx-auto p-12 rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 to-transparent mt-12","children":[["$","h2",null,{"className":"text-3xl font-bold mb-4","children":"Transform Your Customer Management"}],["$","p",null,{"className":"text-muted-foreground mb-8","children":"Join hundreds of businesses already using C-Deck to optimize their operations and boost productivity."}],["$","a",null,{"href":"#contact","className":"inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors","children":"Get Started Today"}]]}]]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/a0fdb514854ed2b0.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+2:I[47257,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"ClientPageRoot"]
+3:I[6702,["/_next/static/chunks/2d85c3180a71c96b.js","/_next/static/chunks/6355f034f1c82c1e.js","/_next/static/chunks/b70c2acfe835be27.js","/_next/static/chunks/273c38d496d800e0.js","/_next/static/chunks/612b9dac2555fa3f.js","/_next/static/chunks/3204649578f09b57.js","/_next/static/chunks/339663e0c908c855.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"6Ow-V083ETREMXuq8ecK9","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/339663e0c908c855.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null

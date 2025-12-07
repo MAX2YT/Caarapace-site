@@ -168,6 +168,7 @@
     --radius-xl: .75rem;
     --radius-2xl: 1rem;
     --radius-3xl: 1.5rem;
+    --ease-out: cubic-bezier(0, 0, .2, 1);
     --ease-in-out: cubic-bezier(.4, 0, .2, 1);
     --animate-spin: spin 1s linear infinite;
     --animate-pulse: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
@@ -183,6 +184,8 @@
     --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --color-primary-600: #ef0049;
+    --color-primary-700: #be0b45;
     --color-primary: #be0b45;
     --color-primary-foreground: #fff;
   }
@@ -490,9 +493,16 @@
     --radius: .5rem;
   }
 
+  html {
+    height: 100%;
+    position: relative;
+  }
+
   body {
     background: hsl(var(--background));
     color: hsl(var(--foreground));
+    min-height: 100%;
+    position: relative;
   }
 
   p, .text-justify {
@@ -508,6 +518,10 @@
 @layer components;
 
 @layer utilities {
+  .pointer-events-auto {
+    pointer-events: auto;
+  }
+
   .pointer-events-none {
     pointer-events: none;
   }
@@ -1331,6 +1345,16 @@
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
 
+  .translate-y-0 {
+    --tw-translate-y: calc(var(--spacing) * 0);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+
+  .translate-y-4 {
+    --tw-translate-y: calc(var(--spacing) * 4);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+
   .translate-y-\[-50\%\] {
     --tw-translate-y: -50%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -1729,6 +1753,16 @@
 
   .border-primary {
     border-color: var(--color-primary);
+  }
+
+  .border-primary-600\/20 {
+    border-color: #ef004933;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-primary-600\/20 {
+      border-color: color-mix(in oklab, var(--color-primary-600) 20%, transparent);
+    }
   }
 
   .border-primary\/10 {
@@ -2981,6 +3015,16 @@
     }
   }
 
+  .shadow-primary\/25 {
+    --tw-shadow-color: #be0b4540;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .shadow-primary\/25 {
+      --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-primary) 25%, transparent) var(--tw-shadow-alpha), transparent);
+    }
+  }
+
   .shadow-zinc-300\/20 {
     --tw-shadow-color: #d4d4d833;
   }
@@ -3119,6 +3163,11 @@
   .ease-in-out {
     --tw-ease: var(--ease-in-out);
     transition-timing-function: var(--ease-in-out);
+  }
+
+  .ease-out {
+    --tw-ease: var(--ease-out);
+    transition-timing-function: var(--ease-out);
   }
 
   .contain-strict {
@@ -3283,6 +3332,15 @@
   }
 
   @media (hover: hover) {
+    .hover\:scale-110:hover {
+      --tw-scale-x: 110%;
+      --tw-scale-y: 110%;
+      --tw-scale-z: 110%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:scale-125:hover {
       --tw-scale-x: 125%;
       --tw-scale-y: 125%;
@@ -3351,6 +3409,12 @@
   @media (hover: hover) {
     .hover\:bg-gray-400:hover {
       background-color: var(--color-gray-400);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-primary-700:hover {
+      background-color: var(--color-primary-700);
     }
   }
 
@@ -3491,6 +3555,18 @@
     }
   }
 
+  @media (hover: hover) {
+    .hover\:shadow-primary\/30:hover {
+      --tw-shadow-color: #be0b454d;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:shadow-primary\/30:hover {
+        --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-primary) 30%, transparent) var(--tw-shadow-alpha), transparent);
+      }
+    }
+  }
+
   .focus\:border-\[\#BD0D46\]:focus {
     border-color: #bd0d46;
   }
@@ -3545,6 +3621,13 @@
   .focus-visible\:outline-none:focus-visible {
     --tw-outline-style: none;
     outline-style: none;
+  }
+
+  .active\:scale-95:active {
+    --tw-scale-x: 95%;
+    --tw-scale-y: 95%;
+    --tw-scale-z: 95%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
   }
 
   .disabled\:pointer-events-none:disabled {
@@ -3853,6 +3936,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:mt-0 {
+      margin-top: calc(var(--spacing) * 0);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:mt-20 {
       margin-top: calc(var(--spacing) * 20);
     }
@@ -3867,6 +3956,12 @@
   @media (min-width: 48rem) {
     .md\:hidden {
       display: none;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:inline {
+      display: inline;
     }
   }
 

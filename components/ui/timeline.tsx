@@ -50,6 +50,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <div
             className="w-full bg-white font-sans"
             ref={containerRef}
+            style={{ position: 'relative' }}
         >
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">

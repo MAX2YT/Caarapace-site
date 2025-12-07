@@ -1,7 +1,15 @@
 "use client";
 
-import { ReactNode, useEffect, useRef } from "react";
+import { ReactNode, useEffect, useRef, createContext, useContext, useState } from "react";
 import Lenis from "lenis";
+
+// Create context for Lenis instance
+const LenisContext = createContext<Lenis | null>(null);
+
+// Hook to access Lenis instance
+export function useLenis() {
+    return useContext(LenisContext);
+}
 
 interface SmoothScrollProviderProps {
     children: ReactNode;
@@ -34,11 +42,11 @@ interface SmoothScrollProviderProps {
  * - infinite: Enable infinite scrolling (loops back to start)
  */
 export default function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
-    const lenisRef = useRef<Lenis | null>(null);
+    const [lenis, setLenis] = useState<Lenis | null>(null);
 
     useEffect(() => {
         // Initialize Lenis with customizable settings
-        const lenis = new Lenis({
+        const lenisInstance = new Lenis({
             // DURATION - scroll animation duration in seconds
             // Fireart-style uses around 1.0-1.2 for subtle smoothness
             duration: 1.2,
@@ -71,11 +79,11 @@ export default function SmoothScrollProvider({ children }: SmoothScrollProviderP
             infinite: false,
         });
 
-        lenisRef.current = lenis;
+        setLenis(lenisInstance);
 
         // Animation frame loop
         function raf(time: number) {
-            lenis.raf(time);
+            lenisInstance.raf(time);
             requestAnimationFrame(raf);
         }
 
@@ -83,11 +91,15 @@ export default function SmoothScrollProvider({ children }: SmoothScrollProviderP
 
         // Cleanup on unmount
         return () => {
-            lenis.destroy();
+            lenisInstance.destroy();
         };
     }, []);
 
-    return <>{children}</>;
+    return (
+        <LenisContext.Provider value={lenis}>
+            {children}
+        </LenisContext.Provider>
+    );
 }
 
 /**

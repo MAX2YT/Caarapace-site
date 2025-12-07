@@ -66,7 +66,7 @@ export default function RootLayout({
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
                 <link rel="manifest" href="/site.webmanifest" />
             </head>
-            <body className={`${inter.variable} font-sans antialiased bg-white`}>
+            <body className={`${inter.variable} font-sans antialiased bg-white`} suppressHydrationWarning>
                 <SmoothScrollProvider>
                     <ScrollToTop />
                     <Navbar />

@@ -5,7 +5,7 @@ import AlternatingFeatures from "@/components/ui/alternating-features";
 
 export default function CDeckPage() {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen relative">
             {/* Hero with Scroll Animation */}
             <ProductHeroScrollAnimation
                 heroTitle="C-Deck ERP"

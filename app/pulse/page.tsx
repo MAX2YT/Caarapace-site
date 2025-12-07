@@ -7,7 +7,7 @@ import RollingCounter from "@/components/ui/rolling-counter";
 
 export default function PulsePage() {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen relative">
             {/* Hero with Scroll Animation */}
             <ProductHeroScrollAnimation
                 heroTitle="Pulse EMS"
