@@ -6,7 +6,11 @@ import HoverFooter from "@/components/footer";
 import SmoothScrollProvider from "@/components/smooth-scroll-provider";
 import { ScrollToTop } from "@/components/scroll-to-top";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const inter = Inter({
+    subsets: ["latin"],
+    variable: "--font-inter",
+    display: "swap", // Prevents font blocking
+});
 
 export const metadata: Metadata = {
     title: "Caarapace - Software Development Excellence",
@@ -62,7 +66,14 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <head>
-                <link rel="icon" href="/favicon.ico" sizes="any" />
+                {/* Font preconnect for faster loading */}
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
+                {/* Preload critical above-the-fold images */}
+                <link rel="preload" as="image" href="/logo.png" />
+
+                <link rel="icon" href="/caarapace-logo-favicon.ico" sizes="any" />
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
                 <link rel="manifest" href="/site.webmanifest" />
             </head>

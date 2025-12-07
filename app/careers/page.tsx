@@ -17,32 +17,32 @@ const OPEN_ROLES = [
     {
         id: "role-1",
         title: "Web Development",
-        imageUrl: "/web-development.png",
+        imageUrl: "/web-development.webp",
     },
     {
         id: "role-2",
         title: "Digital Marketing",
-        imageUrl: "/digital-marketing.png",
+        imageUrl: "/digital-marketing.webp",
     },
     {
         id: "role-3",
         title: "Application Development",
-        imageUrl: "/application-development.png",
+        imageUrl: "/application-development.webp",
     },
     {
         id: "role-4",
         title: "Full Stack Development",
-        imageUrl: "/full-stack-development.png",
+        imageUrl: "/full-stack-development.webp",
     },
     {
         id: "role-5",
         title: "Management Roles",
-        imageUrl: "/management-roles.png",
+        imageUrl: "/management-roles.webp",
     },
     {
         id: "role-6",
         title: "Game Development",
-        imageUrl: "game.png",
+        imageUrl: "/game.webp",
     },
 ]
 
@@ -365,7 +365,7 @@ export default function CareersPage() {
                 title="Careers"
                 tagline="Join a team that's building"
                 highlightedText="the future of software."
-                image="careerhero.png"
+                image="/careerhero.webp"
                 imageAlt="Team collaboration"
             />
 

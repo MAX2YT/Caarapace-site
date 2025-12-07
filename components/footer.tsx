@@ -13,8 +13,17 @@ import {
   Dribbble,
   Globe,
 } from "lucide-react";
-import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
 import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+
+// Inline background gradient component (was in hover-footer.tsx)
+function FooterBackgroundGradient() {
+  return (
+    <div className="absolute inset-0 pointer-events-none overflow-hidden z-0">
+      <div className="absolute -top-24 -right-24 w-96 h-96 bg-gradient-to-br from-[#BD0F46]/10 via-[#BD0F46]/5 to-transparent rounded-full blur-3xl" />
+      <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-gradient-to-tr from-[#BD0F46]/10 via-[#BD0F46]/5 to-transparent rounded-full blur-3xl" />
+    </div>
+  );
+}
 
 type FooterLink = {
   label: string;

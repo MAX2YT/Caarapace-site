@@ -25,12 +25,15 @@ export default function ModernIntroSection() {
                         {/* Caarapace Mascot Logo */}
                         <div className="relative transform rotate-6 sm:rotate-12 hover:rotate-0 hover:scale-125 transition-transform duration-300">
                             <video
-                                src="/crabintro.mp4"
                                 autoPlay
                                 muted
                                 loop
+                                playsInline
                                 className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto"
-                            />
+                            >
+                                <source src="/crabintro.webm" type="video/webm" />
+                                <source src="/crabintro.mp4" type="video/mp4" />
+                            </video>
                         </div>
 
                         {/* Floating decorative elements */}

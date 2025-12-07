@@ -9,10 +9,11 @@ interface OptimizedImageProps extends React.ImgHTMLAttributes<HTMLImageElement> 
     priority?: boolean;
     className?: string;
     containerClassName?: string;
+    skeletonClassName?: string;
 }
 
 /**
- * OptimizedImage component with lazy loading, blur placeholder, and smooth transitions.
+ * OptimizedImage component with lazy loading, skeleton placeholder, and smooth transitions.
  * Use priority={true} for above-the-fold images.
  */
 export function OptimizedImage({
@@ -21,6 +22,7 @@ export function OptimizedImage({
     priority = false,
     className,
     containerClassName,
+    skeletonClassName,
     ...props
 }: OptimizedImageProps) {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -28,12 +30,18 @@ export function OptimizedImage({
 
     return (
         <div className={cn("relative overflow-hidden", containerClassName)}>
-            {/* Blur placeholder while loading */}
+            {/* Skeleton placeholder while loading */}
             {!isLoaded && !hasError && (
                 <div
-                    className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200 animate-pulse"
+                    className={cn(
+                        "absolute inset-0 bg-gray-200 animate-pulse",
+                        skeletonClassName
+                    )}
                     aria-hidden="true"
-                />
+                >
+                    {/* Skeleton shimmer effect */}
+                    <div className="absolute inset-0 -translate-x-full animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/40 to-transparent" />
+                </div>
             )}
 
             <img

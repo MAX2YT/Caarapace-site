@@ -17,7 +17,7 @@ export default function CDeckPage() {
                 highlightedText="complete control"
                 index="01"
                 description="C-Deck ERP is your all-in-one solution for business management. From project tracking to resource allocation, our platform gives you the tools to optimize workflows, enhance team collaboration, and drive business growth."
-                image="/cdeck-hero-image.png"
+                image="/cdeck-hero-image.webp"
                 imageAlt="C-Deck ERP Logo"
             />
 

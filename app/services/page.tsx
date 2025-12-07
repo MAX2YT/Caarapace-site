@@ -16,7 +16,7 @@ export default function ServicesPage() {
                 title="Services"
                 tagline="We build software that actually works."
                 highlightedText="Ship Fast. Scale Smart."
-                image="/servicehero.png"
+                image="/servicehero.webp"
                 imageAlt="Team collaboration"
             />
 

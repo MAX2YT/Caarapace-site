@@ -7,7 +7,7 @@ import { Search, Palette, Code, TestTube, Rocket } from "lucide-react";
 const timelineData = [
     {
         title: "Step 1",
-        image: "/Serviceprocess/Planing.png",
+        image: "/Serviceprocess/Planing.webp",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -37,7 +37,7 @@ const timelineData = [
     },
     {
         title: "Step 2",
-        image: "/Serviceprocess/design.png",
+        image: "/Serviceprocess/design.webp",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -67,7 +67,7 @@ const timelineData = [
     },
     {
         title: "Step 3",
-        image: "/Serviceprocess/integration.png",
+        image: "/Serviceprocess/integration.webp",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -97,7 +97,7 @@ const timelineData = [
     },
     {
         title: "Step 4",
-        image: "/Serviceprocess/testing.png",
+        image: "/Serviceprocess/testing.webp",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">
@@ -127,7 +127,7 @@ const timelineData = [
     },
     {
         title: "Step 5",
-        image: "/Serviceprocess/deploy.png",
+        image: "/Serviceprocess/deploy.webp",
         content: (
             <div>
                 <div className="flex items-center gap-3 mb-4">

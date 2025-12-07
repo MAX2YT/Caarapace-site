@@ -139,12 +139,30 @@ function ModernIntroSection() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative transform rotate-6 sm:rotate-12 hover:rotate-0 hover:scale-125 transition-transform duration-300",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                                        src: "/crabintro.mp4",
                                         autoPlay: true,
                                         muted: true,
                                         loop: true,
-                                        className: "w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto"
-                                    }, void 0, false, {
+                                        playsInline: true,
+                                        className: "w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                                src: "/crabintro.webm",
+                                                type: "video/webm"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ui/a-modern-intro-section.tsx",
+                                                lineNumber: 34,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                                src: "/crabintro.mp4",
+                                                type: "video/mp4"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ui/a-modern-intro-section.tsx",
+                                                lineNumber: 35,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/components/ui/a-modern-intro-section.tsx",
                                         lineNumber: 27,
                                         columnNumber: 29
@@ -158,42 +176,42 @@ function ModernIntroSection() {
                                     className: "absolute -top-2 -left-2 sm:-top-4 sm:-left-4 w-6 h-6 sm:w-8 sm:h-8 bg-[#BD0F46]/70 rounded-lg transform rotate-45"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 40,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute -bottom-2 -right-2 sm:-bottom-4 sm:-right-4 w-4 h-4 sm:w-6 sm:h-6 bg-[#BD0F46] rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 41,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "hidden sm:block absolute top-1/2 -right-8 w-4 h-12 bg-[#BD0F46]/80"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 42,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "hidden sm:block absolute top-8 right-8 w-2 h-2 bg-[#BD0F46]/60"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 45,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "hidden sm:block absolute bottom-12 left-8 w-3 h-3 bg-[#BD0F46] rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 46,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "hidden sm:block absolute top-16 left-12 w-2 h-6 bg-[#BD0F46]"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/a-modern-intro-section.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 47,
                                     columnNumber: 25
                                 }, this)
                             ]

@@ -1,2481 +1,626 @@
-[00:00:01.701] Server  LOG      ✓ Ready in 1175ms
-[00:00:04.745] Server  LOG      ○ Compiling / ...
-[00:00:07.474] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.070] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:00:13.070] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:00:46.061] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:00:46.062] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:01:28.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:29.235] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:01:29.235] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:06:18.271] Server  LOG      ✓ Compiled in 144ms
-[00:06:18.560] Browser ERROR   uncaughtError: ReferenceError: onOpenChange is not defined
-[00:06:34.839] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:06:34.860] Server  LOG      ✓ Compiled in 112ms
-[00:06:35.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:49.581] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:01.268] Server  LOG      ✓ Ready in 886ms
+[00:00:04.503] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.403] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:06:51.154] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:06:51.154] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:06:58.366] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:06:58.366] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:07:14.288] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:15.358] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:07:15.358] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:09:25.218] Server  LOG      ✓ Compiled in 130ms
-[00:09:25.322] Browser ERROR   ./components/ui/contact-form.tsx:207:1
-Parsing ecmascript source code failed
-  205 |             </div>
-  206 |             );
-> 207 | }
-      | ^
+[00:16:46.444] Server  LOG      ✓ Compiled in 185ms
+[00:17:18.653] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:09.816] Server  LOG      ✓ Compiled in 284ms
+[00:27:10.127] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:11.536] Server  LOG      ✓ Compiled in 241ms
+[00:27:33.032] Server  LOG      ✓ Compiled in 304ms
+[00:29:20.271] Server  LOG      ✓ Compiled in 113ms
+[00:31:28.351] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
 
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
 
-Import trace:
-  Server Component:
-    ./components/ui/contact-form.tsx
-    ./app/page.tsx
-[00:09:59.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:15.355] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:17.084] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:18:44.384] Server  LOG      ✓ Compiled in 173ms
-[00:18:47.109] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:19:55.289] Server  LOG      ✓ Compiled in 106ms
-[00:19:55.396] Browser ERROR   ./components/footer.tsx:107:7
-Parsing ecmascript source code failed
-  105 |   companyName = "Caarapace Inc.",
-  106 |
-> 107 |       <FooterBackgroundGradient />
-      |       ^
-  108 |
-  109 | {/* Footer content overlay */ }
-  110 | <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-14">
-
-Unexpected token `<`. Expected identifier, string literal, numeric literal or [ for the computed key
 
 Import trace:
   Server Component:
     ./components/footer.tsx
     ./app/layout.tsx
-[00:20:39.604] Server  LOG      ✓ Compiled in 152ms
-[00:22:17.800] Server  LOG      ✓ Compiled in 96ms
-[00:22:17.903] Browser ERROR   ./components/footer.tsx:108:7
-Parsing ecmascript source code failed
-  106 |   logoSrc = "/logo.png",
-  107 |
-> 108 |       <FooterBackgroundGradient />
-      |       ^
-  109 |
-  110 | {/* Footer content overlay */ }
-  111 | <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-14">
 
-Unexpected token `<`. Expected identifier, string literal, numeric literal or [ for the computed key
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.356] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
 
 Import trace:
   Server Component:
     ./components/footer.tsx
     ./app/layout.tsx
-[00:22:58.834] Server  LOG      ✓ Compiled in 185ms
-[00:23:38.419] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:23:38.419] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:25:25.460] Server  LOG      ✓ Compiled in 201ms
-[00:25:33.692] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:25:33.692] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:25:42.916] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:25:42.916] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:25:48.870] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:25:48.870] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:25:54.505] Server  LOG      ✓ Compiled in 289ms
-[00:26:06.532] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:26:08.299] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:26:08.299] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:26:33.615] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:26:33.615] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:28:25.495] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:28:25.495] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:28:35.319] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:28:35.319] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:28:38.744] Server  LOG      ✓ Compiled in 199ms
-[00:28:40.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:41.562] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+https://nextjs.org/docs/messages/module-not-found
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+[00:31:28.361] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
 
-  ...
-    <RedirectErrorBoundary router={{...}}>
-      <Head>
-      <__next_root_layout_boundary__>
-        <SegmentViewNode type="layout" pagePath="layout.tsx">
-          <SegmentTrieNode>
-          <link>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <RootLayout>
-            <html lang="en" suppressHydrationWarning={true}>
-              <head>
-              <body className="inter_5901..." suppressHydrationWarning={true}>
-                <SmoothScrollProvider>
-                  <ScrollToTop>
-                  <Navbar>
-                  <OuterLayoutRouter>
-                  <HoverFooter>
-                    <footer className="relative m...">
-                      <div>
-                      <div>
-                      <FooterBackgroundGradient>
-                      <div className="relative z...">
-                        <div className="grid grid-...">
-                          <div>
-                          <div>
-                            <h4>
-                            <ul className="space-y-3">
-                              <li className="relative">
-                                <LinkComponent href="/#intro" className="text-sm te...">
-                                  <a
-                                    className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                    ref={function}
-                                    onClick={function onClick}
-                                    onMouseEnter={function onMouseEnter}
-                                    onTouchStart={function onTouchStart}
-                                    href="/#intro"
--                                   bis_skin_checked="1"
-                                  >
-+                                   About Caarapace
-                              <li className="relative">
-                                <LinkComponent href="/services" className="text-sm te...">
-                                  <a
-                                    className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                    ref={function}
-                                    onClick={function onClick}
-                                    onMouseEnter={function onMouseEnter}
-                                    onTouchStart={function onTouchStart}
-                                    href="/services"
--                                   bis_skin_checked="1"
-                                  >
-+                                   Our Services
-                              <li className="relative">
-                                <LinkComponent href="/careers" className="text-sm te...">
-                                  <a
-                                    className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                    ref={function}
-                                    onClick={function onClick}
-                                    onMouseEnter={function onMouseEnter}
-                                    onTouchStart={function onTouchStart}
-                                    href="/careers"
--                                   bis_skin_checked="1"
-                                  >
-+                                   Careers
-                          <div>
-                            <h4>
-                            <ul className="space-y-3">
-                              <li className="relative">
-                                <LinkComponent href="/coming-soon" className="text-sm te...">
-                                  <a
-                                    className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                    ref={function}
-                                    onClick={function onClick}
-                                    onMouseEnter={function onMouseEnter}
-                                    onTouchStart={function onTouchStart}
-                                    href="/coming-soon"
--                                   bis_skin_checked="1"
-                                  >
-+                                   Blog
-                              <li className="relative">
-                                <LinkComponent href="/coming-soon" className="text-sm te...">
-                                  <a
-                                    className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                    ref={function}
-                                    onClick={function onClick}
-                                    onMouseEnter={function onMouseEnter}
-                                    onTouchStart={function onTouchStart}
-                                    href="/coming-soon"
--                                   bis_skin_checked="1"
-                                  >
-+                                   Case Studies
-                              ...
-                          <div>
-                            <h4>
-                            <ul className="space-y-4">
-                              <li className="flex items...">
-                                <Mail>
-                                <a
-                                  href="mailto:info@caarapace.com"
-                                  className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                 bis_skin_checked="1"
-                                >
-+                                 info@caarapace.com
-                              <li className="flex items...">
-                                <Phone>
-                                <a
-                                  href="tel:+918610305690"
-                                  className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                 bis_skin_checked="1"
-                                >
-+                                 +91 86103 05690
-                              ...
-                        ...
-      ...
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
 
-[00:28:46.501] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:28:46.501] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:28:51.753] Server  LOG      ✓ Compiled in 181ms
-[00:28:52.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:54.091] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:28:54.091] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:29:45.286] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:29:46.134] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:31:54.292] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:34:45.473] Server  LOG      ✓ Compiled in 106ms
-[00:36:32.396] Server  LOG      ✓ Compiled in 164ms
-[00:38:10.073] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:32.031] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:39:32.245] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:40:02.580] Server  LOG      ✓ Compiled in 122ms
-[00:43:06.699] Server  LOG      ✓ Compiled in 141ms
-[00:43:06.817] Browser ERROR   ./components/ui/services-timeline.tsx:23:23
-Parsing ecmascript source code failed
-  21 |                 <p className="text-gray-600 text-sm md:text-base mb-4">
-  22 |                     Define the website's goals, target audience, technical requirements, and content structure.
-> 23 |                 </div>
-     |                       ^
-> 24 |                 <div className="space-y-2">
-     | ^^^^^^^^^^^^^^^^^
-  25 |                     <div className="flex gap-2 items-center text-gray-600 text-sm">
-  26 |                         ✅ Sitemap & Wireframes
-  27 |                     </div>
 
-Expected '</', got 'jsx text (
-                )'
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
 
-Import traces:
-  Client Component Browser:
-    ./components/ui/services-timeline.tsx [Client Component Browser]
-    ./app/services/page.tsx [Client Component Browser]
-    ./app/services/page.tsx [Server Component]
+https://nextjs.org/docs/messages/module-not-found
 
-  Client Component SSR:
-    ./components/ui/services-timeline.tsx [Client Component SSR]
-    ./app/services/page.tsx [Client Component SSR]
-    ./app/services/page.tsx [Server Component]
-[00:43:57.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:48:42.881] Browser WARN    'lab(98.2596 -0.247031 -0.706708)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:48:42.881] Browser WARN    'lab(96.1596 -0.082314 -1.13575)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[00:49:28.474] Server  LOG      ✓ Compiled in 1326ms
-[00:50:15.607] Server  LOG      ✓ Compiled in 337ms
-[00:50:17.586] Server  LOG      ✓ Compiled in 349ms
-[00:50:48.283] Server  LOG      ✓ Compiled in 271ms
-[00:51:00.326] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:51:19.483] Server  LOG      ✓ Compiled in 498ms
-[00:51:21.207] Server  LOG      ✓ Compiled in 173ms
-[00:54:25.477] Server  LOG      ✓ Compiled in 327ms
-[00:54:27.598] Server  LOG      ✓ Compiled in 291ms
-[00:57:07.288] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:57:07.848] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+[00:31:28.368] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
 
-%s%s https://react.dev/link/hydration-mismatch 
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/c-deck" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head headCacheNode={{lazyData:null, ...}}>
-                    <__next_viewport_boundary__>
-                    <Next.Metadata>
-                      <div
-                        hidden={true}
--                       bis_skin_checked="1"
-                      >
-                    ...
-                  ...
-                    <RootLayout>
-                      <html lang="en" suppressHydrationWarning={true}>
-                        <head>
-                        ...
-                          <ScrollToTop>
-                          <Navbar>
-                            <header suppressHydrationWarning={true}>
-                              <nav data-state={false} className="fixed z-20...">
-                                <div
-                                  className="mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12"
--                                 bis_skin_checked="1"
-                                >
-                                  <div
-                                    className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-..."
--                                   bis_skin_checked="1"
-                                  >
-                                    <div
-                                      className="flex w-full justify-between lg:w-auto"
--                                     bis_skin_checked="1"
-                                    >
-                                      <LinkComponent href="/" aria-label="Caarapace ..." className="flex items...">
-                                        <a aria-label="Caarapace ..." className="flex items..." ref={function} ...>
-                                          <Logo>
-                                            <div
-                                              className="flex items-center"
--                                             bis_skin_checked="1"
-                                            >
-                                      ...
-                                    <div
-                                      className="absolute inset-0 m-auto hidden size-fit lg:block"
--                                     bis_skin_checked="1"
-                                    >
-                                      <ul className="flex gap-8...">
-                                        <li>
-                                        <li>
-                                          <LinkComponent href="/services" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/services"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/c-deck" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-primary"
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/c-deck"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/pulse" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/pulse"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/careers" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/careers"
--                                             bis_skin_checked="1"
-                                            >
-                                    <div
-                                      className="bg-background group-data-[state=active]:block lg:group-data-[state=ac..."
--                                     bis_skin_checked="1"
-                                    >
-                                      <div
-                                        className="lg:hidden"
--                                       bis_skin_checked="1"
-                                      >
-                                        <ul className="space-y-6 ...">
-                                          <li>
-                                          <li>
-                                            <LinkComponent href="/services" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/services"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/c-deck" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-primary font-semibold"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/c-deck"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/pulse" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/pulse"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/careers" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/careers"
--                                               bis_skin_checked="1"
-                                              >
-                                      <div
-                                        className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md..."
--                                       bis_skin_checked="1"
-                                      >
-                          ...
-                            <SegmentViewNode type="page" pagePath="c-deck/pag...">
-                              <SegmentTrieNode>
-                              <ClientPageRoot Component={function CDeckPage} serverProvidedParams={{...}}>
-                                <CDeckPage params={Promise} searchParams={Promise}>
-                                  <div
-                                    className="min-h-screen relative"
--                                   bis_skin_checked="1"
-                                  >
-                                    ...
-                                      <HeroSection scrollYProgress={{...}} title="C-Deck ERP" tagline="Streamline..." ...>
-                                        <motion.div style={{scale:{...}, ...}} className="sticky top...">
-                                          <div
-                                            className="sticky top-0 h-screen"
-                                            style={{transform:"none"}}
-                                            ref={function useMotionRef.useCallback}
--                                           bis_skin_checked="1"
-                                          >
-                                            <HeroHighlight containerClassName="h-screen">
-                                              <div
-                                                className="group relative flex w-full items-center justify-center bg-w..."
-                                                onMouseMove={function handleMouseMove}
--                                               bis_skin_checked="1"
-                                              >
-                                                <div
-                                                  className="pointer-events-none absolute inset-0"
-                                                  style={{backgroundImage:"url(\"data..."}}
--                                                 bis_skin_checked="1"
-                                                >
-                                                ...
-                                    <div className="container ...">
-                                      <AlternatingFeatures>
-                                      <WhyChooseCDeck>
-                                      <div className="text-cente...">
-                                        <h2>
-                                        <p>
-                                        <a
-                                          href="#contact"
-                                          className="inline-flex items-center justify-center rounded-xl px-8 py-3 text..."
--                                         bis_skin_checked="1"
-                                        >
-+                                         Get Started Today
-                          ...
-                            <div className="grid grid-...">
-                              <div>
-                              <div>
-                                <h4>
-                                <ul className="space-y-3">
-                                  <li className="relative">
-                                    <LinkComponent href="/#intro" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/#intro"
--                                       bis_skin_checked="1"
-                                      >
-+                                       About Caarapace
-                                  <li className="relative">
-                                    <LinkComponent href="/services" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/services"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Our Services
-                                  <li className="relative">
-                                    <LinkComponent href="/careers" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/careers"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Careers
-                              <div>
-                                <h4>
-                                <ul className="space-y-3">
-                                  <li className="relative">
-                                    <LinkComponent href="/coming-soon" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/coming-soon"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Blog
-                                  <li className="relative">
-                                    <LinkComponent href="/coming-soon" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/coming-soon"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Case Studies
-                                  ...
-                              <div>
-                                <h4>
-                                <ul className="space-y-4">
-                                  <li className="flex items...">
-                                    <Mail>
-                                    <a
-                                      href="mailto:info@caarapace.com"
-                                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                     bis_skin_checked="1"
-                                    >
-+                                     info@caarapace.com
-                                  <li className="flex items...">
-                                    <Phone>
-                                    <a
-                                      href="tel:+918610305690"
-                                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                     bis_skin_checked="1"
-                                    >
-+                                     +91 86103 05690
-                                  ...
-                  ...
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
 
-[00:58:21.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:22.758] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+https://nextjs.org/docs/messages/module-not-found
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+[00:31:28.395] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
 
-%s%s https://react.dev/link/hydration-mismatch 
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/c-deck" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head headCacheNode={{lazyData:null, ...}}>
-                    <__next_viewport_boundary__>
-                    <Next.Metadata>
-                      <div
-                        hidden={true}
--                       bis_skin_checked="1"
-                      >
-                    ...
-                  ...
-                    <RootLayout>
-                      <html lang="en" suppressHydrationWarning={true}>
-                        <head>
-                        ...
-                          <ScrollToTop>
-                          <Navbar>
-                            <header suppressHydrationWarning={true}>
-                              <nav data-state={false} className="fixed z-20...">
-                                <div
-                                  className="mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12"
--                                 bis_skin_checked="1"
-                                >
-                                  <div
-                                    className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-..."
--                                   bis_skin_checked="1"
-                                  >
-                                    <div
-                                      className="flex w-full justify-between lg:w-auto"
--                                     bis_skin_checked="1"
-                                    >
-                                      <LinkComponent href="/" aria-label="Caarapace ..." className="flex items...">
-                                        <a aria-label="Caarapace ..." className="flex items..." ref={function} ...>
-                                          <Logo>
-                                            <div
-                                              className="flex items-center"
--                                             bis_skin_checked="1"
-                                            >
-                                      ...
-                                    <div
-                                      className="absolute inset-0 m-auto hidden size-fit lg:block"
--                                     bis_skin_checked="1"
-                                    >
-                                      <ul className="flex gap-8...">
-                                        <li>
-                                        <li>
-                                          <LinkComponent href="/services" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/services"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/c-deck" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-primary"
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/c-deck"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/pulse" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/pulse"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/careers" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/careers"
--                                             bis_skin_checked="1"
-                                            >
-                                    <div
-                                      className="bg-background group-data-[state=active]:block lg:group-data-[state=ac..."
--                                     bis_skin_checked="1"
-                                    >
-                                      <div
-                                        className="lg:hidden"
--                                       bis_skin_checked="1"
-                                      >
-                                        <ul className="space-y-6 ...">
-                                          <li>
-                                          <li>
-                                            <LinkComponent href="/services" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/services"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/c-deck" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-primary font-semibold"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/c-deck"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/pulse" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/pulse"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/careers" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/careers"
--                                               bis_skin_checked="1"
-                                              >
-                                      <div
-                                        className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md..."
--                                       bis_skin_checked="1"
-                                      >
-                          ...
-                            <SegmentViewNode type="page" pagePath="c-deck/pag...">
-                              <SegmentTrieNode>
-                              <ClientPageRoot Component={function CDeckPage} serverProvidedParams={{...}}>
-                                <CDeckPage params={Promise} searchParams={Promise}>
-                                  <div
-                                    className="min-h-screen relative"
--                                   bis_skin_checked="1"
-                                  >
-                                    ...
-                                      <HeroSection scrollYProgress={{...}} title="C-Deck ERP" tagline="Streamline..." ...>
-                                        <motion.div style={{scale:{...}, ...}} className="sticky top...">
-                                          <div
-                                            className="sticky top-0 h-screen"
-                                            style={{transform:"none"}}
-                                            ref={function useMotionRef.useCallback}
--                                           bis_skin_checked="1"
-                                          >
-                                            <HeroHighlight containerClassName="h-screen">
-                                              <div
-                                                className="group relative flex w-full items-center justify-center bg-w..."
-                                                onMouseMove={function handleMouseMove}
--                                               bis_skin_checked="1"
-                                              >
-                                                <div
-                                                  className="pointer-events-none absolute inset-0"
-                                                  style={{backgroundImage:"url(\"data..."}}
--                                                 bis_skin_checked="1"
-                                                >
-                                                ...
-                                    <div className="container ...">
-                                      <AlternatingFeatures>
-                                      <WhyChooseCDeck>
-                                      <div className="text-cente...">
-                                        <h2>
-                                        <p>
-                                        <a
-                                          href="#contact"
-                                          className="inline-flex items-center justify-center rounded-xl px-8 py-3 text..."
--                                         bis_skin_checked="1"
-                                        >
-+                                         Get Started Today
-                          ...
-                            <div className="grid grid-...">
-                              <div>
-                              <div>
-                                <h4>
-                                <ul className="space-y-3">
-                                  <li className="relative">
-                                    <LinkComponent href="/#intro" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/#intro"
--                                       bis_skin_checked="1"
-                                      >
-+                                       About Caarapace
-                                  <li className="relative">
-                                    <LinkComponent href="/services" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/services"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Our Services
-                                  <li className="relative">
-                                    <LinkComponent href="/careers" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/careers"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Careers
-                              <div>
-                                <h4>
-                                <ul className="space-y-3">
-                                  <li className="relative">
-                                    <LinkComponent href="/coming-soon" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/coming-soon"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Blog
-                                  <li className="relative">
-                                    <LinkComponent href="/coming-soon" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/coming-soon"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Case Studies
-                                  ...
-                              <div>
-                                <h4>
-                                <ul className="space-y-4">
-                                  <li className="flex items...">
-                                    <Mail>
-                                    <a
-                                      href="mailto:info@caarapace.com"
-                                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                     bis_skin_checked="1"
-                                    >
-+                                     info@caarapace.com
-                                  <li className="flex items...">
-                                    <Phone>
-                                    <a
-                                      href="tel:+918610305690"
-                                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                     bis_skin_checked="1"
-                                    >
-+                                     +91 86103 05690
-                                  ...
-                  ...
 
-[01:01:29.867] Server  LOG      ✓ Compiled in 199ms
-[01:01:33.496] Server  LOG      ✓ Compiled in 395ms
-[01:02:48.220] Server  LOG      ✓ Compiled in 128ms
-[01:05:12.964] Server  LOG      ✓ Compiled in 94ms
-[01:08:50.925] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:08:50.925] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:08:59.889] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:08:59.889] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:12:28.347] Server  LOG      ✓ Compiled in 85ms
-[01:12:33.554] Server  LOG      ✓ Compiled in 79ms
-[01:12:51.363] Server  LOG      ✓ Compiled in 191ms
-[01:13:19.295] Server  LOG      ✓ Compiled in 100ms
-[01:17:54.084] Server  LOG      ✓ Compiled in 141ms
-[01:18:07.549] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:18:07.550] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:18:19.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:18:20.170] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+https://nextjs.org/docs/messages/module-not-found
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+[00:31:28.398] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/c-deck" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head headCacheNode={{lazyData:null, ...}}>
-                    <__next_viewport_boundary__>
-                    <Next.Metadata>
-                      <div
-                        hidden={true}
--                       bis_skin_checked="1"
-                      >
-                    ...
-                  ...
-                    <RootLayout>
-                      <html lang="en" suppressHydrationWarning={true}>
-                        <head>
-                        ...
-                          <ScrollToTop>
-                          <Navbar>
-                            <header suppressHydrationWarning={true}>
-                              <nav data-state={false} className="fixed z-20...">
-                                <div
-                                  className="mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12"
--                                 bis_skin_checked="1"
-                                >
-                                  <div
-                                    className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-..."
--                                   bis_skin_checked="1"
-                                  >
-                                    <div
-                                      className="flex w-full justify-between lg:w-auto"
--                                     bis_skin_checked="1"
-                                    >
-                                      <LinkComponent href="/" aria-label="Caarapace ..." className="flex items...">
-                                        <a aria-label="Caarapace ..." className="flex items..." ref={function} ...>
-                                          <Logo>
-                                            <div
-                                              className="flex items-center"
--                                             bis_skin_checked="1"
-                                            >
-                                      ...
-                                    <div
-                                      className="absolute inset-0 m-auto hidden size-fit lg:block"
--                                     bis_skin_checked="1"
-                                    >
-                                      <ul className="flex gap-8...">
-                                        <li>
-                                        <li>
-                                          <LinkComponent href="/services" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/services"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/c-deck" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-primary"
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/c-deck"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/pulse" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/pulse"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/careers" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/careers"
--                                             bis_skin_checked="1"
-                                            >
-                                    <div
-                                      className="bg-background group-data-[state=active]:block lg:group-data-[state=ac..."
--                                     bis_skin_checked="1"
-                                    >
-                                      <div
-                                        className="lg:hidden"
--                                       bis_skin_checked="1"
-                                      >
-                                        <ul className="space-y-6 ...">
-                                          <li>
-                                          <li>
-                                            <LinkComponent href="/services" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/services"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/c-deck" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-primary font-semibold"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/c-deck"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/pulse" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/pulse"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/careers" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/careers"
--                                               bis_skin_checked="1"
-                                              >
-                                      <div
-                                        className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md..."
--                                       bis_skin_checked="1"
-                                      >
-                          ...
-                            <SegmentViewNode type="page" pagePath="c-deck/pag...">
-                              <SegmentTrieNode>
-                              <ClientPageRoot Component={function CDeckPage} serverProvidedParams={{...}}>
-                                <CDeckPage params={Promise} searchParams={Promise}>
-                                  <div
-                                    className="min-h-screen relative"
--                                   bis_skin_checked="1"
-                                  >
-                                    ...
-                                      <HeroSection scrollYProgress={{...}} title="C-Deck ERP" tagline="Streamline..." ...>
-                                        <motion.div style={{scale:{...}, ...}} className="sticky top...">
-                                          <div
-                                            className="sticky top-0 h-screen"
-                                            style={{transform:"none"}}
-                                            ref={function useMotionRef.useCallback}
--                                           bis_skin_checked="1"
-                                          >
-                                            <HeroHighlight containerClassName="h-screen">
-                                              <div
-                                                className="group relative flex w-full items-center justify-center bg-w..."
-                                                onMouseMove={function handleMouseMove}
--                                               bis_skin_checked="1"
-                                              >
-                                                <div
-                                                  className="pointer-events-none absolute inset-0"
-                                                  style={{backgroundImage:"url(\"data..."}}
--                                                 bis_skin_checked="1"
-                                                >
-                                                ...
-                                    <div className="container ...">
-                                      <AlternatingFeatures>
-                                      <WhyChooseCDeck>
-                                      <div className="text-cente...">
-                                        <h2>
-                                        <p>
-                                        <a
-                                          href="#contact"
-                                          className="inline-flex items-center justify-center rounded-xl px-8 py-3 text..."
--                                         bis_skin_checked="1"
-                                        >
-+                                         Get Started Today
-                          ...
-                            <div className="grid grid-...">
-                              <div>
-                              <div>
-                                <h4>
-                                <ul className="space-y-3">
-                                  <li className="relative">
-                                    <LinkComponent href="/#intro" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/#intro"
--                                       bis_skin_checked="1"
-                                      >
-+                                       About Caarapace
-                                  <li className="relative">
-                                    <LinkComponent href="/services" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/services"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Our Services
-                                  <li className="relative">
-                                    <LinkComponent href="/careers" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/careers"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Careers
-                              <div>
-                                <h4>
-                                <ul className="space-y-3">
-                                  <li className="relative">
-                                    <LinkComponent href="/c-deck" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/c-deck"
--                                       bis_skin_checked="1"
-                                      >
-+                                       C-Deck
-                                  <li className="relative">
-                                    <LinkComponent href="/pulse" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/pulse"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Pulse
-                                  ...
-                              <div>
-                                <h4>
-                                <ul className="space-y-4">
-                                  <li className="flex items...">
-                                    <Mail>
-                                    <a
-                                      href="mailto:info@caarapace.com"
-                                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                     bis_skin_checked="1"
-                                    >
-+                                     info@caarapace.com
-                                  <li className="flex items...">
-                                    <Phone>
-                                    <a
-                                      href="tel:+918610305690"
-                                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                     bis_skin_checked="1"
-                                    >
-+                                     +91 86103 05690
-                                  ...
-                  ...
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
 
-[01:18:36.484] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:18:36.484] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:21:19.964] Server  LOG      ✓ Compiled in 438ms
-[01:21:22.061] Server  LOG      ✓ Compiled in 467ms
-[01:22:05.446] Server  LOG      ✓ Compiled in 306ms
-[01:22:41.567] Server  LOG      ✓ Compiled in 80ms
-[01:22:44.310] Server  LOG      ✓ Compiled in 318ms
-[01:26:30.109] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+https://nextjs.org/docs/messages/module-not-found
 
-%s%s https://react.dev/link/hydration-mismatch 
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/pulse" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head headCacheNode={{lazyData:null, ...}}>
-                    <__next_viewport_boundary__>
-                    <Next.Metadata>
-                      <div
-                        hidden={true}
--                       bis_skin_checked="1"
-                      >
-                    ...
-                  ...
-                    <RootLayout>
-                      <html lang="en" suppressHydrationWarning={true}>
-                        <head>
-                        ...
-                          <ScrollToTop>
-                          <Navbar>
-                            <header suppressHydrationWarning={true}>
-                              <nav data-state={false} className="fixed z-20...">
-                                <div
-                                  className="mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12"
--                                 bis_skin_checked="1"
-                                >
-                                  <div
-                                    className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-..."
--                                   bis_skin_checked="1"
-                                  >
-                                    <div
-                                      className="flex w-full justify-between lg:w-auto"
--                                     bis_skin_checked="1"
-                                    >
-                                      <LinkComponent href="/" aria-label="Caarapace ..." className="flex items...">
-                                        <a aria-label="Caarapace ..." className="flex items..." ref={function} ...>
-                                          <Logo>
-                                            <div
-                                              className="flex items-center"
--                                             bis_skin_checked="1"
-                                            >
-                                      ...
-                                    <div
-                                      className="absolute inset-0 m-auto hidden size-fit lg:block"
--                                     bis_skin_checked="1"
-                                    >
-                                      <ul className="flex gap-8...">
-                                        <li>
-                                        <li>
-                                          <LinkComponent href="/services" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/services"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/c-deck" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/c-deck"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/pulse" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-primary"
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/pulse"
--                                             bis_skin_checked="1"
-                                            >
-                                        <li>
-                                          <LinkComponent href="/careers" className="block dura...">
-                                            <a
-                                              className="block duration-150 font-medium text-muted-foreground hover:te..."
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/careers"
--                                             bis_skin_checked="1"
-                                            >
-                                    <div
-                                      className="bg-background group-data-[state=active]:block lg:group-data-[state=ac..."
--                                     bis_skin_checked="1"
-                                    >
-                                      <div
-                                        className="lg:hidden"
--                                       bis_skin_checked="1"
-                                      >
-                                        <ul className="space-y-6 ...">
-                                          <li>
-                                          <li>
-                                            <LinkComponent href="/services" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/services"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/c-deck" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/c-deck"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/pulse" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-primary font-semibold"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/pulse"
--                                               bis_skin_checked="1"
-                                              >
-                                          <li>
-                                            <LinkComponent href="/careers" onClick={function onClick} ...>
-                                              <a
-                                                className="block duration-150 text-muted-foreground hover:text-primary"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/careers"
--                                               bis_skin_checked="1"
-                                              >
-                                      <div
-                                        className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md..."
--                                       bis_skin_checked="1"
-                                      >
-                          ...
-                            <SegmentViewNode type="page" pagePath="pulse/page...">
-                              <SegmentTrieNode>
-                              <ClientPageRoot Component={function PulsePage} serverProvidedParams={{...}}>
-                                <PulsePage params={Promise} searchParams={Promise}>
-                                  <div
-                                    className="min-h-screen relative"
--                                   bis_skin_checked="1"
-                                  >
-                                    ...
-                                      <HeroSection scrollYProgress={{...}} title="Pulse EMS" tagline="Real-time ..." ...>
-                                        <motion.div style={{scale:{...}, ...}} className="sticky top...">
-                                          <div
-                                            className="sticky top-0 h-[70vh] md:h-screen"
-                                            style={{transform:"none"}}
-                                            ref={function useMotionRef.useCallback}
--                                           bis_skin_checked="1"
-                                          >
-                                            <HeroHighlight containerClassName="h-[70vh] m...">
-                                              <div
-                                                className="group relative flex w-full items-center justify-center bg-w..."
-                                                onMouseMove={function handleMouseMove}
--                                               bis_skin_checked="1"
-                                              >
-                                                <div
-                                                  className="pointer-events-none absolute inset-0"
-                                                  style={{backgroundImage:"url(\"data..."}}
--                                                 bis_skin_checked="1"
-                                                >
-                                                ...
-                                    <div className="container ...">
-                                      <PulseAlternatingFeatures>
-                                      <div>
-                                      <WhyChoosePulse>
-                                      <div className="text-cente...">
-                                        <h2>
-                                        <p>
-                                        <a
-                                          href="#contact"
-                                          className="inline-flex items-center justify-center rounded-xl px-8 py-3 text..."
--                                         bis_skin_checked="1"
-                                        >
-+                                         Get Started Now
-                          ...
-                            <div className="grid grid-...">
-                              <div>
-                              <div>
-                                <h4>
-                                <ul className="space-y-3">
-                                  <li className="relative">
-                                    <LinkComponent href="/#intro" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/#intro"
--                                       bis_skin_checked="1"
-                                      >
-+                                       About Caarapace
-                                  <li className="relative">
-                                    <LinkComponent href="/services" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/services"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Our Services
-                                  <li className="relative">
-                                    <LinkComponent href="/careers" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/careers"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Careers
-                              <div>
-                                <h4>
-                                <ul className="space-y-3">
-                                  <li className="relative">
-                                    <LinkComponent href="/c-deck" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/c-deck"
--                                       bis_skin_checked="1"
-                                      >
-+                                       C-Deck
-                                  <li className="relative">
-                                    <LinkComponent href="/pulse" className="text-sm te...">
-                                      <a
-                                        className="text-sm text-slate-600 transition-colors hover:text-[#BD0F46]"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/pulse"
--                                       bis_skin_checked="1"
-                                      >
-+                                       Pulse
-                                  ...
-                              <div>
-                                <h4>
-                                <ul className="space-y-4">
-                                  <li className="flex items...">
-                                    <Mail>
-                                    <a
-                                      href="mailto:info@caarapace.com"
-                                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                     bis_skin_checked="1"
-                                    >
-+                                     info@caarapace.com
-                                  <li className="flex items...">
-                                    <Phone>
-                                    <a
-                                      href="tel:+918610305690"
-                                      className="text-slate-600 transition-colors hover:text-[#BD0F46]"
--                                     bis_skin_checked="1"
-                                    >
-+                                     +91 86103 05690
-                                  ...
-                  ...
+[00:31:28.405] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
 
-[01:29:34.401] Browser WARN    'lab(98.2596 -0.247031 -0.706708)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[01:29:34.401] Browser WARN    'lab(96.1596 -0.082314 -1.13575)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[01:29:34.972] Browser WARN    'lab(41.2733 64.3373 19.5229 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
-[01:33:31.357] Server  LOG      ✓ Compiled in 490ms
-[01:33:33.315] Server  LOG      ✓ Compiled in 437ms
-[01:33:38.980] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
 
-%s%s https://react.dev/link/hydration-mismatch 
+https://nextjs.org/docs/messages/module-not-found
 
-  ...
-    <AppDevOverlayErrorBoundary globalError={[...]}>
-      <ReplaySsrOnlyErrors>
-      <DevRootHTTPAccessFallbackBoundary>
-        <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-          <HTTPAccessFallbackErrorBoundary pathname="/c-deck" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-            <RedirectBoundary>
-              <RedirectErrorBoundary router={{...}}>
-                <Head>
-                <__next_root_layout_boundary__>
-                  <SegmentViewNode type="layout" pagePath="layout.tsx">
-                    <SegmentTrieNode>
-                    <link>
-                    <script>
-                    <script>
-                    <script>
-                    <script>
-                    <script>
-                    <script>
-                    <script>
-                    <script>
-                    <RootLayout>
-                      <html lang="en" suppressHydrationWarning={true}>
-                        <head>
-                        <body className="inter_5901..." suppressHydrationWarning={true}>
-                          <SmoothScrollProvider>
-                            <ScrollToTop>
-                            <Navbar>
-                            ...
-                              <SegmentViewNode type="page" pagePath="c-deck/pag...">
-                                <SegmentTrieNode>
-                                <ClientPageRoot Component={function CDeckPage} serverProvidedParams={{...}}>
-                                  <CDeckPage params={Promise} searchParams={Promise}>
-                                    <div
-                                      className="min-h-screen relative"
--                                     bis_skin_checked="1"
-                                    >
-                                      <ProductHeroScrollAnimation heroTitle="C-Deck ERP" heroTagline="Streamline..." ...>
-                                        <main ref={{current:null}} style={{position:"..."}} className="h-[100vh] ...">
-                                          <HeroSection scrollYProgress={{...}} title="C-Deck ERP" tagline="Streamline..." ...>
-                                            <motion.div style={{scale:{...}, ...}} className="sticky top...">
-                                              <div
-                                                className="sticky top-0 h-[50vh] sm:h-[60vh] md:h-screen"
-                                                style={{transform:"none"}}
-                                                ref={function useMotionRef.useCallback}
--                                               bis_skin_checked="1"
-                                              >
-                                                <HeroHighlight containerClassName="h-[50vh] s...">
-                                                  <div
-                                                    className="group relative flex w-full items-center justify-center ..."
-                                                    onMouseMove={function handleMouseMove}
--                                                   bis_skin_checked="1"
-                                                  >
-                                                    <div
-                                                      className="pointer-events-none absolute inset-0"
-                                                      style={{backgroundImage:"url(\"data..."}}
--                                                     bis_skin_checked="1"
-                                                    >
-                                                    <motion.div className="pointer-ev..." style={{...}}>
-                                                      <div
-                                                        className="pointer-events-none absolute inset-0 opacity-0 tran..."
-                                                        style={{backgroundImage:"url(\"data...",WebkitMaskImage:"\n        ...", ...}}
-                                                        ref={function useMotionRef.useCallback}
--                                                       bis_skin_checked="1"
-                                                      >
-                                                    <div
-                                                      className="relative z-20"
--                                                     bis_skin_checked="1"
-                                                    >
-                                                      <div
-                                                        className="text-center"
--                                                       bis_skin_checked="1"
-                                                      >
-                                          <ProductIntroSectionAnimated scrollYProgress={{...}} logo={undefined} ...>
-                                            <motion.section style={{scale:{...}, ...}} className="relative m...">
-                                              <section className="relative m..." style={{...}} ...>
-                                                <div
-                                                  className="absolute inset-0 bg-[linear-gradient(to_right,#BD0F4608_1..."
--                                                 bis_skin_checked="1"
-                                                >
-                                                <div
-                                                  className="container mx-auto relative z-10 h-full min-h-screen px-6 ..."
--                                                 bis_skin_checked="1"
-                                                >
-                                                  <div
-                                                    className="flex flex-col lg:flex-row items-stretch gap-12 lg:gap-1..."
--                                                   bis_skin_checked="1"
-                                                  >
-                                                    <div
-                                                      className="flex-1 flex flex-col justify-center"
--                                                     bis_skin_checked="1"
-                                                    >
-                                                      <motion.div initial={{opacity:0,y:20}} ...>
-                                                        <div
-                                                          className="flex items-center gap-2 mb-6"
-                                                          style={{opacity:0,transform:"translateY..."}}
-                                                          ref={function useMotionRef.useCallback}
--                                                         bis_skin_checked="1"
-                                                        >
-                                                      <motion.h2>
-                                                      <motion.div initial={{opacity:0,y:20}} ...>
-                                                        <div
-                                                          className="mb-8 max-w-lg"
-                                                          style={{opacity:0,transform:"translateY..."}}
-                                                          ref={function useMotionRef.useCallback}
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="flex gap-4"
--                                                           bis_skin_checked="1"
-                                                          >
-                                                    <motion.div initial={{opacity:0,x:50}} whileInView={{opacity:1,x:0}} ...>
-                                                      <div
-                                                        className="flex-1 relative min-h-[400px] lg:min-h-full"
-                                                        style={{opacity:0,transform:"translateX..."}}
-                                                        ref={function useMotionRef.useCallback}
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="absolute inset-0 rounded-2xl overflow-hidden"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <img>
-                                                          <div
-                                                            className="absolute inset-0 bg-gradient-to-l from-transpar..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          <div
-                                                            className="absolute inset-0 bg-gradient-to-br from-[#BD0F4..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                      <div
-                                        className="container mx-auto px-6 py-16"
--                                       bis_skin_checked="1"
-                                      >
-                                        <AlternatingFeatures>
-                                          <div
-                                            className="py-12"
--                                           bis_skin_checked="1"
-                                          >
-                                            <div
-                                              className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
--                                             bis_skin_checked="1"
-                                            >
-                                              <motion.div initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} ...>
-                                                <div
-                                                  className="text-center mb-16"
-                                                  style={{opacity:0,transform:"translateY..."}}
-                                                  ref={function useMotionRef.useCallback}
--                                                 bis_skin_checked="1"
-                                                >
-                                              <div
-                                                className="divide-y divide-gray-100"
--                                               bis_skin_checked="1"
-                                              >
-                                                <FeatureSection feature={{title:"Exe...", ...}} index={0}>
-                                                  <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} ...>
-                                                    <div
-                                                      className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-cente..."
-                                                      style={{opacity:0,transform:"translateY..."}}
-                                                      ref={function useMotionRef.useCallback}
--                                                     bis_skin_checked="1"
-                                                    >
-                                                      <motion.div className="w-full lg:..." whileHover={{scale:1.02}} ...>
-                                                        <div
-                                                          className="w-full lg:w-1/2"
-                                                          style={{}}
-                                                          ref={function useMotionRef.useCallback}
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="relative rounded-2xl overflow-hidden shadow-2xl..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <div
-                                                              className="absolute inset-0 bg-gradient-to-br from-[#BD0..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <motion.img>
-                                                            <div
-                                                              className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#BD..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <div
-                                                              className="absolute -top-4 -left-4 w-32 h-32 bg-[#BD0D46..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                      <div
-                                                        className="w-full lg:w-1/2 space-y-6"
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <motion.h3>
-                                                        <motion.p>
-                                                        <motion.div initial={{opacity:0,y:20}} ...>
-                                                          <div
-                                                            className="grid grid-cols-2 gap-3 pt-4"
-                                                            style={{opacity:0,transform:"translateY..."}}
-                                                            ref={function useMotionRef.useCallback}
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                <FeatureSection feature={{title:"Com...", ...}} index={1}>
-                                                  <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} ...>
-                                                    <div
-                                                      className="flex flex-col lg:flex-row-reverse gap-8 lg:gap-16 ite..."
-                                                      style={{opacity:0,transform:"translateY..."}}
-                                                      ref={function useMotionRef.useCallback}
--                                                     bis_skin_checked="1"
-                                                    >
-                                                      <motion.div className="w-full lg:..." whileHover={{scale:1.02}} ...>
-                                                        <div
-                                                          className="w-full lg:w-1/2"
-                                                          style={{}}
-                                                          ref={function useMotionRef.useCallback}
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="relative rounded-2xl overflow-hidden shadow-2xl..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <div
-                                                              className="absolute inset-0 bg-gradient-to-br from-[#BD0..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <motion.img>
-                                                            <div
-                                                              className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#BD..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <div
-                                                              className="absolute -top-4 -left-4 w-32 h-32 bg-[#BD0D46..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                      <div
-                                                        className="w-full lg:w-1/2 space-y-6"
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <motion.h3>
-                                                        <motion.p>
-                                                        <motion.div initial={{opacity:0,y:20}} ...>
-                                                          <div
-                                                            className="grid grid-cols-2 gap-3 pt-4"
-                                                            style={{opacity:0,transform:"translateY..."}}
-                                                            ref={function useMotionRef.useCallback}
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                <FeatureSection feature={{title:"Pro...", ...}} index={2}>
-                                                  <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} ...>
-                                                    <div
-                                                      className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-cente..."
-                                                      style={{opacity:0,transform:"translateY..."}}
-                                                      ref={function useMotionRef.useCallback}
--                                                     bis_skin_checked="1"
-                                                    >
-                                                      <motion.div className="w-full lg:..." whileHover={{scale:1.02}} ...>
-                                                        <div
-                                                          className="w-full lg:w-1/2"
-                                                          style={{}}
-                                                          ref={function useMotionRef.useCallback}
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="relative rounded-2xl overflow-hidden shadow-2xl..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <div
-                                                              className="absolute inset-0 bg-gradient-to-br from-[#BD0..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <motion.img>
-                                                            <div
-                                                              className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#BD..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <div
-                                                              className="absolute -top-4 -left-4 w-32 h-32 bg-[#BD0D46..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                      <div
-                                                        className="w-full lg:w-1/2 space-y-6"
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <motion.h3>
-                                                        <motion.p>
-                                                        <motion.div initial={{opacity:0,y:20}} ...>
-                                                          <div
-                                                            className="grid grid-cols-2 gap-3 pt-4"
-                                                            style={{opacity:0,transform:"translateY..."}}
-                                                            ref={function useMotionRef.useCallback}
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                <FeatureSection feature={{title:"Ass...", ...}} index={3}>
-                                                  <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} ...>
-                                                    <div
-                                                      className="flex flex-col lg:flex-row-reverse gap-8 lg:gap-16 ite..."
-                                                      style={{opacity:0,transform:"translateY..."}}
-                                                      ref={function useMotionRef.useCallback}
--                                                     bis_skin_checked="1"
-                                                    >
-                                                      <motion.div className="w-full lg:..." whileHover={{scale:1.02}} ...>
-                                                        <div
-                                                          className="w-full lg:w-1/2"
-                                                          style={{}}
-                                                          ref={function useMotionRef.useCallback}
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="relative rounded-2xl overflow-hidden shadow-2xl..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <div
-                                                              className="absolute inset-0 bg-gradient-to-br from-[#BD0..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <motion.img>
-                                                            <div
-                                                              className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#BD..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <div
-                                                              className="absolute -top-4 -left-4 w-32 h-32 bg-[#BD0D46..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                      <div
-                                                        className="w-full lg:w-1/2 space-y-6"
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <motion.h3>
-                                                        <motion.p>
-                                                        <motion.div initial={{opacity:0,y:20}} ...>
-                                                          <div
-                                                            className="grid grid-cols-2 gap-3 pt-4"
-                                                            style={{opacity:0,transform:"translateY..."}}
-                                                            ref={function useMotionRef.useCallback}
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                <FeatureSection feature={{title:"Fin...", ...}} index={4}>
-                                                  <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} ...>
-                                                    <div
-                                                      className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-cente..."
-                                                      style={{opacity:0,transform:"translateY..."}}
-                                                      ref={function useMotionRef.useCallback}
--                                                     bis_skin_checked="1"
-                                                    >
-                                                      <motion.div className="w-full lg:..." whileHover={{scale:1.02}} ...>
-                                                        <div
-                                                          className="w-full lg:w-1/2"
-                                                          style={{}}
-                                                          ref={function useMotionRef.useCallback}
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="relative rounded-2xl overflow-hidden shadow-2xl..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <div
-                                                              className="absolute inset-0 bg-gradient-to-br from-[#BD0..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <motion.img>
-                                                            <div
-                                                              className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#BD..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                            <div
-                                                              className="absolute -top-4 -left-4 w-32 h-32 bg-[#BD0D46..."
--                                                             bis_skin_checked="1"
-                                                            >
-                                                      <div
-                                                        className="w-full lg:w-1/2 space-y-6"
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <motion.h3>
-                                                        <motion.p>
-                                                        <motion.div initial={{opacity:0,y:20}} ...>
-                                                          <div
-                                                            className="grid grid-cols-2 gap-3 pt-4"
-                                                            style={{opacity:0,transform:"translateY..."}}
-                                                            ref={function useMotionRef.useCallback}
--                                                           bis_skin_checked="1"
-                                                          >
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                                            <motion.div initial={{opacity:0,x:-10}} ...>
-                                                              <div
-                                                                className="flex items-center gap-2 text-gray-700"
-                                                                style={{opacity:0,transform:"translateX..."}}
-                                                                ref={function useMotionRef.useCallback}
--                                                               bis_skin_checked="1"
-                                                              >
-                                                                <div
-                                                                  className="flex-shrink-0 w-5 h-5 rounded-full bg-[#B..."
--                                                                 bis_skin_checked="1"
-                                                                >
-                                                                ...
-                                        <WhyChooseCDeck>
-                                          <section className="bg-gradien...">
-                                            <div
-                                              className="mx-auto flex max-w-7xl flex-col items-center gap-4 text-cente..."
--                                             bis_skin_checked="1"
-                                            >
-                                              <div
-                                                className="flex flex-col items-center gap-4 px-4 sm:gap-6"
--                                               bis_skin_checked="1"
-                                              >
-                                              <div
-                                                className="relative flex w-full flex-col items-center justify-center o..."
--                                               bis_skin_checked="1"
-                                              >
-                                                <div
-                                                  className="flex overflow-hidden p-2 sm:p-4 [--gap:0.75rem] sm:[--gap..."
--                                                 bis_skin_checked="1"
-                                                >
-                                                  <div
-                                                    className="flex shrink-0 [gap:var(--gap)] animate-marquee-slow fle..."
--                                                   bis_skin_checked="1"
-                                                  >
-                                                    <FeatureCard icon={{...}} title="Project Ma..." text="Track mult...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Resource A..." text="Efficientl...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Cost Estim..." text="Generate a...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Contractor..." text="Streamline...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Financial ..." text="Gain compl...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Timeline P..." text="Create det...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title={"Analytic..."} text="Transform ...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title={"Complian..."} text="Maintain r...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                  <div
-                                                    className="flex shrink-0 [gap:var(--gap)] animate-marquee-slow fle..."
-                                                    aria-hidden="true"
--                                                   bis_skin_checked="1"
-                                                  >
-                                                    <FeatureCard icon={{...}} title="Project Ma..." text="Track mult...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Resource A..." text="Efficientl...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Cost Estim..." text="Generate a...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Contractor..." text="Streamline...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Financial ..." text="Gain compl...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title="Timeline P..." text="Create det...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title={"Analytic..."} text="Transform ...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                    <FeatureCard icon={{...}} title={"Complian..."} text="Maintain r...">
-                                                      <div
-                                                        className="flex flex-col rounded-xl border border-gray-100 sha..."
--                                                       bis_skin_checked="1"
-                                                      >
-                                                        <div
-                                                          className="flex items-center gap-4"
--                                                         bis_skin_checked="1"
-                                                        >
-                                                          <div
-                                                            className="h-14 w-14 rounded-xl bg-[#BD0F46]/10 flex items..."
--                                                           bis_skin_checked="1"
-                                                          >
-                                                          ...
-                                                        ...
-                                                <div
-                                                  className="pointer-events-none absolute inset-y-0 left-0 w-8 sm:w-1/..."
--                                                 bis_skin_checked="1"
-                                                >
-                                                <div
-                                                  className="pointer-events-none absolute inset-y-0 right-0 w-8 sm:w-1..."
--                                                 bis_skin_checked="1"
-                                                >
-                                        <div
-                                          className="text-center max-w-3xl mx-auto p-12 rounded-2xl border border-prim..."
--                                         bis_skin_checked="1"
-                                        >
-                            <HoverFooter>
-                              <footer className="relative m...">
-                                <div
-                                  className="absolute inset-0 flex items-center justify-center overflow-hidden pointer..."
--                                 bis_skin_checked="1"
-                                >
-                                <div
-                                  className="absolute inset-0 z-[5] bg-white/10 pointer-events-none"
--                                 bis_skin_checked="1"
-                                >
-                                <FooterBackgroundGradient>
-                                  <div
-                                    className="absolute inset-0 z-0"
-                                    style={{background:"radial-gra..."}}
--                                   bis_skin_checked="1"
-                                  >
-                                <div
-                                  className="relative z-10 mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 md:px-10 md:py-14"
--                                 bis_skin_checked="1"
-                                >
-                                  <div
-                                    className="grid grid-cols-2 gap-8 pb-8 sm:pb-10 md:grid-cols-2 lg:grid-cols-4 md:g..."
--                                   bis_skin_checked="1"
-                                  >
-                                    <div
-                                      className="flex flex-col space-y-4"
--                                     bis_skin_checked="1"
-                                    >
-                                      <div
-                                        className="flex items-center space-x-3"
--                                       bis_skin_checked="1"
-                                      >
-                                      ...
-                                    <div
--                                     bis_skin_checked="1"
-                                    >
-                                    <div
--                                     bis_skin_checked="1"
-                                    >
-                                    <div
--                                     bis_skin_checked="1"
-                                    >
-                                  <hr>
-                                  <div
-                                    className="flex justify-center w-full text-xs text-slate-500 md:text-sm"
--                                   bis_skin_checked="1"
-                                  >
-                ...
 
-[01:34:34.717] Server  LOG      ✓ Compiled in 124ms
-[01:34:36.604] Server  LOG      ✓ Compiled in 139ms
-[01:37:13.989] Server  LOG      ✓ Compiled in 211ms
+[00:31:28.409] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.695] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.738] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.759] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.766] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.771] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.774] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.777] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.779] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.783] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.785] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.787] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.791] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.795] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.797] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.801] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.803] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.807] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.809] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.811] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.813] Server  ERROR    ⨯ ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:28.816] Server  LOG      ✓ Compiled in 503ms
+[00:31:28.980] Browser ERROR   ./components/footer.tsx:16:1
+Module not found: Can't resolve '@/components/ui/hover-footer'
+  14 |   Globe,
+  15 | } from "lucide-react";
+> 16 | import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
+  18 |
+  19 | type FooterLink = {
+
+Import map: aliased to relative './components/ui/hover-footer' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/footer.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:32:42.145] Server  LOG      ✓ Compiled in 200ms
+[00:32:42.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:44.429] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:32:57.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:00.703] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:02.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:03.009] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
