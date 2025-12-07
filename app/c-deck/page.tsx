@@ -9,8 +9,8 @@ export default function CDeckPage() {
         <div className="min-h-screen relative">
             {/* Hero with Scroll Animation */}
             <ProductHeroScrollAnimation
-                heroTitle="C-Deck ERP"
-                heroTagline="Streamline your operations with a CRM that"
+                heroTitle="C-Deck"
+                heroTagline="Cut the clutter with a ERP that"
                 heroHighlightedText="just works."
                 sectionLabel="C-DECK ERP"
                 headline="Streamline your operations with"

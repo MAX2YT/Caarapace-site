@@ -1,5 +1,8 @@
+"use client";
+
 import { cn } from "@/lib/utils"
 import { FeatureCard } from "@/components/ui/feature-card"
+import { DraggableCarousel } from "@/components/ui/draggable-carousel"
 import {
     Building2,
     ClipboardList,
@@ -79,28 +82,20 @@ export function WhyChooseCDeck({ className }: WhyChooseSectionProps) {
                 </div>
 
                 <div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-2 sm:py-4">
-                    <div className="flex overflow-hidden p-2 sm:p-4 [--gap:0.75rem] sm:[--gap:1rem] md:[--gap:1.5rem] [gap:var(--gap)] flex-row">
-                        <div className="flex shrink-0 [gap:var(--gap)] animate-marquee-slow flex-row">
-                            {features.map((feature, i) => (
-                                <FeatureCard
-                                    key={`set1-${i}`}
-                                    icon={feature.icon}
-                                    title={feature.title}
-                                    text={feature.text}
-                                />
-                            ))}
-                        </div>
-                        <div className="flex shrink-0 [gap:var(--gap)] animate-marquee-slow flex-row" aria-hidden="true">
-                            {features.map((feature, i) => (
-                                <FeatureCard
-                                    key={`set2-${i}`}
-                                    icon={feature.icon}
-                                    title={feature.title}
-                                    text={feature.text}
-                                />
-                            ))}
-                        </div>
-                    </div>
+                    <DraggableCarousel
+                        autoScrollSpeed={40}
+                        gap={16}
+                        className="w-full p-2 sm:p-4"
+                    >
+                        {features.map((feature, i) => (
+                            <FeatureCard
+                                key={i}
+                                icon={feature.icon}
+                                title={feature.title}
+                                text={feature.text}
+                            />
+                        ))}
+                    </DraggableCarousel>
 
                     <div className="pointer-events-none absolute inset-y-0 left-0 w-8 sm:w-1/4 bg-gradient-to-r from-[#BD0F46]/5" />
                     <div className="pointer-events-none absolute inset-y-0 right-0 w-8 sm:w-1/4 bg-gradient-to-l from-[#BD0F46]/5" />

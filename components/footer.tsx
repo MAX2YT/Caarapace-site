@@ -110,8 +110,8 @@ function HoverFooter({
   footerSections = defaultFooterSections,
   contactItems = defaultContactItems,
   socialLinks = defaultSocialLinks,
-  description = "Caarapace Inc. builds modern, scalable software products that help businesses move faster, innovate, and grow with confidence.",
-  companyName = "Caarapace Inc.",
+  description = "In Caarapace we build modern, scalable software products that help businesses move faster, innovate, and grow with confidence.",
+  companyName = "Caarapace",
   logoSrc = "/logo.png",
   year = new Date().getFullYear(),
 }: HoverFooterProps) {
@@ -221,7 +221,7 @@ function HoverFooter({
         {/* Footer bottom */}
         <div className="flex justify-center w-full text-xs text-slate-500 md:text-sm">
           <p>
-            &copy; {year} {companyName}. All rights reserved.
+            &copy; {year} {companyName} -  All rights reserved.
           </p>
         </div>
       </div>

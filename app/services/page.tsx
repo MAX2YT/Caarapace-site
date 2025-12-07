@@ -1,68 +1,120 @@
 "use client";
 
+import type { Metadata } from "next";
 import { useState } from "react";
 import HeroScrollAnimation from "@/components/ui/hero-scroll-animation";
 import MagicBento from "@/components/magic-bento";
 import ServicesTimeline from "@/components/ui/services-timeline";
 import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
 
+// JSON-LD Structured Data for Services
+const servicesSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Software Development",
+    "provider": {
+        "@type": "Organization",
+        "name": "Caarapace",
+        "url": "https://caarapace.com"
+    },
+    "areaServed": "Worldwide",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Software Development Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Web Application Development",
+                    "description": "Custom web applications built with modern technologies"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mobile App Development",
+                    "description": "Native and cross-platform mobile applications"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Custom Software Solutions",
+                    "description": "Tailored software solutions for unique business needs"
+                }
+            }
+        ]
+    }
+};
+
 export default function ServicesPage() {
     const [dialogOpen, setDialogOpen] = useState(false);
 
     return (
-        <div className="min-h-screen bg-white relative">
-            {/* Hero with Scroll Animation */}
-            <HeroScrollAnimation
-                title="Services"
-                tagline="We build software that actually works."
-                highlightedText="Ship Fast. Scale Smart."
-                image="/servicehero.webp"
-                imageAlt="Team collaboration"
+        <>
+            {/* JSON-LD Structured Data */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }}
             />
 
-            <div className="container mx-auto px-6 py-16">
-                {/* MagicBento Section */}
-                <div className="mb-20">
-                    <MagicBento
-                        textAutoHide={true}
-                        enableStars={true}
-                        enableSpotlight={true}
-                        enableBorderGlow={true}
-                        enableTilt={false}
-                        enableMagnetism={true}
-                        clickEffect={true}
-                        spotlightRadius={300}
-                        particleCount={12}
-                        glowColor="190, 11, 69"
-                    />
-                </div>
+            <div className="min-h-screen bg-white relative">
+                {/* Hero with Scroll Animation */}
+                <HeroScrollAnimation
+                    title="Services"
+                    tagline="We build software that actually works."
+                    highlightedText="Ship Fast. Scale Smart."
+                    image="/servicehero.webp"
+                    imageAlt="Team collaboration"
+                />
 
-                {/* Development Process Timeline */}
-                <div className="mb-20">
-                    <ServicesTimeline />
-                </div>
-
-                <div className="mt-20 text-center">
-                    <div className="inline-block p-8 rounded-2xl border border-[#BD0F46]/20 bg-gradient-to-r from-[#BD0F46]/5 to-transparent">
-                        <h2 className="text-3xl font-bold mb-4">Ready to Build Something Cool?</h2>
-                        <p className="text-slate-600 mb-6 max-w-xl">
-                            Let's chat about turning your idea into reality. No sales pitch, just real talk about what we can create together.
-                        </p>
-                        <ContactFormDialog
-                            open={dialogOpen}
-                            onOpenChange={setDialogOpen}
-                            trigger={
-                                <button
-                                    onClick={() => setDialogOpen(true)}
-                                    className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-[#BD0F46] text-white hover:bg-[#BD0F46]/90 transition-colors shadow-[0_10px_30px_rgba(189,15,70,0.35)] hover:shadow-[0_14px_40px_rgba(189,15,70,0.45)] cursor-pointer"
-                                >
-                                    Hit Us Up
-                                </button>
-                            }
+                <div className="container mx-auto px-6 py-16">
+                    {/* MagicBento Section */}
+                    <div className="mb-20">
+                        <MagicBento
+                            textAutoHide={true}
+                            enableStars={true}
+                            enableSpotlight={true}
+                            enableBorderGlow={true}
+                            enableTilt={false}
+                            enableMagnetism={true}
+                            clickEffect={true}
+                            spotlightRadius={300}
+                            particleCount={12}
+                            glowColor="190, 11, 69"
                         />
+                    </div>
+
+                    {/* Development Process Timeline */}
+                    <div className="mb-20">
+                        <ServicesTimeline />
+                    </div>
+
+                    <div className="mt-20 text-center">
+                        <div className="inline-block p-8 rounded-2xl border border-[#BD0F46]/20 bg-gradient-to-r from-[#BD0F46]/5 to-transparent">
+                            <h2 className="text-3xl font-bold mb-4">Ready to Build Something Cool?</h2>
+                            <p className="text-slate-600 mb-6 max-w-xl">
+                                Let's chat about turning your idea into reality. No sales pitch, just real talk about what we can create together.
+                            </p>
+                            <ContactFormDialog
+                                open={dialogOpen}
+                                onOpenChange={setDialogOpen}
+                                trigger={
+                                    <button
+                                        onClick={() => setDialogOpen(true)}
+                                        className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-base font-medium bg-[#BD0F46] text-white hover:bg-[#BD0F46]/90 transition-colors shadow-[0_10px_30px_rgba(189,15,70,0.35)] hover:shadow-[0_14px_40px_rgba(189,15,70,0.45)] cursor-pointer"
+                                    >
+                                        Hit Us Up
+                                    </button>
+                                }
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }

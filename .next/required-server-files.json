@@ -42,7 +42,7 @@
         256,
         384
       ],
-      "path": "/_next/image",
+      "path": "/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -92,7 +92,7 @@
     },
     "basePath": "",
     "sassOptions": {},
-    "trailingSlash": false,
+    "trailingSlash": true,
     "i18n": null,
     "productionBrowserSourceMaps": false,
     "excludeDefaultMomentLocales": true,
@@ -115,7 +115,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\eks-push9\\Caarapace-site",
+    "outputFileTracingRoot": "C:\\Users\\2kmax\\OneDrive\\Desktop\\Caarapace-site",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -173,7 +173,7 @@
       "proxyPrefetch": "flexible",
       "optimisticClientCache": true,
       "manualClientBasePath": false,
-      "cpus": 3,
+      "cpus": 7,
       "memoryBasedWorkersCount": false,
       "imgOptConcurrency": null,
       "imgOptTimeoutInSeconds": 7,
@@ -305,11 +305,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "D:\\eks-push9\\Caarapace-site"
+      "root": "C:\\Users\\2kmax\\OneDrive\\Desktop\\Caarapace-site"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "D:\\eks-push9\\Caarapace-site",
+  "appDir": "C:\\Users\\2kmax\\OneDrive\\Desktop\\Caarapace-site",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

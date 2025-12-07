@@ -1,0 +1,15 @@
+# https://www.robotstxt.org/robotstxt.html
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin and private paths
+Disallow: /_next/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://caarapace.com/sitemap.xml
+
+# Crawl delay (optional, be nice to your server)
+Crawl-delay: 1

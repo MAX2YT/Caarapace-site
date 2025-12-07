@@ -134,7 +134,7 @@ function ModernIntroSection() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative mt-8 lg:mt-0 flex items-center justify-center",
+                            className: "relative mt-8 lg:mt-0 flex items-center justify-center mx-auto lg:mx-0 pl-16 sm:pl-20 lg:pl-0",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative transform rotate-6 sm:rotate-12 hover:rotate-0 hover:scale-125 transition-transform duration-300",
@@ -631,7 +631,9 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$componen
 
 __turbopack_context__.s([
     "default",
-    ()=>Home
+    ()=>Home,
+    "metadata",
+    ()=>metadata
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$background$2d$paths$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/background-paths.tsx [app-rsc] (ecmascript)");
@@ -645,43 +647,128 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$premium$
 ;
 ;
 ;
+const metadata = {
+    title: "Caarapace - Custom Software Development Company | Web & Mobile Apps",
+    description: "Caarapace is a leading software development company in Chennai, India. We build scalable web applications, mobile apps, and custom software solutions. Get a free consultation today!",
+    keywords: [
+        "software development company",
+        "web development services",
+        "mobile app development",
+        "custom software solutions",
+        "Chennai software company",
+        "IT consulting",
+        "enterprise software",
+        "SaaS development",
+        "Caarapace"
+    ],
+    alternates: {
+        canonical: "https://caarapace.com"
+    },
+    openGraph: {
+        title: "Caarapace - Custom Software Development Company",
+        description: "We build software that actually works. Scalable, clean, and tailored to your needs.",
+        url: "https://caarapace.com",
+        type: "website"
+    }
+};
+// JSON-LD Structured Data for Organization
+const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Caarapace",
+    "url": "https://caarapace.com",
+    "logo": "https://caarapace.com/logo.png",
+    "description": "Leading software development company delivering modern, scalable solutions for businesses.",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "IN"
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-86103-05690",
+        "contactType": "sales",
+        "email": "info@caarapace.com"
+    },
+    "sameAs": [
+        "https://www.facebook.com/caarapace",
+        "https://www.instagram.com/caarapace",
+        "https://twitter.com/caarapace"
+    ]
+};
+const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Caarapace",
+    "url": "https://caarapace.com",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://caarapace.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+};
 function Home() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen bg-white",
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$background$2d$paths$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BackgroundPaths"], {
-                title: "We Build Software That Actually Slaps"
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(organizationSchema)
+                }
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 10,
+                lineNumber: 77,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$a$2d$modern$2d$intro$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(websiteSchema)
+                }
+            }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 12,
+                lineNumber: 81,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$features$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FeaturesSection"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "min-h-screen bg-white",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$background$2d$paths$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BackgroundPaths"], {
+                        title: "We Build Software That Actually Slaps"
+                    }, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 87,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$a$2d$modern$2d$intro$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 89,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$features$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FeaturesSection"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 91,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$premium$2d$testimonials$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PremiumTestimonials"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 93,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$contact$2d$form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ContactForm"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 95,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 14,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$premium$2d$testimonials$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PremiumTestimonials"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 16,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$contact$2d$form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ContactForm"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 18,
+                lineNumber: 86,
                 columnNumber: 13
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "[project]/app/page.tsx",
-        lineNumber: 9,
-        columnNumber: 9
-    }, this);
+    }, void 0, true);
 }
 }),
 "[project]/app/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {

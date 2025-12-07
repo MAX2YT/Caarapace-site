@@ -364,7 +364,7 @@ export default function CareersPage() {
             <HeroScrollAnimation
                 title="Careers"
                 tagline="Join a team that's building"
-                highlightedText="the future of software."
+                highlightedText="the Future"
                 image="/careerhero.webp"
                 imageAlt="Team collaboration"
             />

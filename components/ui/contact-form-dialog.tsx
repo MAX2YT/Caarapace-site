@@ -148,13 +148,13 @@ export function ContactFormDialog({
           </Button>
         )}
       </DialogTrigger>
-      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto overscroll-contain scrollbar-hide bg-white border-[#BD0F46]/20">
+      <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto overscroll-contain bg-white border-[#BD0F46]/20 pb-8">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold text-gray-900">
             Let&apos;s Build Something Amazing Together
           </DialogTitle>
           <p className="text-gray-600 mt-2">
-            Tell us about your project and we&apos;ll get back to you within 24 hours.
+            Tell us about your project and we&apos;ll get back to you ASAP.
           </p>
         </DialogHeader>
 
@@ -185,22 +185,22 @@ export function ContactFormDialog({
         ) : (
           <>
             {/* Contact Info - Button Style */}
-            <div className="flex flex-col sm:flex-row gap-3 py-4 border-b border-gray-200">
+            <div className="flex flex-col sm:flex-row gap-2 py-3 border-b border-gray-200">
               <a
                 href="mailto:info@caarapace.com"
-                className="flex-1 flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-[#BD0F46]/10 to-[#BD0F46]/5 hover:from-[#BD0F46]/20 hover:to-[#BD0F46]/10 border border-[#BD0F46]/20 hover:border-[#BD0F46]/40 rounded-xl transition-all duration-300 group"
+                className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r from-[#BD0F46]/10 to-[#BD0F46]/5 hover:from-[#BD0F46]/20 hover:to-[#BD0F46]/10 border border-[#BD0F46]/20 hover:border-[#BD0F46]/40 rounded-lg transition-all duration-300 group"
               >
-                <Mail className="w-6 h-6 text-[#BD0F46] group-hover:scale-110 transition-transform" />
-                <span className="text-lg font-semibold text-gray-800 group-hover:text-[#BD0F46] transition-colors">
+                <Mail className="w-4 h-4 text-[#BD0F46] group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-gray-800 group-hover:text-[#BD0F46] transition-colors">
                   info@caarapace.com
                 </span>
               </a>
               <a
                 href="tel:+918610305690"
-                className="flex-1 flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-[#BD0F46]/10 to-[#BD0F46]/5 hover:from-[#BD0F46]/20 hover:to-[#BD0F46]/10 border border-[#BD0F46]/20 hover:border-[#BD0F46]/40 rounded-xl transition-all duration-300 group"
+                className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r from-[#BD0F46]/10 to-[#BD0F46]/5 hover:from-[#BD0F46]/20 hover:to-[#BD0F46]/10 border border-[#BD0F46]/20 hover:border-[#BD0F46]/40 rounded-lg transition-all duration-300 group"
               >
-                <Phone className="w-6 h-6 text-[#BD0F46] group-hover:scale-110 transition-transform" />
-                <span className="text-lg font-semibold text-gray-800 group-hover:text-[#BD0F46] transition-colors">
+                <Phone className="w-4 h-4 text-[#BD0F46] group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-gray-800 group-hover:text-[#BD0F46] transition-colors">
                   +91 86103 05690
                 </span>
               </a>
@@ -255,7 +255,7 @@ export function ContactFormDialog({
                   id="message"
                   name="message"
                   placeholder="Describe your project idea, goals, and any specific requirements..."
-                  className="min-h-[100px] border-gray-300 focus:border-[#BD0F46] focus:ring-[#BD0F46]"
+                  className="min-h-[80px] border-gray-300 focus:border-[#BD0F46] focus:ring-[#BD0F46]"
                   value={formData.message}
                   onChange={handleChange}
                   required
@@ -264,7 +264,7 @@ export function ContactFormDialog({
 
               <div className="space-y-3">
                 <Label>What services are you interested in?</Label>
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div className="grid grid-cols-2 gap-2">
                   {projectTypeOptions.map((option) => (
                     <div key={option} className="flex items-center space-x-2">
                       <Checkbox

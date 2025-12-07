@@ -21,7 +21,7 @@ export default function ModernIntroSection() {
                         </p>
                     </div>
 
-                    <div className="relative mt-8 lg:mt-0 flex items-center justify-center">
+                    <div className="relative mt-8 lg:mt-0 flex items-center justify-center mx-auto lg:mx-0 pl-16 sm:pl-20 lg:pl-0">
                         {/* Caarapace Mascot Logo */}
                         <div className="relative transform rotate-6 sm:rotate-12 hover:rotate-0 hover:scale-125 transition-transform duration-300">
                             <video

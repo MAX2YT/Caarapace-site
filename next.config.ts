@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
+    trailingSlash: true, // Creates /page/index.html instead of /page.html - required for static hosting
     devIndicators: false,
     images: {
         unoptimized: true,

@@ -207,7 +207,7 @@ const ProductIntroSectionAnimated: React.FC<ProductIntroSectionAnimatedProps> = 
                             <img
                                 src={image}
                                 alt={imageAlt || headline}
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain p-4"
                             />
                             {/* Gradient overlay for visual depth */}
                             <div className="absolute inset-0 bg-gradient-to-l from-transparent via-transparent to-[#FAF8F5]/30"></div>
