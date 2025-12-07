@@ -62,16 +62,59 @@
   }
 
   /* Justify text content across the website */
-  p, .text-justify {
+  p,
+  .text-justify {
     text-align: justify;
     text-justify: inter-word;
   }
 
   /* Exclude certain elements from justification */
-  h1, h2, h3, h4, h5, h6, 
-  button, a, label, 
-  .text-center, .text-left, .text-right,
-  nav, footer {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button,
+  a,
+  label,
+  .text-center,
+  .text-left,
+  .text-right,
+  nav,
+  footer {
     text-align: inherit;
   }
+}
+
+/* Hide scrollbar utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari and Opera */
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) linear infinite;
+}
+
+.animate-marquee-slow {
+  animation: marquee 120s linear infinite;
 }

@@ -3,8 +3,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 import { Quote, Star, ArrowLeft, ArrowRight, Sparkles } from 'lucide-react';
-import CountUp from '@/components/ui/count-up';
-import RollingCounter from '@/components/ui/rolling-counter';
+
 
 const testimonials = [
     {
@@ -428,89 +427,92 @@ export function PremiumTestimonials() {
                     </div>
                 </div>
 
-                {/* Stats Section */}
+                {/* Why Choose Us Section */}
                 <motion.div
-                    className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto"
+                    className="max-w-5xl mx-auto"
                     variants={staggerContainer}
                 >
-                    {/* Happy Clients - Rolling Counter */}
                     <motion.div
-                        className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
+                        className="text-center mb-10"
                         variants={fadeInUp}
-                        whileHover={{ scale: 1.05, y: -5 }}
                     >
-                        <div className="text-2xl md:text-3xl font-bold mb-1 flex items-center justify-center">
-                            <RollingCounter
-                                value={15}
-                                fontSize={28}
-                                places={[10, 1]}
-                                suffix="+"
-                            />
-                        </div>
-                        <div className="text-gray-600 text-sm font-medium">
-                            Happy Clients
-                        </div>
+                        <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+                            Why Choose <span className="text-[#BD0F46]">Caarapace?</span>
+                        </h3>
+                        <p className="text-gray-600 max-w-2xl mx-auto">
+                            We don&apos;t just build software—we build partnerships. Here&apos;s what makes us different.
+                        </p>
                     </motion.div>
 
-                    {/* Satisfaction Rate - CountUp */}
-                    <motion.div
-                        className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
-                        variants={fadeInUp}
-                        whileHover={{ scale: 1.05, y: -5 }}
-                    >
-                        <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent mb-1">
-                            <CountUp
-                                to={100}
-                                from={0}
-                                duration={2.5}
-                                suffix="%"
-                                className="bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent"
-                            />
-                        </div>
-                        <div className="text-gray-600 text-sm font-medium">
-                            Satisfaction Rate
-                        </div>
-                    </motion.div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {/* Future-Ready Tech Stack */}
+                        <motion.div
+                            className="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-xl hover:border-[#BD0F46]/30 transition-all"
+                            variants={fadeInUp}
+                            whileHover={{ scale: 1.02, y: -8 }}
+                        >
+                            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#BD0F46]/10 to-[#BD0F46]/5 flex items-center justify-center mb-4 group-hover:bg-[#BD0F46]/20 transition-colors">
+                                <svg className="w-6 h-6 text-[#BD0F46]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                            <h4 className="text-lg font-bold text-gray-900 mb-2">Future-Ready Tech Stack</h4>
+                            <p className="text-sm text-gray-600 leading-relaxed">
+                                We use cutting-edge technologies that scale with your business—no legacy baggage, just clean, modern code.
+                            </p>
+                        </motion.div>
 
-                    {/* Client Savings - Rolling Counter */}
-                    <motion.div
-                        className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
-                        variants={fadeInUp}
-                        whileHover={{ scale: 1.05, y: -5 }}
-                    >
-                        <div className="text-2xl md:text-3xl font-bold mb-1 flex items-center justify-center">
-                            <RollingCounter
-                                value={10}
-                                fontSize={28}
-                                places={[10, 1]}
-                                prefix="₹"
-                                suffix="L+"
-                            />
-                        </div>
-                        <div className="text-gray-600 text-sm font-medium">
-                            Client Savings
-                        </div>
-                    </motion.div>
+                        {/* Justify Your Spending */}
+                        <motion.div
+                            className="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-xl hover:border-[#BD0F46]/30 transition-all"
+                            variants={fadeInUp}
+                            whileHover={{ scale: 1.02, y: -8 }}
+                        >
+                            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#BD0F46]/10 to-[#BD0F46]/5 flex items-center justify-center mb-4 group-hover:bg-[#BD0F46]/20 transition-colors">
+                                <svg className="w-6 h-6 text-[#BD0F46]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                </svg>
+                            </div>
+                            <h4 className="text-lg font-bold text-gray-900 mb-2">Justify Every Rupee Spent</h4>
+                            <p className="text-sm text-gray-600 leading-relaxed">
+                                We deliver measurable ROI with transparent reporting, so you can prove the value of every technology investment to stakeholders.
+                            </p>
+                        </motion.div>
 
-                    {/* Uptime SLA - CountUp */}
-                    <motion.div
-                        className="text-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-lg hover:border-[#BD0F46]/20 transition-all"
-                        variants={fadeInUp}
-                        whileHover={{ scale: 1.05, y: -5 }}
-                    >
-                        <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent mb-1">
-                            <CountUp
-                                to={100}
-                                from={0}
-                                duration={2.5}
-                                suffix="%"
-                                className="bg-gradient-to-r from-[#BD0F46] to-[#BD0F46] bg-clip-text text-transparent"
-                            />
-                        </div>
-                        <div className="text-gray-600 text-sm font-medium">
-                            Uptime SLA
-                        </div>
-                    </motion.div>
+                        {/* System Leakage Detection */}
+                        <motion.div
+                            className="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-xl hover:border-[#BD0F46]/30 transition-all"
+                            variants={fadeInUp}
+                            whileHover={{ scale: 1.02, y: -8 }}
+                        >
+                            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#BD0F46]/10 to-[#BD0F46]/5 flex items-center justify-center mb-4 group-hover:bg-[#BD0F46]/20 transition-colors">
+                                <svg className="w-6 h-6 text-[#BD0F46]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                                </svg>
+                            </div>
+                            <h4 className="text-lg font-bold text-gray-900 mb-2">Find & Fix System Leakages</h4>
+                            <p className="text-sm text-gray-600 leading-relaxed">
+                                We audit your existing systems to uncover hidden inefficiencies, security gaps, and performance bottlenecks—then fix them fast.
+                            </p>
+                        </motion.div>
+
+                        {/* End-to-End Ownership */}
+                        <motion.div
+                            className="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm group hover:shadow-xl hover:border-[#BD0F46]/30 transition-all"
+                            variants={fadeInUp}
+                            whileHover={{ scale: 1.02, y: -8 }}
+                        >
+                            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#BD0F46]/10 to-[#BD0F46]/5 flex items-center justify-center mb-4 group-hover:bg-[#BD0F46]/20 transition-colors">
+                                <svg className="w-6 h-6 text-[#BD0F46]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                                </svg>
+                            </div>
+                            <h4 className="text-lg font-bold text-gray-900 mb-2">End-to-End Ownership</h4>
+                            <p className="text-sm text-gray-600 leading-relaxed">
+                                From ideation to deployment and beyond—we handle everything so you can focus on growing your business.
+                            </p>
+                        </motion.div>
+                    </div>
                 </motion.div>
             </motion.div>
         </section>

@@ -21,11 +21,6 @@ const timelineData = [
                 <p className="text-gray-600 text-sm md:text-base mb-4">
                     Define the website's goals, target audience, technical requirements, and content structure.
                 </p>
-                <div className="flex items-center gap-2 mb-4">
-                    <span className="px-3 py-1 rounded-full bg-[#BD0D46]/10 text-[#BD0D46] text-sm font-medium">
-                        1-2 Weeks
-                    </span>
-                </div>
                 <div className="space-y-2">
                     <div className="flex gap-2 items-center text-gray-600 text-sm">
                         ✅ Sitemap & Wireframes
@@ -56,11 +51,6 @@ const timelineData = [
                 <p className="text-gray-600 text-sm md:text-base mb-4">
                     Develop the visual identity and generate all necessary content for your project.
                 </p>
-                <div className="flex items-center gap-2 mb-4">
-                    <span className="px-3 py-1 rounded-full bg-[#BD0D46]/10 text-[#BD0D46] text-sm font-medium">
-                        3-4 Weeks
-                    </span>
-                </div>
                 <div className="space-y-2">
                     <div className="flex gap-2 items-center text-gray-600 text-sm">
                         ✅ Finalized UI/UX Mockups
@@ -91,11 +81,6 @@ const timelineData = [
                 <p className="text-gray-600 text-sm md:text-base mb-4">
                     Build the website based on approved designs and integrate all functionality.
                 </p>
-                <div className="flex items-center gap-2 mb-4">
-                    <span className="px-3 py-1 rounded-full bg-[#BD0D46]/10 text-[#BD0D46] text-sm font-medium">
-                        4-6 Weeks
-                    </span>
-                </div>
                 <div className="space-y-2">
                     <div className="flex gap-2 items-center text-gray-600 text-sm">
                         ✅ Front-end & Back-end Complete
@@ -126,11 +111,6 @@ const timelineData = [
                 <p className="text-gray-600 text-sm md:text-base mb-4">
                     Rigorously test the website for functionality, performance, and cross-browser compatibility.
                 </p>
-                <div className="flex items-center gap-2 mb-4">
-                    <span className="px-3 py-1 rounded-full bg-[#BD0D46]/10 text-[#BD0D46] text-sm font-medium">
-                        1-2 Weeks
-                    </span>
-                </div>
                 <div className="space-y-2">
                     <div className="flex gap-2 items-center text-gray-600 text-sm">
                         ✅ Bug/Issue Log (Zero Critical Errors)
@@ -161,11 +141,6 @@ const timelineData = [
                 <p className="text-gray-600 text-sm md:text-base mb-4">
                     Final migration to the live production server and post-launch verification.
                 </p>
-                <div className="flex items-center gap-2 mb-4">
-                    <span className="px-3 py-1 rounded-full bg-[#BD0D46]/10 text-[#BD0D46] text-sm font-medium">
-                        1-3 Days
-                    </span>
-                </div>
                 <div className="space-y-2">
                     <div className="flex gap-2 items-center text-gray-600 text-sm">
                         ✅ Final Go-Live Deployment

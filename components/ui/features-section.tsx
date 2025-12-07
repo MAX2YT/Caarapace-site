@@ -17,7 +17,7 @@ export function FeaturesSection() {
                     <div className="space-y-3 hover:bg-[#FFF5F8] transition-colors">
                         <div className="flex items-center gap-2">
                             <Zap className="size-9 text-[#BD0F46]" />
-                            <h3 className="text-sm font-semibold text-gray-900">Stupid Fast</h3>
+                            <h3 className="text-sm font-semibold text-gray-900">Warp Speed</h3>
                         </div>
                         <p className="text-sm text-gray-600">
                             We move quick. Agile sprints mean your product gets to market fast without cutting corners on quality.

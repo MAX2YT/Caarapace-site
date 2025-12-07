@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -13,7 +13,7 @@ import {
   Dribbble,
   Globe,
 } from "lucide-react";
-import { FooterBackgroundGradient, TextHoverEffect } from "@/components/ui/hover-footer";
+import { FooterBackgroundGradient } from "@/components/ui/hover-footer";
 import { ContactFormDialog } from "@/components/ui/contact-form-dialog";
 
 type FooterLink = {
@@ -59,10 +59,10 @@ const defaultFooterSections: FooterSection[] = [
     ],
   },
   {
-    title: "Resources",
+    title: "Products",
     links: [
-      { label: "Blog", href: "/coming-soon" },
-      { label: "Case Studies", href: "/coming-soon" },
+      { label: "C-Deck", href: "/c-deck" },
+      { label: "Pulse", href: "/pulse" },
       {
         label: "Contact Sales",
         href: "#contact-dialog",
@@ -109,18 +109,25 @@ function HoverFooter({
   return (
     <footer className="relative m-4 mt-12 overflow-hidden rounded-3xl bg-white/80 shadow-[0_18px_45px_rgba(0,0,0,0.06)]">
       {/* Background CAARAPACE text - positioned behind everything */}
-      <div className="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none px-4">
-        <TextHoverEffect text="CAARAPACE" className="w-full opacity-60" />
+      <div className="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none">
+        <Image
+          src="/caarapace-text.png"
+          alt="Caarapace"
+          width={1200}
+          height={200}
+          className="w-full max-w-4xl opacity-[0.12]"
+          priority
+        />
       </div>
 
-      {/* Blur overlay for better readability */}
-      <div className="absolute inset-0 z-[5] backdrop-blur-[2px] bg-white/40 pointer-events-none" />
+      {/* Light overlay for better readability */}
+      <div className="absolute inset-0 z-[5] bg-white/10 pointer-events-none" />
 
       <FooterBackgroundGradient />
 
       {/* Footer content overlay */}
-      <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:px-10 md:py-14">
-        <div className="grid grid-cols-1 gap-10 pb-10 md:grid-cols-2 lg:grid-cols-4 md:gap-8 lg:gap-16">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 md:px-10 md:py-14">
+        <div className="grid grid-cols-2 gap-8 pb-8 sm:pb-10 md:grid-cols-2 lg:grid-cols-4 md:gap-8 lg:gap-16">
           {/* Brand section */}
           <div className="flex flex-col space-y-4">
             <div className="flex items-center space-x-3">

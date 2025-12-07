@@ -2,6 +2,7 @@
 
 import ProductHeroScrollAnimation from "@/components/ui/product-hero-scroll-animation";
 import AlternatingFeatures from "@/components/ui/alternating-features";
+import { WhyChooseCDeck } from "@/components/ui/why-choose-cdeck";
 
 export default function CDeckPage() {
     return (
@@ -23,6 +24,9 @@ export default function CDeckPage() {
             <div className="container mx-auto px-6 py-16">
                 {/* Alternating Features Section */}
                 <AlternatingFeatures />
+
+                {/* Why Choose C-Deck Section */}
+                <WhyChooseCDeck />
 
                 {/* CTA Section */}
                 <div className="text-center max-w-3xl mx-auto p-12 rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 to-transparent mt-12">

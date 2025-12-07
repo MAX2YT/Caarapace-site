@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react';
+import ModernRetroButton from '@/components/ui/modern-retro-button';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -15,6 +16,7 @@ import {
 } from '@/components/ui/dialog';
 import { Mail, Phone } from 'lucide-react';
 import emailjs from '@emailjs/browser';
+import { useLenis } from '@/components/smooth-scroll-provider';
 
 interface ContactFormDialogProps {
   trigger?: React.ReactNode;
@@ -30,9 +32,31 @@ const PUBLIC_KEY = 'GXG-wpKq5ONaVJtfE';
 export function ContactFormDialog({
   trigger,
   className,
-  open,
-  onOpenChange,
+  open: externalOpen,
+  onOpenChange: externalOnOpenChange,
 }: ContactFormDialogProps) {
+  const lenis = useLenis();
+  const [internalOpen, setInternalOpen] = React.useState(false);
+
+  // Use external open state if provided, otherwise use internal
+  const isOpen = externalOpen !== undefined ? externalOpen : internalOpen;
+
+  const handleOpenChange = (open: boolean) => {
+    // Stop/start Lenis based on dialog state
+    if (open) {
+      lenis?.stop();
+    } else {
+      lenis?.start();
+    }
+
+    // Update state
+    if (externalOnOpenChange) {
+      externalOnOpenChange(open);
+    } else {
+      setInternalOpen(open);
+    }
+  };
+
   const [formData, setFormData] = React.useState({
     name: '',
     email: '',
@@ -116,7 +140,7 @@ export function ContactFormDialog({
   ];
 
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
+    <Dialog open={isOpen} onOpenChange={handleOpenChange}>
       <DialogTrigger asChild>
         {trigger || (
           <Button variant="outline" size="sm" className={className}>
@@ -124,7 +148,7 @@ export function ContactFormDialog({
           </Button>
         )}
       </DialogTrigger>
-      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto bg-white border-[#BD0F46]/20">
+      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto overscroll-contain scrollbar-hide bg-white border-[#BD0F46]/20">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold text-gray-900">
             Let&apos;s Build Something Amazing Together
@@ -160,21 +184,26 @@ export function ContactFormDialog({
           </div>
         ) : (
           <>
-            {/* Contact Info */}
-            <div className="flex flex-wrap gap-4 py-4 border-b border-gray-200">
-              <div className="flex items-center gap-2 text-sm text-gray-600">
-                <Mail className="w-4 h-4 text-[#BD0F46]" />
-                <a
-                  href="mailto:hello@caarapace.com"
-                  className="hover:text-[#BD0F46]"
-                >
+            {/* Contact Info - Button Style */}
+            <div className="flex flex-col sm:flex-row gap-3 py-4 border-b border-gray-200">
+              <a
+                href="mailto:info@caarapace.com"
+                className="flex-1 flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-[#BD0F46]/10 to-[#BD0F46]/5 hover:from-[#BD0F46]/20 hover:to-[#BD0F46]/10 border border-[#BD0F46]/20 hover:border-[#BD0F46]/40 rounded-xl transition-all duration-300 group"
+              >
+                <Mail className="w-6 h-6 text-[#BD0F46] group-hover:scale-110 transition-transform" />
+                <span className="text-lg font-semibold text-gray-800 group-hover:text-[#BD0F46] transition-colors">
                   info@caarapace.com
-                </a>
-              </div>
-              <div className="flex items-center gap-2 text-sm text-gray-600">
-                <Phone className="w-4 h-4 text-[#BD0F46]" />
-                <span>+91 86103 05690</span>
-              </div>
+                </span>
+              </a>
+              <a
+                href="tel:+918610305690"
+                className="flex-1 flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-[#BD0F46]/10 to-[#BD0F46]/5 hover:from-[#BD0F46]/20 hover:to-[#BD0F46]/10 border border-[#BD0F46]/20 hover:border-[#BD0F46]/40 rounded-xl transition-all duration-300 group"
+              >
+                <Phone className="w-6 h-6 text-[#BD0F46] group-hover:scale-110 transition-transform" />
+                <span className="text-lg font-semibold text-gray-800 group-hover:text-[#BD0F46] transition-colors">
+                  +91 86103 05690
+                </span>
+              </a>
             </div>
 
             {/* Form */}
@@ -261,40 +290,16 @@ export function ContactFormDialog({
                 <p className="text-sm text-red-500 text-center">{error}</p>
               )}
 
-              <Button
+              <ModernRetroButton
                 type="submit"
-                className="w-full bg-[#BD0F46] hover:bg-[#BD0F46]/90 text-white font-semibold py-6"
+                label="Send Message"
+                loadingLabel="Sending..."
+                isLoading={isSubmitting}
                 disabled={isSubmitting}
-              >
-                {isSubmitting ? (
-                  <span className="flex items-center gap-2">
-                    <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
-                      <circle
-                        className="opacity-25"
-                        cx="12"
-                        cy="12"
-                        r="10"
-                        stroke="currentColor"
-                        strokeWidth="4"
-                        fill="none"
-                      />
-                      <path
-                        className="opacity-75"
-                        fill="currentColor"
-                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                      />
-                    </svg>
-                    Sending...
-                  </span>
-                ) : (
-                  'Send Message'
-                )}
-              </Button>
+                fullWidth={true}
+              />
 
-              <p className="text-xs text-gray-500 text-center">
-                By submitting this form, you agree to our privacy policy. We&apos;ll
-                never share your information.
-              </p>
+
             </form>
           </>
         )}

@@ -4,6 +4,7 @@ import ProductHeroScrollAnimation from "@/components/ui/product-hero-scroll-anim
 import PulseAlternatingFeatures from "@/components/ui/pulse-alternating-features";
 import CountUp from "@/components/ui/count-up";
 import RollingCounter from "@/components/ui/rolling-counter";
+import { WhyChoosePulse } from "@/components/ui/why-choose-pulse";
 
 export default function PulsePage() {
     return (
@@ -77,10 +78,13 @@ export default function PulsePage() {
                     </div>
                 </div>
 
+                {/* Why Choose Pulse Section */}
+                <WhyChoosePulse />
+
                 {/* CTA Section */}
                 <div className="text-center max-w-3xl mx-auto p-12 rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 to-transparent">
                     <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Analytics?</h2>
-                    <p className="text-muted-foreground mb-8">
+                    <p className="text-muted-foreground mb-8 text-center">
                         Experience the power of data-driven decision making with Pulse Analytics.
                     </p>
                     <a

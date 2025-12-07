@@ -11,6 +11,7 @@ export function ContactForm() {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
+    const [phoneNumber, setPhoneNumber] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -26,6 +27,7 @@ export function ContactForm() {
             firstName,
             lastName,
             email,
+            phoneNumber,
             subject,
             message,
         };
@@ -45,6 +47,7 @@ export function ContactForm() {
                 setFirstName('');
                 setLastName('');
                 setEmail('');
+                setPhoneNumber('');
                 setSubject('');
                 setMessage('');
 
@@ -90,13 +93,6 @@ export function ContactForm() {
                             <span className="font-semibold">Email:</span>
                             <a href="mailto:hello@caarapace.com" className="hover:text-white/80 transition-colors">
                                 info@caarapace.com
-                            </a>
-                        </div>
-
-                        <div className="flex items-start gap-3 text-white">
-                            <span className="font-semibold">Web:</span>
-                            <a href="https://caarapace.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors">
-                                caarapace.com
                             </a>
                         </div>
                     </div>
@@ -153,6 +149,21 @@ export function ContactForm() {
                                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#BD0D46] focus:border-[#BD0D46] outline-none transition-colors bg-white"
                                 placeholder="Email"
                                 required
+                            />
+                        </div>
+
+                        {/* Phone Number Field */}
+                        <div>
+                            <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700 mb-2">
+                                Phone Number
+                            </label>
+                            <input
+                                type="tel"
+                                id="phoneNumber"
+                                value={phoneNumber}
+                                onChange={(e) => setPhoneNumber(e.target.value)}
+                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#BD0D46] focus:border-[#BD0D46] outline-none transition-colors bg-white"
+                                placeholder="+91 XXXXX XXXXX"
                             />
                         </div>
 
